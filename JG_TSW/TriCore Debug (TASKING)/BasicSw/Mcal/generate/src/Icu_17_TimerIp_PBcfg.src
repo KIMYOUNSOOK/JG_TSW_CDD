@@ -1,0 +1,289 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc6316a --dep-file=BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.src ../BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.c"
+	.compiler_name		"ctc"
+	;source	'../BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.c'
+
+	
+$TC162
+	
+	.sdecl	'.rodata.Icu_17_TimerIp_PBcfg.Icu_17_TimerIp_kChannelConfigCore_0',data,rom,cluster('Icu_17_TimerIp_kChannelConfigCore_0')
+	.sect	'.rodata.Icu_17_TimerIp_PBcfg.Icu_17_TimerIp_kChannelConfigCore_0'
+	.align	4
+Icu_17_TimerIp_kChannelConfigCore_0:	.type	object
+	.size	Icu_17_TimerIp_kChannelConfigCore_0,96
+	.space	12
+	.byte	97,4
+	.space	18
+	.word	12032
+	.space	24
+	.byte	97,15
+	.space	18
+	.word	12032
+	.space	8
+	.byte	1
+	.space	3
+	.sdecl	'.rodata.Icu_17_TimerIp_PBcfg.Icu_17_TimerIp_kConfigCore_0',data,rom,cluster('Icu_17_TimerIp_kConfigCore_0')
+	.sect	'.rodata.Icu_17_TimerIp_PBcfg.Icu_17_TimerIp_kConfigCore_0'
+	.align	4
+Icu_17_TimerIp_kConfigCore_0:	.type	object
+	.size	Icu_17_TimerIp_kConfigCore_0,8
+	.word	Icu_17_TimerIp_kChannelConfigCore_0
+	.byte	2,2
+	.space	2
+	.sdecl	'.rodata.Icu_17_TimerIp_PBcfg.Icu_17_TimerIp_Config',data,rom,cluster('Icu_17_TimerIp_Config')
+	.sect	'.rodata.Icu_17_TimerIp_PBcfg.Icu_17_TimerIp_Config'
+	.global	Icu_17_TimerIp_Config
+	.align	4
+Icu_17_TimerIp_Config:	.type	object
+	.size	Icu_17_TimerIp_Config,24
+	.word	Icu_17_TimerIp_kConfigCore_0
+	.space	20
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	1420
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	217
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	219
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'uint8',0,2,105,29
+	.word	242
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,109,29
+	.word	273
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,113,29
+	.word	310
+	.byte	5
+	.byte	'unsigned int',0,4,7,4
+	.byte	'unsigned_int',0,3,75,22
+	.word	346
+	.byte	4
+	.byte	'Icu_17_TimerIp_ChannelType',0,4,198,2,15
+	.word	242
+	.byte	4
+	.byte	'Icu_17_TimerIp_ValueType',0,4,230,2,16
+	.word	310
+	.byte	6,1,1,3
+	.word	453
+	.byte	4
+	.byte	'Icu_17_TimerIp_NotifiPtrType',0,4,178,3,16
+	.word	456
+	.byte	7,4,243,3,3,32,8
+	.byte	'MeasurementMode',0,1
+	.word	242
+	.byte	3,5,2,35,0,8
+	.byte	'DefaultStartEdge',0,1
+	.word	242
+	.byte	2,3,2,35,0,8
+	.byte	'MeasurementProperty',0,1
+	.word	242
+	.byte	2,1,2,35,0,8
+	.byte	'WakeupCapability',0,1
+	.word	242
+	.byte	1,0,2,35,0,8
+	.byte	'AssignedHwUnitNumber',0,4
+	.word	346
+	.byte	16,8,2,35,0,8
+	.byte	'AssignedHwUnit',0,1
+	.word	242
+	.byte	2,6,2,35,3,8
+	.byte	'PinSelection',0,1
+	.word	242
+	.byte	4,2,2,35,3,8
+	.byte	'TimeOutEnabled',0,1
+	.word	242
+	.byte	1,1,2,35,3,8
+	.byte	'IsTimeOutExclusive',0,1
+	.word	242
+	.byte	1,0,2,35,3,9
+	.byte	'TimChFilterTimeForRisingEdge',0
+	.word	310
+	.byte	4,2,35,4,9
+	.byte	'TimChFilterTimeForFallingEdge',0
+	.word	310
+	.byte	4,2,35,8,9
+	.byte	'OverflowISRThreshold',0
+	.word	310
+	.byte	4,2,35,12,9
+	.byte	'InterruptMode',0
+	.word	273
+	.byte	2,2,35,16,9
+	.byte	'TimChannelClockSelect',0
+	.word	242
+	.byte	1,2,35,18,9
+	.byte	'CTRLData',0
+	.word	310
+	.byte	4,2,35,20,9
+	.byte	'TimECTRLData',0
+	.word	310
+	.byte	4,2,35,24,9
+	.byte	'TimTDUVData',0
+	.word	310
+	.byte	4,2,35,28,0,7,4,227,3,9,48,9
+	.byte	'NotificationPointer',0
+	.word	461
+	.byte	4,2,35,0,9
+	.byte	'TimeOutNotificationPointer',0
+	.word	461
+	.byte	4,2,35,4,9
+	.byte	'CntOvflNotificationPointer',0
+	.word	461
+	.byte	4,2,35,8,9
+	.byte	'IcuProperties',0
+	.word	499
+	.byte	32,2,35,12,9
+	.byte	'ModeMappingIndex',0
+	.word	242
+	.byte	1,2,35,44,0,4
+	.byte	'Icu_17_TimerIp_ChannelConfigType',0,4,167,4,3
+	.word	980
+	.byte	3
+	.word	453
+	.byte	10
+	.word	980
+	.byte	3
+	.word	1184
+	.byte	7,4,171,4,9,8,9
+	.byte	'ChannelConfigPtr',0
+	.word	1189
+	.byte	4,2,35,0,9
+	.byte	'MaxChannelCore',0
+	.word	242
+	.byte	1,2,35,4,9
+	.byte	'MaxDataChannelCore',0
+	.word	242
+	.byte	1,2,35,5,0,4
+	.byte	'Icu_17_TimerIp_CoreConfigType',0,4,179,4,3
+	.word	1194
+	.byte	10
+	.word	1194
+	.byte	3
+	.word	1318
+	.byte	11,24
+	.word	1323
+	.byte	12,5,0,7,4,183,4,9,24,9
+	.byte	'CoreConfig',0
+	.word	1328
+	.byte	24,2,35,0,0,4
+	.byte	'Icu_17_TimerIp_ConfigType',0,4,194,4,3
+	.word	1337
+.L12:
+	.byte	10
+	.word	1337
+	.byte	11,96
+	.word	980
+	.byte	12,1,0
+.L13:
+	.byte	10
+	.word	1404
+.L14:
+	.byte	10
+	.word	1194
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,21,0,54,15,39,12,0,0,7,19,1,58,15,59,15,57,15,11,15,0,0,8
+	.byte	13,0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,9,13,0,3,8,73,19,11,15,56,9,0,0,10,38,0,73,19,0,0,11,1,1,11
+	.byte	15,73,19,0,0,12,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L16-.L15
+.L15:
+	.half	3
+	.word	.L18-.L17
+.L17:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc',0
+	.byte	0
+	.byte	'../BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Mcal_Compiler.h',0,2,0,0
+	.byte	'Icu_17_TimerIp.h',0,3,0,0,0
+.L18:
+.L16:
+	.sdecl	'.debug_info',debug,cluster('Icu_17_TimerIp_Config')
+	.sect	'.debug_info'
+.L6:
+	.word	253
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Icu_17_TimerIp_Config',0,1,208,4,33
+	.word	.L12
+	.byte	1,5,3
+	.word	Icu_17_TimerIp_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Icu_17_TimerIp_Config')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Icu_17_TimerIp_kChannelConfigCore_0')
+	.sect	'.debug_info'
+.L8:
+	.word	266
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Icu_17_TimerIp_kChannelConfigCore_0',0,1,149,3,47
+	.word	.L13
+	.byte	5,3
+	.word	Icu_17_TimerIp_kChannelConfigCore_0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Icu_17_TimerIp_kChannelConfigCore_0')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Icu_17_TimerIp_kConfigCore_0')
+	.sect	'.debug_info'
+.L10:
+	.word	259
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Icu_17_TimerIp_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Icu_17_TimerIp_kConfigCore_0',0,1,136,4,44
+	.word	.L14
+	.byte	5,3
+	.word	Icu_17_TimerIp_kConfigCore_0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Icu_17_TimerIp_kConfigCore_0')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	; Module end

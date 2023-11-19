@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/WORK/Aurix-Workspace_JG_TSW/JG_TSW/JG_TSW/BasicSw/Cdd/Adi/Source/application",
+      "program": "c:/WORK/Aurix-Workspace_JG_TSW/JG_TSW/JG_TSW/BasicSw/Cdd/Adi/Source/application/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

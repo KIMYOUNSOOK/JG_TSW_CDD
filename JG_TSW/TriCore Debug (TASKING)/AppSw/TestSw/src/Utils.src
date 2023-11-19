@@ -1,0 +1,893 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc13012a --dep-file=AppSw/TestSw/src/Utils.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o AppSw/TestSw/src/Utils.src ../AppSw/TestSw/src/Utils.c"
+	.compiler_name		"ctc"
+	;source	'../AppSw/TestSw/src/Utils.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Utils.Delay',code,cluster('Delay')
+	.sect	'.text.Utils.Delay'
+	.align	2
+	
+	.global	Delay
+; Function Delay
+.L14:
+Delay:	.type	func
+	jne	d4,#0,.L2
+.L71:
+	j	.L3
+.L2:
+	mov	d15,#0
+.L56:
+	j	.L4
+.L5:
+	nop
+.L72:
+	add	d15,#1
+.L4:
+	jlt.u	d15,d4,.L5
+.L3:
+	ret
+.L45:
+	
+__Delay_function_end:
+	.size	Delay,__Delay_function_end-Delay
+.L29:
+	; End of function
+	
+	.sdecl	'.text.Utils.Delay_ms',code,cluster('Delay_ms')
+	.sect	'.text.Utils.Delay_ms'
+	.align	2
+	
+	.global	Delay_ms
+; Function Delay_ms
+.L16:
+Delay_ms:	.type	func
+	mov	d15,d4
+.L58:
+	jne	d15,#0,.L6
+.L77:
+	j	.L7
+.L6:
+	call	TestApp_GetTick
+.L57:
+	mov	d8,d2
+.L59:
+	j	.L8
+.L9:
+.L8:
+	call	TestApp_GetTick
+.L78:
+	sub	d2,d8
+.L79:
+	mul	d0,d15,#100
+.L80:
+	jlt.u	d2,d0,.L9
+.L7:
+	ret
+.L49:
+	
+__Delay_ms_function_end:
+	.size	Delay_ms,__Delay_ms_function_end-Delay_ms
+.L34:
+	; End of function
+	
+	.sdecl	'.text.Utils.Delay_us',code,cluster('Delay_us')
+	.sect	'.text.Utils.Delay_us'
+	.align	2
+	
+	.global	Delay_us
+; Function Delay_us
+.L18:
+Delay_us:	.type	func
+	mov	d8,d4
+.L61:
+	call	TestApp_GetTick
+.L60:
+	mov	d9,d2
+.L62:
+	j	.L10
+.L11:
+.L10:
+	call	TestApp_GetTick
+.L85:
+	sub	d2,d9
+.L86:
+	mov	d15,#10
+.L87:
+	div.u	e0,d8,d15
+.L88:
+	jlt.u	d2,d0,.L11
+.L89:
+	ret
+.L52:
+	
+__Delay_us_function_end:
+	.size	Delay_us,__Delay_us_function_end-Delay_us
+.L39:
+	; End of function
+	
+	.sdecl	'.text.Utils.Get_Tick',code,cluster('Get_Tick')
+	.sect	'.text.Utils.Get_Tick'
+	.align	2
+	
+	.global	Get_Tick
+; Function Get_Tick
+.L20:
+Get_Tick:	.type	func
+	call	TestApp_GetTick
+.L94:
+	j	.L12
+.L12:
+	ret
+.L55:
+	
+__Get_Tick_function_end:
+	.size	Get_Tick,__Get_Tick_function_end-Get_Tick
+.L44:
+	; End of function
+	
+	.calls	'Delay_ms','TestApp_GetTick'
+	.calls	'Delay_us','TestApp_GetTick'
+	.calls	'Get_Tick','TestApp_GetTick'
+	.calls	'Delay','',0
+	.calls	'Delay_ms','',0
+	.calls	'Delay_us','',0
+	.extern	TestApp_GetTick
+	.calls	'Get_Tick','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L22:
+	.word	3188
+	.half	3
+	.word	.L23
+	.byte	4
+.L21:
+	.byte	1
+	.byte	'../AppSw/TestSw/src/Utils.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L24
+	.byte	2
+	.byte	'__nop',0,1,1,1,1
+.L46:
+	.byte	3
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'TestApp_GetTick',0,1,81,5
+	.word	225
+	.byte	1,1,1,1,5,1,6
+	.word	275
+	.byte	7
+	.byte	'__codeptr',0,2,1,1
+	.word	277
+	.byte	3
+	.byte	'unsigned char',0,1,8,7
+	.byte	'boolean',0,3,101,29
+	.word	300
+	.byte	7
+	.byte	'uint8',0,3,105,29
+	.word	300
+	.byte	7
+	.byte	'uint16',0,3,109,29
+	.word	225
+	.byte	7
+	.byte	'uint32',0,3,113,29
+	.word	204
+	.byte	3
+	.byte	'unsigned long long int',0,8,7,7
+	.byte	'uint64',0,3,118,29
+	.word	377
+	.byte	3
+	.byte	'unsigned int',0,4,7,7
+	.byte	'unsigned_int',0,4,75,22
+	.word	418
+	.byte	7
+	.byte	'Mcu_ExternalClockConfigType',0,5,212,1,18
+	.word	204
+	.byte	7
+	.byte	'Mcu_ClockType',0,5,217,1,18
+	.word	204
+	.byte	7
+	.byte	'Mcu_RamSectionType',0,5,222,1,18
+	.word	204
+	.byte	8
+	.byte	'void',0,6
+	.word	543
+	.byte	7
+	.byte	'Mcu_RamBaseAdrType',0,5,233,1,18
+	.word	549
+	.byte	7
+	.byte	'Mcu_RamSizeType',0,5,237,1,18
+	.word	204
+	.byte	7
+	.byte	'Mcu_RamPrstDatType',0,5,245,1,19
+	.word	377
+	.byte	9,5,226,2,9,4,10
+	.byte	'Insel',0,1
+	.word	300
+	.byte	2,6,2,35,0,10
+	.byte	'SysPllPDiv',0,1
+	.word	300
+	.byte	3,3,2,35,0,10
+	.byte	'SysPllNDiv',0,2
+	.word	225
+	.byte	7,4,2,35,0,10
+	.byte	'SysPllK2Div',0,1
+	.word	300
+	.byte	3,1,2,35,1,10
+	.byte	'FmPllEn',0,1
+	.word	300
+	.byte	1,0,2,35,1,10
+	.byte	'ModulationAmplitude',0,2
+	.word	225
+	.byte	16,0,2,35,2,0,7
+	.byte	'Mcu_SystemPllConfigType',0,5,235,2,3
+	.word	635
+	.byte	9,5,243,2,9,4,10
+	.byte	'PerPllNDiv',0,1
+	.word	300
+	.byte	7,1,2,35,0,10
+	.byte	'PerPllPDiv',0,2
+	.word	225
+	.byte	3,6,2,35,0,10
+	.byte	'PerPllK2Div',0,1
+	.word	300
+	.byte	3,3,2,35,1,10
+	.byte	'PerPllK3Div',0,1
+	.word	300
+	.byte	3,0,2,35,1,10
+	.byte	'K3DivByPass',0,1
+	.word	300
+	.byte	1,7,2,35,2,10
+	.byte	'Reserved',0,2
+	.word	225
+	.byte	15,0,2,35,2,0,7
+	.byte	'Mcu_PeripheralPllConfigType',0,5,251,2,3
+	.word	809
+	.byte	11,16
+	.word	204
+	.byte	12,3,0,9,5,131,3,9,32,13
+	.byte	'Ccucon0',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'Ccucon1',0
+	.word	204
+	.byte	4,2,35,4,13
+	.byte	'Ccucon2',0
+	.word	204
+	.byte	4,2,35,8,13
+	.byte	'Ccucon5',0
+	.word	204
+	.byte	4,2,35,12,13
+	.byte	'CcuconCpu',0
+	.word	986
+	.byte	16,2,35,16,0,7
+	.byte	'Mcu_PllDistributionConfigType',0,5,143,3,3
+	.word	995
+	.byte	14
+	.word	995
+	.byte	6
+	.word	1128
+	.byte	9,5,151,3,9,44,13
+	.byte	'SystemPllCfg',0
+	.word	635
+	.byte	4,2,35,0,13
+	.byte	'PeripheralPllCfg',0
+	.word	809
+	.byte	4,2,35,4,13
+	.byte	'SysPllK2DivStepUpChangeDelay',0
+	.word	204
+	.byte	4,2,35,8,13
+	.byte	'SysPllK2DivStepDownChangeDelay',0
+	.word	204
+	.byte	4,2,35,12,13
+	.byte	'PeripheralPllK2StepUpChangeDelay',0
+	.word	204
+	.byte	4,2,35,16,13
+	.byte	'PeripheralPllK2StepDownChangeDelay',0
+	.word	204
+	.byte	4,2,35,20,13
+	.byte	'PeripheralPllK3StepUpChangeDelay',0
+	.word	204
+	.byte	4,2,35,24,13
+	.byte	'PeripheralPllK3StepDownChangeDelay',0
+	.word	204
+	.byte	4,2,35,28,13
+	.byte	'PllDistributionCfgPtr',0
+	.word	1133
+	.byte	4,2,35,32,13
+	.byte	'ExternalClockCfg',0
+	.word	204
+	.byte	4,2,35,36,13
+	.byte	'BackupFreqKDiv',0
+	.word	225
+	.byte	2,2,35,40,13
+	.byte	'ConvCtrlBlockConf',0
+	.word	300
+	.byte	1,2,35,42,0,7
+	.byte	'Mcu_ClockConfigType',0,5,177,3,3
+	.word	1138
+	.byte	9,5,184,3,9,16,13
+	.byte	'RamBaseAdrPtr',0
+	.word	554
+	.byte	4,2,35,0,13
+	.byte	'RamSize',0
+	.word	204
+	.byte	4,2,35,4,13
+	.byte	'RamPrstData',0
+	.word	377
+	.byte	8,2,35,8,0,7
+	.byte	'Mcu_RamConfigType',0,5,193,3,3
+	.word	1580
+	.byte	6
+	.word	543
+	.byte	9,5,201,3,9,4,10
+	.byte	'McuMode',0,1
+	.word	300
+	.byte	3,5,2,35,0,10
+	.byte	'EvrcLowPowerMode',0,1
+	.word	300
+	.byte	1,4,2,35,0,10
+	.byte	'Reserved',0,4
+	.word	418
+	.byte	28,0,2,35,0,0,7
+	.byte	'Mcu_ModeEvrcCtrlType',0,5,206,3,3
+	.word	1680
+	.byte	9,5,223,3,9,28,13
+	.byte	'MaxModeEvrcCtrl',0
+	.word	1680
+	.byte	4,2,35,0,13
+	.byte	'Pmswcr0',0
+	.word	204
+	.byte	4,2,35,4,13
+	.byte	'Pmswcr3',0
+	.word	204
+	.byte	4,2,35,8,13
+	.byte	'Pmswcr4',0
+	.word	204
+	.byte	4,2,35,12,13
+	.byte	'Pmswcr5',0
+	.word	204
+	.byte	4,2,35,16,13
+	.byte	'Evruvmon',0
+	.word	204
+	.byte	4,2,35,20,13
+	.byte	'EvrmonCtrl',0
+	.word	204
+	.byte	4,2,35,24,0,7
+	.byte	'Mcu_LowPowerModeType',0,5,242,3,3
+	.word	1784
+	.byte	9,5,250,3,9,8,13
+	.byte	'GtmCmuExtClockNum',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'GtmCmuExtClockDen',0
+	.word	204
+	.byte	4,2,35,4,0,7
+	.byte	'Mcu_GtmExtClkType',0,5,128,4,3
+	.word	1952
+	.byte	11,32
+	.word	204
+	.byte	12,7,0,11,24
+	.word	1952
+	.byte	12,2,0,9,5,135,4,9,76,13
+	.byte	'GtmCmuClockEnable',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'GtmCmuGlobalNumerator',0
+	.word	204
+	.byte	4,2,35,4,13
+	.byte	'GtmCmuGlobalDenominator',0
+	.word	204
+	.byte	4,2,35,8,13
+	.byte	'GtmCmuConfClkCtrl',0
+	.word	2040
+	.byte	32,2,35,12,13
+	.byte	'GtmCmuFixedClkCtrl',0
+	.word	204
+	.byte	4,2,35,44,13
+	.byte	'GtmCmuClsInDiv',0
+	.word	204
+	.byte	4,2,35,48,13
+	.byte	'GtmEclkCtrl',0
+	.word	2049
+	.byte	24,2,35,52,0,7
+	.byte	'Mcu_GtmClockSettingType',0,5,151,4,3
+	.word	2058
+	.byte	9,5,158,4,9,12,13
+	.byte	'GtmCcmCfg',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'GtmCcmConfClockCfg',0
+	.word	204
+	.byte	4,2,35,4,13
+	.byte	'GtmCcmFixedClockCfg',0
+	.word	204
+	.byte	4,2,35,8,0,7
+	.byte	'Mcu_GtmClusterConfigType',0,5,166,4,3
+	.word	2289
+	.byte	9,5,173,4,9,8,13
+	.byte	'TomTgcIntTrigRstCn0',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'TomTgcActTb',0
+	.word	204
+	.byte	4,2,35,4,0,7
+	.byte	'Mcu_GtmTomConfigType',0,5,188,4,3
+	.word	2406
+	.byte	9,5,195,4,9,8,13
+	.byte	'AtomAgcIntTrigRstCn0',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'AtomAgcActTb',0
+	.word	204
+	.byte	4,2,35,4,0,7
+	.byte	'Mcu_GtmAtomConfigType',0,5,210,4,3
+	.word	2493
+	.byte	9,5,217,4,9,8,13
+	.byte	'GtmAdcTrigOut0',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'GtmAdcTrigOut1',0
+	.word	204
+	.byte	4,2,35,4,0,7
+	.byte	'Mcu_GtmAdcTrigType',0,5,221,4,3
+	.word	2583
+	.byte	9,5,225,4,9,8,13
+	.byte	'GtmDsadcTrigOut0',0
+	.word	204
+	.byte	4,2,35,0,13
+	.byte	'GtmDsadcTrigOut1',0
+	.word	204
+	.byte	4,2,35,4,0,7
+	.byte	'Mcu_GtmDsadcTrigType',0,5,229,4,3
+	.word	2666
+	.byte	14
+	.word	2058
+	.byte	6
+	.word	2755
+	.byte	14
+	.word	2289
+	.byte	6
+	.word	2765
+	.byte	11,80
+	.word	2406
+	.byte	12,9,0,11,72
+	.word	2493
+	.byte	12,8,0,11,40
+	.word	2583
+	.byte	12,4,0,11,32
+	.word	2666
+	.byte	12,3,0,11,136,1
+	.word	204
+	.byte	12,33,0,11,28
+	.word	204
+	.byte	12,6,0,9,5,237,4,9,160,4,13
+	.byte	'GtmClockCfgPtr',0
+	.word	2760
+	.byte	4,2,35,0,13
+	.byte	'GtmClusterCfgPtr',0
+	.word	2770
+	.byte	4,2,35,4,13
+	.byte	'GtmTomCfg',0
+	.word	2775
+	.byte	80,2,35,8,13
+	.byte	'GtmAtomCfg',0
+	.word	2784
+	.byte	72,2,35,88,13
+	.byte	'GtmAdcTrigCfg',0
+	.word	2793
+	.byte	40,3,35,160,1,13
+	.byte	'GtmDsadcTrigCfg',0
+	.word	2802
+	.byte	32,3,35,200,1,13
+	.byte	'GtmToutSelCfg',0
+	.word	2811
+	.byte	136,1,3,35,232,1,13
+	.byte	'GtmToutSelCfgMsk',0
+	.word	2811
+	.byte	136,1,3,35,240,2,13
+	.byte	'GtmTimInSelCfg',0
+	.word	2821
+	.byte	28,3,35,248,3,13
+	.byte	'GtmTbuCfg',0
+	.word	204
+	.byte	4,3,35,148,4,13
+	.byte	'GtmTomModuleUsage',0
+	.word	225
+	.byte	2,3,35,152,4,13
+	.byte	'GtmAtomModuleUsage',0
+	.word	225
+	.byte	2,3,35,154,4,13
+	.byte	'IsGtmSleepModeEnabled',0
+	.word	300
+	.byte	1,3,35,156,4,0,7
+	.byte	'Mcu_GtmConfigType',0,5,137,5,3
+	.word	2830
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,54,15,39,12,63,12,60,12,0,0,3,36,0,3,8,11,15
+	.byte	62,15,0,0,4,46,0,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,5,21,0,54,15,0,0,6,15,0,73,19
+	.byte	0,0,7,22,0,3,8,58,15,59,15,57,15,73,19,0,0,8,59,0,3,8,0,0,9,19,1,58,15,59,15,57,15,11,15,0,0,10,13,0,3
+	.byte	8,11,15,73,19,13,15,12,15,56,9,0,0,11,1,1,11,15,73,19,0,0,12,33,0,47,15,0,0,13,13,0,3,8,73,19,11,15,56
+	.byte	9,0,0,14,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L24:
+	.word	.L64-.L63
+.L63:
+	.half	3
+	.word	.L66-.L65
+.L65:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc',0
+	.byte	0
+	.byte	'TestApp.h',0,1,0,0
+	.byte	'../AppSw/TestSw/src/Utils.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Mcal_Compiler.h',0,3,0,0
+	.byte	'Mcu.h',0,4,0,0,0
+.L66:
+.L64:
+	.sdecl	'.debug_info',debug,cluster('Delay')
+	.sect	'.debug_info'
+.L25:
+	.word	267
+	.half	3
+	.word	.L26
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/Utils.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L28,.L27
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'Delay',0,1,121,6,1,1,1
+	.word	.L14,.L45,.L13
+	.byte	4
+	.byte	'count',0,1,121,19
+	.word	.L46,.L47
+	.byte	5
+	.word	.L14,.L45
+	.byte	6
+	.byte	'i',0,1,123,13
+	.word	.L46,.L48
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Delay')
+	.sect	'.debug_abbrev'
+.L26:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Delay')
+	.sect	'.debug_line'
+.L27:
+	.word	.L68-.L67
+.L67:
+	.half	3
+	.word	.L70-.L69
+.L69:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/Utils.c',0,0,0,0,0
+.L70:
+	.byte	5,5,7,0,5,2
+	.word	.L14
+	.byte	3,252,0,1,5,20,7,9
+	.half	.L71-.L14
+	.byte	1,5,12,9
+	.half	.L2-.L71
+	.byte	3,2,1,5,26,9
+	.half	.L56-.L2
+	.byte	1,5,9,9
+	.half	.L5-.L56
+	.byte	3,2,1,5,29,9
+	.half	.L72-.L5
+	.byte	3,126,1,5,26,9
+	.half	.L4-.L72
+	.byte	1,5,1,7,9
+	.half	.L3-.L4
+	.byte	3,4,1,7,9
+	.half	.L29-.L3
+	.byte	0,1,1
+.L68:
+	.sdecl	'.debug_ranges',debug,cluster('Delay')
+	.sect	'.debug_ranges'
+.L28:
+	.word	-1,.L14,0,.L29-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('Delay_ms')
+	.sect	'.debug_info'
+.L30:
+	.word	287
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/Utils.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L33,.L32
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'Delay_ms',0,1,143,1,6,1,1,1
+	.word	.L16,.L49,.L15
+	.byte	4
+	.byte	'delay_ms',0,1,143,1,22
+	.word	.L46,.L50
+	.byte	5
+	.word	.L16,.L49
+	.byte	6
+	.byte	'Current_Tick',0,1,155,1,12
+	.word	.L46,.L51
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Delay_ms')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Delay_ms')
+	.sect	'.debug_line'
+.L32:
+	.word	.L74-.L73
+.L73:
+	.half	3
+	.word	.L76-.L75
+.L75:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/Utils.c',0,0,0,0,0
+.L76:
+	.byte	5,6,7,0,5,2
+	.word	.L16
+	.byte	3,142,1,1,5,5,9
+	.half	.L58-.L16
+	.byte	3,14,1,5,23,7,9
+	.half	.L77-.L58
+	.byte	1,5,35,9
+	.half	.L6-.L77
+	.byte	3,2,1,5,18,9
+	.half	.L57-.L6
+	.byte	1,5,63,9
+	.half	.L59-.L57
+	.byte	3,2,1,5,28,9
+	.half	.L8-.L59
+	.byte	1,5,31,9
+	.half	.L78-.L8
+	.byte	1,5,58,9
+	.half	.L79-.L78
+	.byte	1,5,63,9
+	.half	.L80-.L79
+	.byte	1,5,1,7,9
+	.half	.L7-.L80
+	.byte	3,5,1,7,9
+	.half	.L34-.L7
+	.byte	0,1,1
+.L74:
+	.sdecl	'.debug_ranges',debug,cluster('Delay_ms')
+	.sect	'.debug_ranges'
+.L33:
+	.word	-1,.L16,0,.L34-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('Delay_us')
+	.sect	'.debug_info'
+.L35:
+	.word	287
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/Utils.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'Delay_us',0,1,178,1,6,1,1,1
+	.word	.L18,.L52,.L17
+	.byte	4
+	.byte	'delay_us',0,1,178,1,22
+	.word	.L46,.L53
+	.byte	5
+	.word	.L18,.L52
+	.byte	6
+	.byte	'Current_Tick',0,1,190,1,12
+	.word	.L46,.L54
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Delay_us')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Delay_us')
+	.sect	'.debug_line'
+.L37:
+	.word	.L82-.L81
+.L81:
+	.half	3
+	.word	.L84-.L83
+.L83:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/Utils.c',0,0,0,0,0
+.L84:
+	.byte	5,6,7,0,5,2
+	.word	.L18
+	.byte	3,177,1,1,5,35,9
+	.half	.L61-.L18
+	.byte	3,14,1,5,18,9
+	.half	.L60-.L61
+	.byte	1,5,62,9
+	.half	.L62-.L60
+	.byte	3,2,1,5,28,9
+	.half	.L10-.L62
+	.byte	1,5,31,9
+	.half	.L85-.L10
+	.byte	1,5,59,9
+	.half	.L86-.L85
+	.byte	1,5,58,9
+	.half	.L87-.L86
+	.byte	1,5,62,9
+	.half	.L88-.L87
+	.byte	1,5,1,7,9
+	.half	.L89-.L88
+	.byte	3,5,1,7,9
+	.half	.L39-.L89
+	.byte	0,1,1
+.L82:
+	.sdecl	'.debug_ranges',debug,cluster('Delay_us')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L18,0,.L39-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('Get_Tick')
+	.sect	'.debug_info'
+.L40:
+	.word	242
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/Utils.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'Get_Tick',0,1,211,1,8
+	.word	.L46
+	.byte	1,1,1
+	.word	.L20,.L55,.L19
+	.byte	4
+	.word	.L20,.L55
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Get_Tick')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Get_Tick')
+	.sect	'.debug_line'
+.L42:
+	.word	.L91-.L90
+.L90:
+	.half	3
+	.word	.L93-.L92
+.L92:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/Utils.c',0,0,0,0,0
+.L93:
+	.byte	5,27,7,0,5,2
+	.word	.L20
+	.byte	3,215,1,1,5,5,9
+	.half	.L94-.L20
+	.byte	1,5,1,9
+	.half	.L12-.L94
+	.byte	3,2,1,7,9
+	.half	.L44-.L12
+	.byte	0,1,1
+.L91:
+	.sdecl	'.debug_ranges',debug,cluster('Get_Tick')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L20,0,.L44-.L20,0,0
+	.sdecl	'.debug_loc',debug,cluster('Delay')
+	.sect	'.debug_loc'
+.L13:
+	.word	-1,.L14,0,.L45-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L47:
+	.word	-1,.L14,0,.L45-.L14
+	.half	1
+	.byte	84
+	.word	0,0
+.L48:
+	.word	-1,.L14,.L56-.L14,.L3-.L14
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Delay_ms')
+	.sect	'.debug_loc'
+.L51:
+	.word	-1,.L16,.L57-.L16,.L8-.L16
+	.half	1
+	.byte	82
+	.word	.L59-.L16,.L7-.L16
+	.half	1
+	.byte	88
+	.word	0,0
+.L15:
+	.word	-1,.L16,0,.L49-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L50:
+	.word	-1,.L16,0,.L57-.L16
+	.half	1
+	.byte	84
+	.word	.L58-.L16,.L49-.L16
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Delay_us')
+	.sect	'.debug_loc'
+.L54:
+	.word	-1,.L18,.L60-.L18,.L10-.L18
+	.half	1
+	.byte	82
+	.word	.L62-.L18,.L52-.L18
+	.half	1
+	.byte	89
+	.word	0,0
+.L17:
+	.word	-1,.L18,0,.L52-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L53:
+	.word	-1,.L18,0,.L60-.L18
+	.half	1
+	.byte	84
+	.word	.L61-.L18,.L52-.L18
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Get_Tick')
+	.sect	'.debug_loc'
+.L19:
+	.word	-1,.L20,0,.L55-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L95:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Delay')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L95,.L14,.L45-.L14
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Delay_ms')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L95,.L16,.L49-.L16
+	.sdecl	'.debug_frame',debug,cluster('Delay_us')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L95,.L18,.L52-.L18
+	.sdecl	'.debug_frame',debug,cluster('Get_Tick')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L95,.L20,.L55-.L20
+	; Module end

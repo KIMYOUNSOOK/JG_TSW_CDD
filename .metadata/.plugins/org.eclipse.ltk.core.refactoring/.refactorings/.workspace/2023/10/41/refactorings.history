@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 8 resources" deleteContents="false" description="Delete 8 resources" element1="/JG_TSW/Configurations" element2="/JG_TSW/Libraries" element3="/JG_TSW/Cpu0_Main.c" element4="/JG_TSW/Cpu1_Main.c" element5="/JG_TSW/Cpu2_Main.c" element6="/JG_TSW/Cpu3_Main.c" element7="/JG_TSW/Lcf_Gnuc_Tricore_Tc.lsl" element8="/JG_TSW/Lcf_Tasking_Tricore_Tc.lsl" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1696935318304"/>
+</session>

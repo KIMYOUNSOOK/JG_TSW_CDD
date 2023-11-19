@@ -1,0 +1,3827 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc4960a --dep-file=AppSw/TestSw/src/TestDio.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o AppSw/TestSw/src/TestDio.src ../AppSw/TestSw/src/TestDio.c"
+	.compiler_name		"ctc"
+	;source	'../AppSw/TestSw/src/TestDio.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.TestDio.TestDio_Init',code,cluster('TestDio_Init')
+	.sect	'.text.TestDio.TestDio_Init'
+	.align	2
+	
+	.global	TestDio_Init
+; Function TestDio_Init
+.L12:
+TestDio_Init:	.type	func
+	movh.a	a4,#@his(l_tTestDio_Inst)
+	lea	a4,[a4]@los(l_tTestDio_Inst)
+.L179:
+	mov	d4,#0
+.L180:
+	mov	d5,#36
+	call	memset
+.L181:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L182:
+	mov	d15,#0
+.L183:
+	st.b	[a15]16,d15
+.L184:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L185:
+	mov	d15,#0
+.L186:
+	st.b	[a15]27,d15
+.L187:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L188:
+	mov	d15,#0
+.L189:
+	st.b	[a15]26,d15
+.L190:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L191:
+	mov	d15,#0
+.L192:
+	st.b	[a15]23,d15
+.L193:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L194:
+	mov	d15,#0
+.L195:
+	st.b	[a15]15,d15
+.L196:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L197:
+	mov	d15,#0
+.L198:
+	st.b	[a15]17,d15
+.L199:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L200:
+	mov	d15,#0
+.L201:
+	st.b	[a15]18,d15
+.L202:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L203:
+	mov	d15,#0
+.L204:
+	st.b	[a15]19,d15
+.L205:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L206:
+	mov	d15,#0
+.L207:
+	st.b	[a15]21,d15
+.L208:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L209:
+	mov	d15,#0
+.L210:
+	st.b	[a15]20,d15
+.L211:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L212:
+	mov	d15,#0
+.L213:
+	st.b	[a15]28,d15
+.L214:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L215:
+	mov	d15,#0
+.L216:
+	st.b	[a15]25,d15
+.L217:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L218:
+	mov	d15,#0
+.L219:
+	st.b	[a15]22,d15
+.L220:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L221:
+	mov	d15,#0
+.L222:
+	st.b	[a15]24,d15
+.L223:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L224:
+	mov	d15,#0
+.L225:
+	st.b	[a15]31,d15
+.L226:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L227:
+	mov	d15,#0
+.L228:
+	st.b	[a15]30,d15
+.L229:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L230:
+	mov	d15,#0
+.L231:
+	st.b	[a15]29,d15
+.L232:
+	call	_Write
+.L233:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L234:
+	mov	d15,#0
+.L235:
+	st.b	[a15]9,d15
+.L236:
+	mov	d4,#38
+.L237:
+	mov	d5,#0
+	call	Dio_WriteChannel
+.L238:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L239:
+	mov	d15,#1
+.L240:
+	st.b	[a15]12,d15
+.L241:
+	mov	d4,#33
+.L242:
+	mov	d5,#1
+	call	Dio_WriteChannel
+.L243:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L244:
+	mov	d15,#1
+.L245:
+	st.b	[a15]8,d15
+.L246:
+	mov	d4,#210
+.L247:
+	mov	d5,#1
+	call	Dio_WriteChannel
+.L248:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L249:
+	mov	d15,#0
+.L250:
+	st.b	[a15]13,d15
+.L251:
+	mov	d4,#168
+.L252:
+	mov	d5,#0
+	call	Dio_WriteChannel
+.L253:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L254:
+	mov	d15,#0
+.L255:
+	st.b	[a15]14,d15
+.L256:
+	mov	d4,#167
+.L257:
+	mov	d5,#0
+	call	Dio_WriteChannel
+.L258:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L259:
+	mov	d15,#0
+.L260:
+	st.b	[a15]32,d15
+.L261:
+	mov	d4,#512
+.L262:
+	mov	d5,#0
+	call	Dio_WriteChannel
+.L263:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L264:
+	mov	d15,#0
+.L265:
+	st.b	[a15]33,d15
+.L266:
+	mov	d4,#513
+.L267:
+	mov	d5,#0
+	call	Dio_WriteChannel
+.L268:
+	call	_Read
+.L269:
+	mov	d4,#0
+	call	TestDio_CtrlMcanEn
+.L270:
+	mov	d4,#0
+	call	TestDio_CtrlMcanStandby
+.L271:
+	ret
+.L129:
+	
+__TestDio_Init_function_end:
+	.size	TestDio_Init,__TestDio_Init_function_end-TestDio_Init
+.L51:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_100ms',code,cluster('TestDio_100ms')
+	.sect	'.text.TestDio.TestDio_100ms'
+	.align	2
+	
+	.global	TestDio_100ms
+; Function TestDio_100ms
+.L14:
+TestDio_100ms:	.type	func
+	call	_Write
+.L276:
+	call	_Read
+.L277:
+	ret
+.L130:
+	
+__TestDio_100ms_function_end:
+	.size	TestDio_100ms,__TestDio_100ms_function_end-TestDio_100ms
+.L56:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_SetValue',code,cluster('TestDio_SetValue')
+	.sect	'.text.TestDio.TestDio_SetValue'
+	.align	2
+	
+	.global	TestDio_SetValue
+; Function TestDio_SetValue
+.L16:
+TestDio_SetValue:	.type	func
+	jnz.a	a4,.L2
+.L282:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L283:
+	ld.bu	d15,[a4]
+.L284:
+	and	d15,#1
+.L285:
+	st.b	[a15]9,d15
+.L286:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L287:
+	ld.bu	d15,[a4]
+.L288:
+	and	d15,#2
+.L289:
+	sha	d15,#-1
+.L290:
+	st.b	[a15]16,d15
+.L291:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L292:
+	ld.bu	d15,[a4]
+.L293:
+	and	d15,#4
+.L294:
+	sha	d15,#-2
+.L295:
+	st.b	[a15]17,d15
+.L296:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L297:
+	ld.bu	d15,[a4]
+.L298:
+	and	d15,#8
+.L299:
+	sha	d15,#-3
+.L300:
+	st.b	[a15]18,d15
+.L301:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L302:
+	ld.bu	d15,[a4]
+.L303:
+	and	d15,#16
+.L304:
+	sha	d15,#-4
+.L305:
+	st.b	[a15]19,d15
+.L306:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L307:
+	ld.bu	d15,[a4]
+.L308:
+	and	d15,#32
+.L309:
+	sha	d15,#-5
+.L310:
+	st.b	[a15]21,d15
+.L311:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L312:
+	ld.bu	d15,[a4]
+.L313:
+	and	d15,#64
+.L314:
+	sha	d15,#-6
+.L315:
+	st.b	[a15]20,d15
+.L316:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L317:
+	ld.bu	d15,[a4]
+.L318:
+	and	d15,#128
+.L319:
+	sha	d15,#-7
+.L320:
+	st.b	[a15]15,d15
+.L321:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L322:
+	ld.bu	d15,[a4]1
+.L323:
+	and	d15,#1
+.L324:
+	st.b	[a15]25,d15
+.L325:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L326:
+	ld.bu	d15,[a4]1
+.L327:
+	and	d15,#2
+.L328:
+	sha	d15,#-1
+.L329:
+	st.b	[a15]26,d15
+.L330:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L331:
+	ld.bu	d15,[a4]1
+.L332:
+	and	d15,#4
+.L333:
+	sha	d15,#-2
+.L334:
+	st.b	[a15]23,d15
+.L335:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L336:
+	ld.bu	d15,[a4]1
+.L337:
+	and	d15,#8
+.L338:
+	sha	d15,#-3
+.L339:
+	st.b	[a15]22,d15
+.L340:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L341:
+	ld.bu	d15,[a4]1
+.L342:
+	and	d15,#16
+.L343:
+	sha	d15,#-4
+.L344:
+	st.b	[a15]27,d15
+.L345:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L346:
+	ld.bu	d15,[a4]1
+.L347:
+	and	d15,#32
+.L348:
+	sha	d15,#-5
+.L349:
+	st.b	[a15]28,d15
+.L350:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L351:
+	ld.bu	d15,[a4]1
+.L352:
+	and	d15,#64
+.L353:
+	sha	d15,#-6
+.L354:
+	st.b	[a15]24,d15
+.L355:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L356:
+	ld.bu	d15,[a4]1
+.L357:
+	and	d15,#128
+.L358:
+	sha	d15,#-7
+.L359:
+	st.b	[a15]29,d15
+.L360:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L361:
+	ld.bu	d15,[a4]2
+.L362:
+	and	d15,#1
+.L363:
+	st.b	[a15]30,d15
+.L364:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L365:
+	ld.bu	d15,[a4]2
+.L366:
+	and	d15,#2
+.L367:
+	sha	d15,#-1
+.L368:
+	st.b	[a15]31,d15
+.L3:
+	ret
+.L131:
+	
+__TestDio_SetValue_function_end:
+	.size	TestDio_SetValue,__TestDio_SetValue_function_end-TestDio_SetValue
+.L61:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_GetValue',code,cluster('TestDio_GetValue')
+	.sect	'.text.TestDio.TestDio_GetValue'
+	.align	2
+	
+	.global	TestDio_GetValue
+; Function TestDio_GetValue
+.L18:
+TestDio_GetValue:	.type	func
+	jnz.a	a4,.L4
+.L373:
+	j	.L5
+.L4:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L374:
+	ld.bu	d15,[a15]5
+.L375:
+	sha	d0,d15,#7
+.L376:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L377:
+	ld.bu	d15,[a15]4
+.L378:
+	sha	d15,#6
+.L379:
+	or	d0,d15
+.L380:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L381:
+	ld.bu	d15,[a15]3
+.L382:
+	sha	d15,#5
+.L383:
+	or	d0,d15
+.L384:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L385:
+	ld.bu	d15,[a15]
+.L386:
+	sha	d15,#4
+.L387:
+	or	d0,d15
+.L388:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L389:
+	ld.bu	d15,[a15]1
+.L390:
+	sha	d15,#3
+.L391:
+	or	d0,d15
+.L392:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L393:
+	ld.bu	d15,[a15]2
+.L394:
+	sha	d15,#2
+.L395:
+	or	d0,d15
+.L396:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L397:
+	ld.bu	d15,[a15]6
+.L398:
+	sha	d15,#1
+.L399:
+	or	d0,d15
+.L400:
+	st.b	[a4],d0
+.L401:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L402:
+	ld.bu	d15,[a15]8
+.L403:
+	sha	d0,d15,#7
+.L404:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L405:
+	ld.bu	d15,[a15]9
+.L406:
+	sha	d15,#6
+.L407:
+	or	d0,d15
+.L408:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L409:
+	ld.bu	d15,[a15]12
+.L410:
+	sha	d15,#5
+.L411:
+	or	d0,d15
+.L412:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L413:
+	ld.bu	d15,[a15]13
+.L414:
+	sha	d15,#4
+.L415:
+	or	d0,d15
+.L416:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L417:
+	ld.bu	d15,[a15]14
+.L418:
+	sha	d15,#3
+.L419:
+	or	d0,d15
+.L420:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L421:
+	ld.bu	d15,[a15]27
+.L422:
+	sha	d15,#2
+.L423:
+	or	d0,d15
+.L424:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L425:
+	ld.bu	d15,[a15]28
+.L426:
+	sha	d15,#1
+.L427:
+	or	d0,d15
+.L428:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L429:
+	ld.bu	d15,[a15]17
+.L430:
+	or	d0,d15
+.L431:
+	st.b	[a4]1,d0
+.L432:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L433:
+	ld.bu	d15,[a15]22
+.L434:
+	sha	d15,#7
+.L435:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L436:
+	ld.bu	d0,[a15]18
+.L437:
+	sha	d0,#6
+.L438:
+	or	d15,d0
+.L439:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L440:
+	ld.bu	d0,[a15]23
+.L441:
+	sha	d0,#5
+.L442:
+	or	d15,d0
+.L443:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L444:
+	ld.bu	d0,[a15]19
+.L445:
+	sha	d0,#4
+.L446:
+	or	d15,d0
+.L447:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L448:
+	ld.bu	d0,[a15]20
+.L449:
+	sha	d0,#3
+.L450:
+	or	d15,d0
+.L451:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L452:
+	ld.bu	d0,[a15]21
+.L453:
+	sha	d0,#2
+.L454:
+	or	d15,d0
+.L455:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L456:
+	ld.bu	d0,[a15]24
+.L457:
+	sha	d0,#1
+.L458:
+	or	d15,d0
+.L459:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L460:
+	ld.bu	d0,[a15]25
+.L461:
+	or	d15,d0
+.L462:
+	st.b	[a4]2,d15
+.L463:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L464:
+	ld.bu	d15,[a15]11
+.L465:
+	sha	d0,d15,#7
+.L466:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L467:
+	ld.bu	d15,[a15]10
+.L468:
+	sha	d15,#6
+.L469:
+	or	d0,d15
+.L470:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L471:
+	ld.bu	d15,[a15]26
+.L472:
+	sha	d15,#5
+.L473:
+	or	d0,d15
+.L474:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L475:
+	ld.bu	d15,[a15]15
+.L476:
+	sha	d15,#4
+.L477:
+	or	d0,d15
+.L478:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L479:
+	ld.bu	d15,[a15]16
+.L480:
+	sha	d15,#3
+.L481:
+	or	d0,d15
+.L482:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L483:
+	ld.bu	d15,[a15]29
+.L484:
+	sha	d15,#2
+.L485:
+	or	d0,d15
+.L486:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L487:
+	ld.bu	d15,[a15]30
+.L488:
+	sha	d15,#1
+.L489:
+	or	d0,d15
+.L490:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L491:
+	ld.bu	d15,[a15]31
+.L492:
+	or	d0,d15
+.L493:
+	st.b	[a4]3,d0
+.L5:
+	ret
+.L134:
+	
+__TestDio_GetValue_function_end:
+	.size	TestDio_GetValue,__TestDio_GetValue_function_end-TestDio_GetValue
+.L66:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_GetIg1',code,cluster('TestDio_GetIg1')
+	.sect	'.text.TestDio.TestDio_GetIg1'
+	.align	2
+	
+	.global	TestDio_GetIg1
+; Function TestDio_GetIg1
+.L20:
+TestDio_GetIg1:	.type	func
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L498:
+	mov	d4,#517
+	call	Dio_ReadChannel
+.L499:
+	st.b	[a15],d2
+.L500:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L501:
+	ld.bu	d2,[a15]
+.L502:
+	j	.L6
+.L6:
+	ret
+.L138:
+	
+__TestDio_GetIg1_function_end:
+	.size	TestDio_GetIg1,__TestDio_GetIg1_function_end-TestDio_GetIg1
+.L71:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_GetAccWup',code,cluster('TestDio_GetAccWup')
+	.sect	'.text.TestDio.TestDio_GetAccWup'
+	.align	2
+	
+	.global	TestDio_GetAccWup
+; Function TestDio_GetAccWup
+.L22:
+TestDio_GetAccWup:	.type	func
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L507:
+	mov	d4,#37
+	call	Dio_ReadChannel
+.L508:
+	st.b	[a15]4,d2
+.L509:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L510:
+	ld.bu	d2,[a15]4
+.L511:
+	j	.L7
+.L7:
+	ret
+.L139:
+	
+__TestDio_GetAccWup_function_end:
+	.size	TestDio_GetAccWup,__TestDio_GetAccWup_function_end-TestDio_GetAccWup
+.L76:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_GetSolarWup',code,cluster('TestDio_GetSolarWup')
+	.sect	'.text.TestDio.TestDio_GetSolarWup'
+	.align	2
+	
+	.global	TestDio_GetSolarWup
+; Function TestDio_GetSolarWup
+.L24:
+TestDio_GetSolarWup:	.type	func
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L516:
+	mov	d4,#516
+	call	Dio_ReadChannel
+.L517:
+	st.b	[a15]1,d2
+.L518:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L519:
+	ld.bu	d2,[a15]1
+.L520:
+	j	.L8
+.L8:
+	ret
+.L140:
+	
+__TestDio_GetSolarWup_function_end:
+	.size	TestDio_GetSolarWup,__TestDio_GetSolarWup_function_end-TestDio_GetSolarWup
+.L81:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_GetPressureWup',code,cluster('TestDio_GetPressureWup')
+	.sect	'.text.TestDio.TestDio_GetPressureWup'
+	.align	2
+	
+	.global	TestDio_GetPressureWup
+; Function TestDio_GetPressureWup
+.L26:
+TestDio_GetPressureWup:	.type	func
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L525:
+	mov	d4,#518
+	call	Dio_ReadChannel
+.L526:
+	st.b	[a15]3,d2
+.L527:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L528:
+	ld.bu	d2,[a15]3
+.L529:
+	j	.L9
+.L9:
+	ret
+.L141:
+	
+__TestDio_GetPressureWup_function_end:
+	.size	TestDio_GetPressureWup,__TestDio_GetPressureWup_function_end-TestDio_GetPressureWup
+.L86:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_GetMCanWup',code,cluster('TestDio_GetMCanWup')
+	.sect	'.text.TestDio.TestDio_GetMCanWup'
+	.align	2
+	
+	.global	TestDio_GetMCanWup
+; Function TestDio_GetMCanWup
+.L28:
+TestDio_GetMCanWup:	.type	func
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L534:
+	mov	d4,#519
+	call	Dio_ReadChannel
+.L535:
+	st.b	[a15]5,d2
+.L536:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L537:
+	ld.bu	d2,[a15]5
+.L538:
+	j	.L10
+.L10:
+	ret
+.L142:
+	
+__TestDio_GetMCanWup_function_end:
+	.size	TestDio_GetMCanWup,__TestDio_GetMCanWup_function_end-TestDio_GetMCanWup
+.L91:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_SetPwrOff',code,cluster('TestDio_SetPwrOff')
+	.sect	'.text.TestDio.TestDio_SetPwrOff'
+	.align	2
+	
+	.global	TestDio_SetPwrOff
+; Function TestDio_SetPwrOff
+.L30:
+TestDio_SetPwrOff:	.type	func
+	mov	d5,d4
+.L157:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L543:
+	st.b	[a15]9,d5
+.L544:
+	mov	d4,#38
+.L156:
+	call	Dio_WriteChannel
+.L158:
+	ret
+.L143:
+	
+__TestDio_SetPwrOff_function_end:
+	.size	TestDio_SetPwrOff,__TestDio_SetPwrOff_function_end-TestDio_SetPwrOff
+.L96:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_CtrlMcanEn',code,cluster('TestDio_CtrlMcanEn')
+	.sect	'.text.TestDio.TestDio_CtrlMcanEn'
+	.align	2
+	
+	.global	TestDio_CtrlMcanEn
+; Function TestDio_CtrlMcanEn
+.L32:
+TestDio_CtrlMcanEn:	.type	func
+	mov	d5,d4
+.L160:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L549:
+	st.b	[a15]10,d5
+.L550:
+	mov	d4,#160
+.L159:
+	call	Dio_WriteChannel
+.L161:
+	ret
+.L145:
+	
+__TestDio_CtrlMcanEn_function_end:
+	.size	TestDio_CtrlMcanEn,__TestDio_CtrlMcanEn_function_end-TestDio_CtrlMcanEn
+.L101:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_CtrlMcanStandby',code,cluster('TestDio_CtrlMcanStandby')
+	.sect	'.text.TestDio.TestDio_CtrlMcanStandby'
+	.align	2
+	
+	.global	TestDio_CtrlMcanStandby
+; Function TestDio_CtrlMcanStandby
+.L34:
+TestDio_CtrlMcanStandby:	.type	func
+	mov	d5,d4
+.L163:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L555:
+	st.b	[a15]11,d5
+.L556:
+	mov	d4,#161
+.L162:
+	call	Dio_WriteChannel
+.L164:
+	ret
+.L147:
+	
+__TestDio_CtrlMcanStandby_function_end:
+	.size	TestDio_CtrlMcanStandby,__TestDio_CtrlMcanStandby_function_end-TestDio_CtrlMcanStandby
+.L106:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_SetIsoPosEn',code,cluster('TestDio_SetIsoPosEn')
+	.sect	'.text.TestDio.TestDio_SetIsoPosEn'
+	.align	2
+	
+	.global	TestDio_SetIsoPosEn
+; Function TestDio_SetIsoPosEn
+.L36:
+TestDio_SetIsoPosEn:	.type	func
+	mov	d5,d4
+.L166:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L561:
+	st.b	[a15]13,d5
+.L562:
+	mov	d4,#168
+.L165:
+	call	Dio_WriteChannel
+.L167:
+	ret
+.L149:
+	
+__TestDio_SetIsoPosEn_function_end:
+	.size	TestDio_SetIsoPosEn,__TestDio_SetIsoPosEn_function_end-TestDio_SetIsoPosEn
+.L111:
+	; End of function
+	
+	.sdecl	'.text.TestDio.TestDio_SetIsoNegEn',code,cluster('TestDio_SetIsoNegEn')
+	.sect	'.text.TestDio.TestDio_SetIsoNegEn'
+	.align	2
+	
+	.global	TestDio_SetIsoNegEn
+; Function TestDio_SetIsoNegEn
+.L38:
+TestDio_SetIsoNegEn:	.type	func
+	mov	d5,d4
+.L169:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L567:
+	st.b	[a15]14,d5
+.L568:
+	mov	d4,#167
+.L168:
+	call	Dio_WriteChannel
+.L170:
+	ret
+.L151:
+	
+__TestDio_SetIsoNegEn_function_end:
+	.size	TestDio_SetIsoNegEn,__TestDio_SetIsoNegEn_function_end-TestDio_SetIsoNegEn
+.L116:
+	; End of function
+	
+	.sdecl	'.text.TestDio._Read',code,cluster('_Read')
+	.sect	'.text.TestDio._Read'
+	.align	2
+	
+; Function _Read
+.L40:
+_Read:	.type	func
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L573:
+	mov	d4,#517
+	call	Dio_ReadChannel
+.L574:
+	st.b	[a15],d2
+.L575:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L576:
+	mov	d4,#516
+	call	Dio_ReadChannel
+.L577:
+	st.b	[a15]1,d2
+.L578:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L579:
+	mov	d4,#0
+	call	Dio_ReadChannel
+.L580:
+	st.b	[a15]2,d2
+.L581:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L582:
+	mov	d4,#518
+	call	Dio_ReadChannel
+.L583:
+	st.b	[a15]3,d2
+.L584:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L585:
+	mov	d4,#37
+	call	Dio_ReadChannel
+.L586:
+	st.b	[a15]4,d2
+.L587:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L588:
+	mov	d4,#519
+	call	Dio_ReadChannel
+.L589:
+	st.b	[a15]5,d2
+.L590:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L591:
+	mov	d4,#162
+	call	Dio_ReadChannel
+.L592:
+	st.b	[a15]6,d2
+.L593:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L594:
+	mov	d4,#210
+	call	Dio_ReadChannel
+.L595:
+	st.b	[a15]8,d2
+.L596:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L597:
+	mov	d4,#38
+	call	Dio_ReadChannel
+.L598:
+	st.b	[a15]9,d2
+.L599:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L600:
+	mov	d4,#160
+	call	Dio_ReadChannel
+.L601:
+	st.b	[a15]10,d2
+.L602:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L603:
+	mov	d4,#161
+	call	Dio_ReadChannel
+.L604:
+	st.b	[a15]11,d2
+.L605:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L606:
+	mov	d4,#33
+	call	Dio_ReadChannel
+.L607:
+	st.b	[a15]12,d2
+.L608:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L609:
+	mov	d4,#168
+	call	Dio_ReadChannel
+.L610:
+	st.b	[a15]13,d2
+.L611:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L612:
+	mov	d4,#167
+	call	Dio_ReadChannel
+.L613:
+	st.b	[a15]14,d2
+.L614:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L615:
+	mov	d4,#2
+	call	Dio_ReadChannel
+.L616:
+	st.b	[a15]15,d2
+.L617:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L618:
+	mov	d4,#1
+	call	Dio_ReadChannel
+.L619:
+	st.b	[a15]16,d2
+.L620:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L621:
+	mov	d4,#3
+	call	Dio_ReadChannel
+.L622:
+	st.b	[a15]17,d2
+.L623:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L624:
+	mov	d4,#4
+	call	Dio_ReadChannel
+.L625:
+	st.b	[a15]18,d2
+.L626:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L627:
+	mov	d4,#5
+	call	Dio_ReadChannel
+.L628:
+	st.b	[a15]19,d2
+.L629:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L630:
+	mov	d4,#7
+	call	Dio_ReadChannel
+.L631:
+	st.b	[a15]20,d2
+.L632:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L633:
+	mov	d4,#6
+	call	Dio_ReadChannel
+.L634:
+	st.b	[a15]21,d2
+.L635:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L636:
+	mov	d4,#20
+	call	Dio_ReadChannel
+.L637:
+	st.b	[a15]22,d2
+.L638:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L639:
+	mov	d4,#12
+	call	Dio_ReadChannel
+.L640:
+	st.b	[a15]23,d2
+.L641:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L642:
+	mov	d4,#21
+	call	Dio_ReadChannel
+.L643:
+	st.b	[a15]24,d2
+.L644:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L645:
+	mov	d4,#19
+	call	Dio_ReadChannel
+.L646:
+	st.b	[a15]25,d2
+.L647:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L648:
+	mov	d4,#11
+	call	Dio_ReadChannel
+.L649:
+	st.b	[a15]26,d2
+.L650:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L651:
+	mov	d4,#10
+	call	Dio_ReadChannel
+.L652:
+	st.b	[a15]27,d2
+.L653:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L654:
+	mov	d4,#9
+	call	Dio_ReadChannel
+.L655:
+	st.b	[a15]28,d2
+.L656:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L657:
+	mov	d4,#536
+	call	Dio_ReadChannel
+.L658:
+	st.b	[a15]29,d2
+.L659:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L660:
+	mov	d4,#23
+	call	Dio_ReadChannel
+.L661:
+	st.b	[a15]30,d2
+.L662:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L663:
+	mov	d4,#22
+	call	Dio_ReadChannel
+.L664:
+	st.b	[a15]31,d2
+.L665:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L666:
+	mov	d4,#512
+	call	Dio_ReadChannel
+.L667:
+	st.b	[a15]32,d2
+.L668:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L669:
+	mov	d4,#513
+	call	Dio_ReadChannel
+.L670:
+	st.b	[a15]33,d2
+.L671:
+	ret
+.L153:
+	
+___Read_function_end:
+	.size	_Read,___Read_function_end-_Read
+.L121:
+	; End of function
+	
+	.sdecl	'.text.TestDio._Write',code,cluster('_Write')
+	.sect	'.text.TestDio._Write'
+	.align	2
+	
+; Function _Write
+.L42:
+_Write:	.type	func
+	mov	d4,#2
+.L676:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L677:
+	ld.bu	d5,[a15]15
+	call	Dio_WriteChannel
+.L678:
+	mov	d4,#1
+.L679:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L680:
+	ld.bu	d5,[a15]16
+	call	Dio_WriteChannel
+.L681:
+	mov	d4,#3
+.L682:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L683:
+	ld.bu	d5,[a15]17
+	call	Dio_WriteChannel
+.L684:
+	mov	d4,#20
+.L685:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L686:
+	ld.bu	d5,[a15]22
+	call	Dio_WriteChannel
+.L687:
+	mov	d4,#4
+.L688:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L689:
+	ld.bu	d5,[a15]18
+	call	Dio_WriteChannel
+.L690:
+	mov	d4,#12
+.L691:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L692:
+	ld.bu	d5,[a15]23
+	call	Dio_WriteChannel
+.L693:
+	mov	d4,#5
+.L694:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L695:
+	ld.bu	d5,[a15]19
+	call	Dio_WriteChannel
+.L696:
+	mov	d4,#7
+.L697:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L698:
+	ld.bu	d5,[a15]20
+	call	Dio_WriteChannel
+.L699:
+	mov	d4,#6
+.L700:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L701:
+	ld.bu	d5,[a15]21
+	call	Dio_WriteChannel
+.L702:
+	mov	d4,#21
+.L703:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L704:
+	ld.bu	d5,[a15]24
+	call	Dio_WriteChannel
+.L705:
+	mov	d4,#19
+.L706:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L707:
+	ld.bu	d5,[a15]25
+	call	Dio_WriteChannel
+.L708:
+	mov	d4,#11
+.L709:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L710:
+	ld.bu	d5,[a15]26
+	call	Dio_WriteChannel
+.L711:
+	mov	d4,#10
+.L712:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L713:
+	ld.bu	d5,[a15]27
+	call	Dio_WriteChannel
+.L714:
+	mov	d4,#9
+.L715:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L716:
+	ld.bu	d5,[a15]28
+	call	Dio_WriteChannel
+.L717:
+	mov	d4,#536
+.L718:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L719:
+	ld.bu	d5,[a15]29
+	call	Dio_WriteChannel
+.L720:
+	mov	d4,#23
+.L721:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L722:
+	ld.bu	d5,[a15]30
+	call	Dio_WriteChannel
+.L723:
+	mov	d4,#22
+.L724:
+	movh.a	a15,#@his(l_tTestDio_Inst)
+	lea	a15,[a15]@los(l_tTestDio_Inst)
+.L725:
+	ld.bu	d5,[a15]31
+	call	Dio_WriteChannel
+.L726:
+	ret
+.L154:
+	
+___Write_function_end:
+	.size	_Write,___Write_function_end-_Write
+.L126:
+	; End of function
+	
+	.sdecl	'.bss.TestDio.l_tTestDio_Inst',data,cluster('l_tTestDio_Inst')
+	.sect	'.bss.TestDio.l_tTestDio_Inst'
+	.global	l_tTestDio_Inst
+	.align	4
+l_tTestDio_Inst:	.type	object
+	.size	l_tTestDio_Inst,36
+	.space	36
+	.calls	'TestDio_Init','memset'
+	.calls	'TestDio_Init','_Write'
+	.calls	'TestDio_Init','Dio_WriteChannel'
+	.calls	'TestDio_Init','_Read'
+	.calls	'TestDio_Init','TestDio_CtrlMcanEn'
+	.calls	'TestDio_Init','TestDio_CtrlMcanStandby'
+	.calls	'TestDio_100ms','_Write'
+	.calls	'TestDio_100ms','_Read'
+	.calls	'TestDio_GetIg1','Dio_ReadChannel'
+	.calls	'TestDio_GetAccWup','Dio_ReadChannel'
+	.calls	'TestDio_GetSolarWup','Dio_ReadChannel'
+	.calls	'TestDio_GetPressureWup','Dio_ReadChannel'
+	.calls	'TestDio_GetMCanWup','Dio_ReadChannel'
+	.calls	'TestDio_SetPwrOff','Dio_WriteChannel'
+	.calls	'TestDio_CtrlMcanEn','Dio_WriteChannel'
+	.calls	'TestDio_CtrlMcanStandby','Dio_WriteChannel'
+	.calls	'TestDio_SetIsoPosEn','Dio_WriteChannel'
+	.calls	'TestDio_SetIsoNegEn','Dio_WriteChannel'
+	.calls	'_Read','Dio_ReadChannel'
+	.calls	'_Write','Dio_WriteChannel'
+	.calls	'TestDio_Init','',0
+	.calls	'TestDio_100ms','',0
+	.calls	'TestDio_SetValue','',0
+	.calls	'TestDio_GetValue','',0
+	.calls	'TestDio_GetIg1','',0
+	.calls	'TestDio_GetAccWup','',0
+	.calls	'TestDio_GetSolarWup','',0
+	.calls	'TestDio_GetPressureWup','',0
+	.calls	'TestDio_GetMCanWup','',0
+	.calls	'TestDio_SetPwrOff','',0
+	.calls	'TestDio_CtrlMcanEn','',0
+	.calls	'TestDio_CtrlMcanStandby','',0
+	.calls	'TestDio_SetIsoPosEn','',0
+	.calls	'TestDio_SetIsoNegEn','',0
+	.calls	'_Read','',0
+	.extern	memset
+	.extern	Dio_ReadChannel
+	.extern	Dio_WriteChannel
+	.calls	'_Write','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L44:
+	.word	1693
+	.half	3
+	.word	.L45
+	.byte	4
+.L43:
+	.byte	1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L46
+	.byte	2
+	.byte	'void',0,3
+	.word	195
+	.byte	4
+	.byte	'int',0,4,5,4
+	.byte	'unsigned int',0,4,7,5
+	.byte	'memset',0,1,56,17
+	.word	201
+	.byte	1,1,1,1,6,1,56,33
+	.word	201
+	.byte	6,1,56,36
+	.word	206
+	.byte	6,1,56,41
+	.word	213
+	.byte	0
+.L137:
+	.byte	4
+	.byte	'unsigned char',0,1,8,4
+	.byte	'unsigned short int',0,2,7,7
+	.word	290
+	.byte	5
+	.byte	'Dio_ReadChannel',0,2,233,1,22
+	.word	273
+	.byte	1,1,1,1,8
+	.byte	'ChannelId',0,2,235,1,25
+	.word	312
+	.byte	0,7
+	.word	290
+	.byte	7
+	.word	273
+	.byte	9
+	.byte	'Dio_WriteChannel',0,2,143,2,13,1,1,1,1,8
+	.byte	'ChannelId',0,2,145,2,25
+	.word	366
+	.byte	8
+	.byte	'Level',0,2,146,2,23
+	.word	371
+	.byte	0,7
+	.word	273
+.L132:
+	.byte	3
+	.word	437
+.L135:
+	.byte	3
+	.word	273
+	.byte	10
+	.byte	'__size_t',0,3,1,1
+	.word	213
+	.byte	11,1,3
+	.word	469
+	.byte	10
+	.byte	'__codeptr',0,3,1,1
+	.word	471
+	.byte	10
+	.byte	'size_t',0,1,29,25
+	.word	213
+	.byte	10
+	.byte	'boolean',0,4,101,29
+	.word	273
+	.byte	10
+	.byte	'uint8',0,4,105,29
+	.word	273
+	.byte	10
+	.byte	'uint16',0,4,109,29
+	.word	290
+	.byte	4
+	.byte	'unsigned long int',0,4,7,10
+	.byte	'uint32',0,4,113,29
+	.word	554
+	.byte	10
+	.byte	'Dio_ChannelType',0,2,127,16
+	.word	290
+	.byte	10
+	.byte	'Dio_LevelType',0,2,133,1,15
+	.word	273
+	.byte	10
+	.byte	'Dio_PortType',0,2,138,1,15
+	.word	273
+	.byte	10
+	.byte	'Dio_PortLevelType',0,2,143,1,16
+	.word	290
+	.byte	12,2,148,1,9,4,13
+	.byte	'mask',0
+	.word	290
+	.byte	2,2,35,0,13
+	.byte	'offset',0
+	.word	273
+	.byte	1,2,35,2,13
+	.byte	'port',0
+	.word	273
+	.byte	1,2,35,3,0,10
+	.byte	'Dio_ChannelGroupType',0,2,158,1,3
+	.word	686
+	.byte	12,2,163,1,9,4,13
+	.byte	'Dio_PortIdConfig',0
+	.word	273
+	.byte	1,2,35,0,13
+	.byte	'Dio_ChannelConfig',0
+	.word	290
+	.byte	2,2,35,2,0,10
+	.byte	'Dio_PortChannelIdType',0,2,171,1,3
+	.word	767
+	.byte	12,3,60,9,8,13
+	.byte	'm_bIg1',0
+	.word	273
+	.byte	1,2,35,0,13
+	.byte	'm_bWuSolar',0
+	.word	273
+	.byte	1,2,35,1,13
+	.byte	'm_bOpdSig',0
+	.word	273
+	.byte	1,2,35,2,13
+	.byte	'm_bWuPressure',0
+	.word	273
+	.byte	1,2,35,3,13
+	.byte	'm_bWuAcc',0
+	.word	273
+	.byte	1,2,35,4,13
+	.byte	'm_bWuMCan',0
+	.word	273
+	.byte	1,2,35,5,13
+	.byte	'm_bMcanErr',0
+	.word	273
+	.byte	1,2,35,6,0,10
+	.byte	'INPUT_T',0,3,72,3
+	.word	858
+	.byte	12,3,74,9,28,13
+	.byte	'm_bVlinEn',0
+	.word	273
+	.byte	1,2,35,0,13
+	.byte	'm_bPwrOff',0
+	.word	273
+	.byte	1,2,35,1,13
+	.byte	'm_bMcanEn',0
+	.word	273
+	.byte	1,2,35,2,13
+	.byte	'm_bMcanStb',0
+	.word	273
+	.byte	1,2,35,3,13
+	.byte	'm_bRegWdi',0
+	.word	273
+	.byte	1,2,35,4,13
+	.byte	'm_bIsoPosEn',0
+	.word	273
+	.byte	1,2,35,5,13
+	.byte	'm_bIsoNegEn',0
+	.word	273
+	.byte	1,2,35,6,13
+	.byte	'm_bRlyDiagSel0',0
+	.word	273
+	.byte	1,2,35,7,13
+	.byte	'm_bRlyDiagSel1',0
+	.word	273
+	.byte	1,2,35,8,13
+	.byte	'm_bRlyQcPlus',0
+	.word	273
+	.byte	1,2,35,9,13
+	.byte	'm_bRlyMainMinus',0
+	.word	273
+	.byte	1,2,35,10,13
+	.byte	'm_bRlyDiagEn',0
+	.word	273
+	.byte	1,2,35,11,13
+	.byte	'm_bRlyPressure',0
+	.word	273
+	.byte	1,2,35,12,13
+	.byte	'm_bRlyPrecharger',0
+	.word	273
+	.byte	1,2,35,13,13
+	.byte	'm_bRly2QcMinus',0
+	.word	273
+	.byte	1,2,35,14,13
+	.byte	'm_bRly2MainPlus',0
+	.word	273
+	.byte	1,2,35,15,13
+	.byte	'm_bRly2WuExt2Res',0
+	.word	273
+	.byte	1,2,35,16,13
+	.byte	'm_bRly2DiagEn',0
+	.word	273
+	.byte	1,2,35,17,13
+	.byte	'm_bRly2Heat',0
+	.word	273
+	.byte	1,2,35,18,13
+	.byte	'm_bRly2DiagSel0',0
+	.word	273
+	.byte	1,2,35,19,13
+	.byte	'm_bRly2DiagSel1',0
+	.word	273
+	.byte	1,2,35,20,13
+	.byte	'm_bMcuSmufsp',0
+	.word	273
+	.byte	1,2,35,21,13
+	.byte	'm_bCurrent1SenEn',0
+	.word	273
+	.byte	1,2,35,22,13
+	.byte	'm_bCurrent2SenEn',0
+	.word	273
+	.byte	1,2,35,23,13
+	.byte	'm_bVgate1N',0
+	.word	273
+	.byte	1,2,35,24,13
+	.byte	'm_bVgate1P',0
+	.word	273
+	.byte	1,2,35,25,0,10
+	.byte	'OUTPUT_T',0,3,106,3
+	.word	1015
+.L155:
+	.byte	12,3,108,9,36,13
+	.byte	'm_tInput',0
+	.word	858
+	.byte	8,2,35,0,13
+	.byte	'm_tOutput',0
+	.word	1015
+	.byte	28,2,35,8,0,10
+	.byte	'TESTDIO_INSTANCE_T',0,3,113,3
+	.word	1626
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L45:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,59,0,3,8,0,0,3,15,0,73,19,0,0,4,36,0,3,8,11,15,62,15,0
+	.byte	0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,58,15,59,15,57,15,73,19,0,0,7,38
+	.byte	0,73,19,0,0,8,5,0,3,8,58,15,59,15,57,15,73,19,0,0,9,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12
+	.byte	0,0,10,22,0,3,8,58,15,59,15,57,15,73,19,0,0,11,21,0,54,15,0,0,12,19,1,58,15,59,15,57,15,11,15,0,0,13,13
+	.byte	0,3,8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L46:
+	.word	.L172-.L171
+.L171:
+	.half	3
+	.word	.L174-.L173
+.L173:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.9.4\\plugins\\com.infineon.aurix.tools_1.9.4\\build_system\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'Dio.h',0,2,0,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0
+	.byte	'Platform_Types.h',0,3,0,0,0
+.L174:
+.L172:
+	.sdecl	'.debug_info',debug,cluster('TestDio_Init')
+	.sect	'.debug_info'
+.L47:
+	.word	244
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L50,.L49
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_Init',0,1,162,1,6,1,1,1
+	.word	.L12,.L129,.L11
+	.byte	4
+	.word	.L12,.L129
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_Init')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_Init')
+	.sect	'.debug_line'
+.L49:
+	.word	.L176-.L175
+.L175:
+	.half	3
+	.word	.L178-.L177
+.L177:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L178:
+	.byte	5,13,7,0,5,2
+	.word	.L12
+	.byte	3,163,1,1,5,30,9
+	.half	.L179-.L12
+	.byte	1,5,34,9
+	.half	.L180-.L179
+	.byte	1,5,5,9
+	.half	.L181-.L180
+	.byte	3,3,1,5,48,9
+	.half	.L182-.L181
+	.byte	1,5,46,9
+	.half	.L183-.L182
+	.byte	1,5,5,9
+	.half	.L184-.L183
+	.byte	3,1,1,5,49,9
+	.half	.L185-.L184
+	.byte	1,5,47,9
+	.half	.L186-.L185
+	.byte	1,5,5,9
+	.half	.L187-.L186
+	.byte	3,1,1,5,45,9
+	.half	.L188-.L187
+	.byte	1,5,43,9
+	.half	.L189-.L188
+	.byte	1,5,5,9
+	.half	.L190-.L189
+	.byte	3,1,1,5,49,9
+	.half	.L191-.L190
+	.byte	1,5,47,9
+	.half	.L192-.L191
+	.byte	1,5,5,9
+	.half	.L193-.L192
+	.byte	3,1,1,5,48,9
+	.half	.L194-.L193
+	.byte	1,5,46,9
+	.half	.L195-.L194
+	.byte	1,5,5,9
+	.half	.L196-.L195
+	.byte	3,1,1,5,46,9
+	.half	.L197-.L196
+	.byte	1,5,44,9
+	.half	.L198-.L197
+	.byte	1,5,5,9
+	.half	.L199-.L198
+	.byte	3,1,1,5,49,9
+	.half	.L200-.L199
+	.byte	1,5,47,9
+	.half	.L201-.L200
+	.byte	1,5,5,9
+	.half	.L202-.L201
+	.byte	3,1,1,5,46,9
+	.half	.L203-.L202
+	.byte	1,5,44,9
+	.half	.L204-.L203
+	.byte	1,5,5,9
+	.half	.L205-.L204
+	.byte	3,1,1,5,50,9
+	.half	.L206-.L205
+	.byte	1,5,48,9
+	.half	.L207-.L206
+	.byte	1,5,5,9
+	.half	.L208-.L207
+	.byte	3,1,1,5,48,9
+	.half	.L209-.L208
+	.byte	1,5,46,9
+	.half	.L210-.L209
+	.byte	1,5,5,9
+	.half	.L211-.L210
+	.byte	3,1,1,5,49,9
+	.half	.L212-.L211
+	.byte	1,5,47,9
+	.half	.L213-.L212
+	.byte	1,5,5,9
+	.half	.L214-.L213
+	.byte	3,1,1,5,47,9
+	.half	.L215-.L214
+	.byte	1,5,45,9
+	.half	.L216-.L215
+	.byte	1,5,5,9
+	.half	.L217-.L216
+	.byte	3,1,1,5,48,9
+	.half	.L218-.L217
+	.byte	1,5,46,9
+	.half	.L219-.L218
+	.byte	1,5,5,9
+	.half	.L220-.L219
+	.byte	3,1,1,5,50,9
+	.half	.L221-.L220
+	.byte	1,5,48,9
+	.half	.L222-.L221
+	.byte	1,5,5,9
+	.half	.L223-.L222
+	.byte	3,1,1,5,50,9
+	.half	.L224-.L223
+	.byte	1,5,48,9
+	.half	.L225-.L224
+	.byte	1,5,5,9
+	.half	.L226-.L225
+	.byte	3,1,1,5,50,9
+	.half	.L227-.L226
+	.byte	1,5,48,9
+	.half	.L228-.L227
+	.byte	1,5,5,9
+	.half	.L229-.L228
+	.byte	3,1,1,5,46,9
+	.half	.L230-.L229
+	.byte	1,5,44,9
+	.half	.L231-.L230
+	.byte	1,5,11,9
+	.half	.L232-.L231
+	.byte	3,2,1,5,5,9
+	.half	.L233-.L232
+	.byte	3,2,1,5,43,9
+	.half	.L234-.L233
+	.byte	1,5,41,9
+	.half	.L235-.L234
+	.byte	1,5,22,9
+	.half	.L236-.L235
+	.byte	3,1,1,5,34,9
+	.half	.L237-.L236
+	.byte	3,1,1,5,5,9
+	.half	.L238-.L237
+	.byte	3,2,1,5,43,9
+	.half	.L239-.L238
+	.byte	1,5,41,9
+	.half	.L240-.L239
+	.byte	1,5,22,9
+	.half	.L241-.L240
+	.byte	3,1,1,5,34,9
+	.half	.L242-.L241
+	.byte	3,1,1,5,5,9
+	.half	.L243-.L242
+	.byte	3,2,1,5,43,9
+	.half	.L244-.L243
+	.byte	1,5,41,9
+	.half	.L245-.L244
+	.byte	1,5,22,9
+	.half	.L246-.L245
+	.byte	3,1,1,5,34,9
+	.half	.L247-.L246
+	.byte	3,1,1,5,5,9
+	.half	.L248-.L247
+	.byte	3,2,1,5,45,9
+	.half	.L249-.L248
+	.byte	1,5,43,9
+	.half	.L250-.L249
+	.byte	1,5,22,9
+	.half	.L251-.L250
+	.byte	3,1,1,5,34,9
+	.half	.L252-.L251
+	.byte	3,1,1,5,5,9
+	.half	.L253-.L252
+	.byte	3,2,1,5,45,9
+	.half	.L254-.L253
+	.byte	1,5,43,9
+	.half	.L255-.L254
+	.byte	1,5,22,9
+	.half	.L256-.L255
+	.byte	3,1,1,5,34,9
+	.half	.L257-.L256
+	.byte	3,1,1,5,5,9
+	.half	.L258-.L257
+	.byte	3,2,1,5,44,9
+	.half	.L259-.L258
+	.byte	1,5,42,9
+	.half	.L260-.L259
+	.byte	1,5,22,9
+	.half	.L261-.L260
+	.byte	3,1,1,5,34,9
+	.half	.L262-.L261
+	.byte	3,1,1,5,5,9
+	.half	.L263-.L262
+	.byte	3,2,1,5,44,9
+	.half	.L264-.L263
+	.byte	1,5,42,9
+	.half	.L265-.L264
+	.byte	1,5,22,9
+	.half	.L266-.L265
+	.byte	3,1,1,5,34,9
+	.half	.L267-.L266
+	.byte	3,1,1,5,10,9
+	.half	.L268-.L267
+	.byte	3,3,1,5,24,9
+	.half	.L269-.L268
+	.byte	3,6,1,5,29,9
+	.half	.L270-.L269
+	.byte	3,3,1,5,1,9
+	.half	.L271-.L270
+	.byte	3,3,1,7,9
+	.half	.L51-.L271
+	.byte	0,1,1
+.L176:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_Init')
+	.sect	'.debug_ranges'
+.L50:
+	.word	-1,.L12,0,.L51-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_100ms')
+	.sect	'.debug_info'
+.L52:
+	.word	245
+	.half	3
+	.word	.L53
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L55,.L54
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_100ms',0,1,240,1,6,1,1,1
+	.word	.L14,.L130,.L13
+	.byte	4
+	.word	.L14,.L130
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_100ms')
+	.sect	'.debug_abbrev'
+.L53:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_100ms')
+	.sect	'.debug_line'
+.L54:
+	.word	.L273-.L272
+.L272:
+	.half	3
+	.word	.L275-.L274
+.L274:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L275:
+	.byte	5,11,7,0,5,2
+	.word	.L14
+	.byte	3,241,1,1,5,10,9
+	.half	.L276-.L14
+	.byte	3,1,1,5,1,9
+	.half	.L277-.L276
+	.byte	3,2,1,7,9
+	.half	.L56-.L277
+	.byte	0,1,1
+.L273:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_100ms')
+	.sect	'.debug_ranges'
+.L55:
+	.word	-1,.L14,0,.L56-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_SetValue')
+	.sect	'.debug_info'
+.L57:
+	.word	267
+	.half	3
+	.word	.L58
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L60,.L59
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_SetValue',0,1,129,2,6,1,1,1
+	.word	.L16,.L131,.L15
+	.byte	4
+	.byte	'pData',0,1,129,2,36
+	.word	.L132,.L133
+	.byte	5
+	.word	.L16,.L131
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_SetValue')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_SetValue')
+	.sect	'.debug_line'
+.L59:
+	.word	.L279-.L278
+.L278:
+	.half	3
+	.word	.L281-.L280
+.L280:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L281:
+	.byte	5,5,7,0,5,2
+	.word	.L16
+	.byte	3,130,2,1,5,9,7,9
+	.half	.L282-.L16
+	.byte	3,1,1,5,5,9
+	.half	.L2-.L282
+	.byte	3,2,1,5,57,9
+	.half	.L283-.L2
+	.byte	1,5,61,9
+	.half	.L284-.L283
+	.byte	1,5,49,9
+	.half	.L285-.L284
+	.byte	1,5,5,9
+	.half	.L286-.L285
+	.byte	3,1,1,5,57,9
+	.half	.L287-.L286
+	.byte	1,5,61,9
+	.half	.L288-.L287
+	.byte	1,5,70,9
+	.half	.L289-.L288
+	.byte	1,5,49,9
+	.half	.L290-.L289
+	.byte	1,5,5,9
+	.half	.L291-.L290
+	.byte	3,1,1,5,57,9
+	.half	.L292-.L291
+	.byte	1,5,61,9
+	.half	.L293-.L292
+	.byte	1,5,70,9
+	.half	.L294-.L293
+	.byte	1,5,49,9
+	.half	.L295-.L294
+	.byte	1,5,5,9
+	.half	.L296-.L295
+	.byte	3,1,1,5,57,9
+	.half	.L297-.L296
+	.byte	1,5,61,9
+	.half	.L298-.L297
+	.byte	1,5,70,9
+	.half	.L299-.L298
+	.byte	1,5,49,9
+	.half	.L300-.L299
+	.byte	1,5,5,9
+	.half	.L301-.L300
+	.byte	3,1,1,5,57,9
+	.half	.L302-.L301
+	.byte	1,5,61,9
+	.half	.L303-.L302
+	.byte	1,5,70,9
+	.half	.L304-.L303
+	.byte	1,5,49,9
+	.half	.L305-.L304
+	.byte	1,5,5,9
+	.half	.L306-.L305
+	.byte	3,1,1,5,57,9
+	.half	.L307-.L306
+	.byte	1,5,61,9
+	.half	.L308-.L307
+	.byte	1,5,70,9
+	.half	.L309-.L308
+	.byte	1,5,49,9
+	.half	.L310-.L309
+	.byte	1,5,5,9
+	.half	.L311-.L310
+	.byte	3,1,1,5,57,9
+	.half	.L312-.L311
+	.byte	1,5,61,9
+	.half	.L313-.L312
+	.byte	1,5,70,9
+	.half	.L314-.L313
+	.byte	1,5,49,9
+	.half	.L315-.L314
+	.byte	1,5,5,9
+	.half	.L316-.L315
+	.byte	3,1,1,5,57,9
+	.half	.L317-.L316
+	.byte	1,5,61,9
+	.half	.L318-.L317
+	.byte	1,5,70,9
+	.half	.L319-.L318
+	.byte	1,5,49,9
+	.half	.L320-.L319
+	.byte	1,5,5,9
+	.half	.L321-.L320
+	.byte	3,2,1,5,57,9
+	.half	.L322-.L321
+	.byte	1,5,61,9
+	.half	.L323-.L322
+	.byte	1,5,49,9
+	.half	.L324-.L323
+	.byte	1,5,5,9
+	.half	.L325-.L324
+	.byte	3,1,1,5,57,9
+	.half	.L326-.L325
+	.byte	1,5,61,9
+	.half	.L327-.L326
+	.byte	1,5,70,9
+	.half	.L328-.L327
+	.byte	1,5,49,9
+	.half	.L329-.L328
+	.byte	1,5,5,9
+	.half	.L330-.L329
+	.byte	3,1,1,5,57,9
+	.half	.L331-.L330
+	.byte	1,5,61,9
+	.half	.L332-.L331
+	.byte	1,5,70,9
+	.half	.L333-.L332
+	.byte	1,5,49,9
+	.half	.L334-.L333
+	.byte	1,5,5,9
+	.half	.L335-.L334
+	.byte	3,1,1,5,57,9
+	.half	.L336-.L335
+	.byte	1,5,61,9
+	.half	.L337-.L336
+	.byte	1,5,70,9
+	.half	.L338-.L337
+	.byte	1,5,49,9
+	.half	.L339-.L338
+	.byte	1,5,5,9
+	.half	.L340-.L339
+	.byte	3,1,1,5,57,9
+	.half	.L341-.L340
+	.byte	1,5,61,9
+	.half	.L342-.L341
+	.byte	1,5,70,9
+	.half	.L343-.L342
+	.byte	1,5,49,9
+	.half	.L344-.L343
+	.byte	1,5,5,9
+	.half	.L345-.L344
+	.byte	3,1,1,5,57,9
+	.half	.L346-.L345
+	.byte	1,5,61,9
+	.half	.L347-.L346
+	.byte	1,5,70,9
+	.half	.L348-.L347
+	.byte	1,5,49,9
+	.half	.L349-.L348
+	.byte	1,5,5,9
+	.half	.L350-.L349
+	.byte	3,1,1,5,57,9
+	.half	.L351-.L350
+	.byte	1,5,61,9
+	.half	.L352-.L351
+	.byte	1,5,70,9
+	.half	.L353-.L352
+	.byte	1,5,49,9
+	.half	.L354-.L353
+	.byte	1,5,5,9
+	.half	.L355-.L354
+	.byte	3,1,1,5,57,9
+	.half	.L356-.L355
+	.byte	1,5,61,9
+	.half	.L357-.L356
+	.byte	1,5,70,9
+	.half	.L358-.L357
+	.byte	1,5,49,9
+	.half	.L359-.L358
+	.byte	1,5,5,9
+	.half	.L360-.L359
+	.byte	3,2,1,5,57,9
+	.half	.L361-.L360
+	.byte	1,5,61,9
+	.half	.L362-.L361
+	.byte	1,5,49,9
+	.half	.L363-.L362
+	.byte	1,5,5,9
+	.half	.L364-.L363
+	.byte	3,1,1,5,57,9
+	.half	.L365-.L364
+	.byte	1,5,61,9
+	.half	.L366-.L365
+	.byte	1,5,70,9
+	.half	.L367-.L366
+	.byte	1,5,49,9
+	.half	.L368-.L367
+	.byte	1,5,1,9
+	.half	.L3-.L368
+	.byte	3,2,1,7,9
+	.half	.L61-.L3
+	.byte	0,1,1
+.L279:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_SetValue')
+	.sect	'.debug_ranges'
+.L60:
+	.word	-1,.L16,0,.L61-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_GetValue')
+	.sect	'.debug_info'
+.L62:
+	.word	267
+	.half	3
+	.word	.L63
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L65,.L64
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_GetValue',0,1,167,2,6,1,1,1
+	.word	.L18,.L134,.L17
+	.byte	4
+	.byte	'pData',0,1,167,2,30
+	.word	.L135,.L136
+	.byte	5
+	.word	.L18,.L134
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_GetValue')
+	.sect	'.debug_abbrev'
+.L63:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_GetValue')
+	.sect	'.debug_line'
+.L64:
+	.word	.L370-.L369
+.L369:
+	.half	3
+	.word	.L372-.L371
+.L371:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L372:
+	.byte	5,5,7,0,5,2
+	.word	.L18
+	.byte	3,168,2,1,5,9,7,9
+	.half	.L373-.L18
+	.byte	3,1,1,5,10,9
+	.half	.L4-.L373
+	.byte	3,4,1,5,34,9
+	.half	.L374-.L4
+	.byte	1,5,57,9
+	.half	.L375-.L374
+	.byte	1,5,10,9
+	.half	.L376-.L375
+	.byte	3,1,1,5,34,9
+	.half	.L377-.L376
+	.byte	1,5,57,9
+	.half	.L378-.L377
+	.byte	1,5,64,9
+	.half	.L379-.L378
+	.byte	3,127,1,5,10,9
+	.half	.L380-.L379
+	.byte	3,2,1,5,34,9
+	.half	.L381-.L380
+	.byte	1,5,57,9
+	.half	.L382-.L381
+	.byte	1,5,64,9
+	.half	.L383-.L382
+	.byte	3,127,1,5,10,9
+	.half	.L384-.L383
+	.byte	3,2,1,5,34,9
+	.half	.L385-.L384
+	.byte	1,5,57,9
+	.half	.L386-.L385
+	.byte	1,5,64,9
+	.half	.L387-.L386
+	.byte	3,127,1,5,10,9
+	.half	.L388-.L387
+	.byte	3,2,1,5,34,9
+	.half	.L389-.L388
+	.byte	1,5,57,9
+	.half	.L390-.L389
+	.byte	1,5,64,9
+	.half	.L391-.L390
+	.byte	3,127,1,5,10,9
+	.half	.L392-.L391
+	.byte	3,2,1,5,34,9
+	.half	.L393-.L392
+	.byte	1,5,57,9
+	.half	.L394-.L393
+	.byte	1,5,64,9
+	.half	.L395-.L394
+	.byte	3,127,1,5,10,9
+	.half	.L396-.L395
+	.byte	3,3,1,5,34,9
+	.half	.L397-.L396
+	.byte	1,5,57,9
+	.half	.L398-.L397
+	.byte	1,5,64,9
+	.half	.L399-.L398
+	.byte	3,126,1,5,14,9
+	.half	.L400-.L399
+	.byte	3,122,1,5,10,9
+	.half	.L401-.L400
+	.byte	3,13,1,5,35,9
+	.half	.L402-.L401
+	.byte	1,5,57,9
+	.half	.L403-.L402
+	.byte	1,5,10,9
+	.half	.L404-.L403
+	.byte	3,1,1,5,35,9
+	.half	.L405-.L404
+	.byte	1,5,57,9
+	.half	.L406-.L405
+	.byte	1,5,64,9
+	.half	.L407-.L406
+	.byte	3,127,1,5,10,9
+	.half	.L408-.L407
+	.byte	3,2,1,5,35,9
+	.half	.L409-.L408
+	.byte	1,5,57,9
+	.half	.L410-.L409
+	.byte	1,5,64,9
+	.half	.L411-.L410
+	.byte	3,127,1,5,10,9
+	.half	.L412-.L411
+	.byte	3,2,1,5,35,9
+	.half	.L413-.L412
+	.byte	1,5,57,9
+	.half	.L414-.L413
+	.byte	1,5,64,9
+	.half	.L415-.L414
+	.byte	3,127,1,5,10,9
+	.half	.L416-.L415
+	.byte	3,2,1,5,35,9
+	.half	.L417-.L416
+	.byte	1,5,57,9
+	.half	.L418-.L417
+	.byte	1,5,64,9
+	.half	.L419-.L418
+	.byte	3,127,1,5,10,9
+	.half	.L420-.L419
+	.byte	3,2,1,5,35,9
+	.half	.L421-.L420
+	.byte	1,5,57,9
+	.half	.L422-.L421
+	.byte	1,5,64,9
+	.half	.L423-.L422
+	.byte	3,127,1,5,10,9
+	.half	.L424-.L423
+	.byte	3,2,1,5,35,9
+	.half	.L425-.L424
+	.byte	1,5,57,9
+	.half	.L426-.L425
+	.byte	1,5,64,9
+	.half	.L427-.L426
+	.byte	3,127,1,5,10,9
+	.half	.L428-.L427
+	.byte	3,2,1,5,35,9
+	.half	.L429-.L428
+	.byte	1,5,64,9
+	.half	.L430-.L429
+	.byte	3,127,1,5,14,9
+	.half	.L431-.L430
+	.byte	3,121,1,5,10,9
+	.half	.L432-.L431
+	.byte	3,11,1,5,35,9
+	.half	.L433-.L432
+	.byte	1,5,57,9
+	.half	.L434-.L433
+	.byte	1,5,10,9
+	.half	.L435-.L434
+	.byte	3,1,1,5,35,9
+	.half	.L436-.L435
+	.byte	1,5,57,9
+	.half	.L437-.L436
+	.byte	1,5,64,9
+	.half	.L438-.L437
+	.byte	3,127,1,5,10,9
+	.half	.L439-.L438
+	.byte	3,2,1,5,35,9
+	.half	.L440-.L439
+	.byte	1,5,57,9
+	.half	.L441-.L440
+	.byte	1,5,64,9
+	.half	.L442-.L441
+	.byte	3,127,1,5,10,9
+	.half	.L443-.L442
+	.byte	3,2,1,5,35,9
+	.half	.L444-.L443
+	.byte	1,5,57,9
+	.half	.L445-.L444
+	.byte	1,5,64,9
+	.half	.L446-.L445
+	.byte	3,127,1,5,10,9
+	.half	.L447-.L446
+	.byte	3,2,1,5,35,9
+	.half	.L448-.L447
+	.byte	1,5,57,9
+	.half	.L449-.L448
+	.byte	1,5,64,9
+	.half	.L450-.L449
+	.byte	3,127,1,5,10,9
+	.half	.L451-.L450
+	.byte	3,2,1,5,35,9
+	.half	.L452-.L451
+	.byte	1,5,57,9
+	.half	.L453-.L452
+	.byte	1,5,64,9
+	.half	.L454-.L453
+	.byte	3,127,1,5,10,9
+	.half	.L455-.L454
+	.byte	3,2,1,5,35,9
+	.half	.L456-.L455
+	.byte	1,5,57,9
+	.half	.L457-.L456
+	.byte	1,5,64,9
+	.half	.L458-.L457
+	.byte	3,127,1,5,10,9
+	.half	.L459-.L458
+	.byte	3,2,1,5,35,9
+	.half	.L460-.L459
+	.byte	1,5,64,9
+	.half	.L461-.L460
+	.byte	3,127,1,5,14,9
+	.half	.L462-.L461
+	.byte	3,121,1,5,10,9
+	.half	.L463-.L462
+	.byte	3,12,1,5,35,9
+	.half	.L464-.L463
+	.byte	1,5,57,9
+	.half	.L465-.L464
+	.byte	1,5,10,9
+	.half	.L466-.L465
+	.byte	3,1,1,5,35,9
+	.half	.L467-.L466
+	.byte	1,5,57,9
+	.half	.L468-.L467
+	.byte	1,5,64,9
+	.half	.L469-.L468
+	.byte	3,127,1,5,10,9
+	.half	.L470-.L469
+	.byte	3,3,1,5,35,9
+	.half	.L471-.L470
+	.byte	1,5,57,9
+	.half	.L472-.L471
+	.byte	1,5,64,9
+	.half	.L473-.L472
+	.byte	3,126,1,5,10,9
+	.half	.L474-.L473
+	.byte	3,3,1,5,35,9
+	.half	.L475-.L474
+	.byte	1,5,57,9
+	.half	.L476-.L475
+	.byte	1,5,64,9
+	.half	.L477-.L476
+	.byte	3,127,1,5,10,9
+	.half	.L478-.L477
+	.byte	3,2,1,5,35,9
+	.half	.L479-.L478
+	.byte	1,5,57,9
+	.half	.L480-.L479
+	.byte	1,5,64,9
+	.half	.L481-.L480
+	.byte	3,127,1,5,10,9
+	.half	.L482-.L481
+	.byte	3,2,1,5,35,9
+	.half	.L483-.L482
+	.byte	1,5,57,9
+	.half	.L484-.L483
+	.byte	1,5,64,9
+	.half	.L485-.L484
+	.byte	3,127,1,5,10,9
+	.half	.L486-.L485
+	.byte	3,2,1,5,35,9
+	.half	.L487-.L486
+	.byte	1,5,57,9
+	.half	.L488-.L487
+	.byte	1,5,64,9
+	.half	.L489-.L488
+	.byte	3,127,1,5,10,9
+	.half	.L490-.L489
+	.byte	3,2,1,5,35,9
+	.half	.L491-.L490
+	.byte	1,5,64,9
+	.half	.L492-.L491
+	.byte	3,127,1,5,14,9
+	.half	.L493-.L492
+	.byte	3,119,1,5,1,9
+	.half	.L5-.L493
+	.byte	3,12,1,7,9
+	.half	.L66-.L5
+	.byte	0,1,1
+.L370:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_GetValue')
+	.sect	'.debug_ranges'
+.L65:
+	.word	-1,.L18,0,.L66-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_GetIg1')
+	.sect	'.debug_info'
+.L67:
+	.word	250
+	.half	3
+	.word	.L68
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L70,.L69
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_GetIg1',0,1,229,2,9
+	.word	.L137
+	.byte	1,1,1
+	.word	.L20,.L138,.L19
+	.byte	4
+	.word	.L20,.L138
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_GetIg1')
+	.sect	'.debug_abbrev'
+.L68:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_GetIg1')
+	.sect	'.debug_line'
+.L69:
+	.word	.L495-.L494
+.L494:
+	.half	3
+	.word	.L497-.L496
+.L496:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L497:
+	.byte	5,5,7,0,5,2
+	.word	.L20
+	.byte	3,230,2,1,5,55,9
+	.half	.L498-.L20
+	.byte	1,5,37,9
+	.half	.L499-.L498
+	.byte	1,5,12,9
+	.half	.L500-.L499
+	.byte	3,1,1,5,36,9
+	.half	.L501-.L500
+	.byte	1,5,5,9
+	.half	.L502-.L501
+	.byte	1,5,1,9
+	.half	.L6-.L502
+	.byte	3,2,1,7,9
+	.half	.L71-.L6
+	.byte	0,1,1
+.L495:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_GetIg1')
+	.sect	'.debug_ranges'
+.L70:
+	.word	-1,.L20,0,.L71-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_GetAccWup')
+	.sect	'.debug_info'
+.L72:
+	.word	253
+	.half	3
+	.word	.L73
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L75,.L74
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_GetAccWup',0,1,246,2,9
+	.word	.L137
+	.byte	1,1,1
+	.word	.L22,.L139,.L21
+	.byte	4
+	.word	.L22,.L139
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_GetAccWup')
+	.sect	'.debug_abbrev'
+.L73:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_GetAccWup')
+	.sect	'.debug_line'
+.L74:
+	.word	.L504-.L503
+.L503:
+	.half	3
+	.word	.L506-.L505
+.L505:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L506:
+	.byte	5,5,7,0,5,2
+	.word	.L22
+	.byte	3,247,2,1,5,57,9
+	.half	.L507-.L22
+	.byte	1,5,39,9
+	.half	.L508-.L507
+	.byte	1,5,12,9
+	.half	.L509-.L508
+	.byte	3,1,1,5,36,9
+	.half	.L510-.L509
+	.byte	1,5,5,9
+	.half	.L511-.L510
+	.byte	1,5,1,9
+	.half	.L7-.L511
+	.byte	3,2,1,7,9
+	.half	.L76-.L7
+	.byte	0,1,1
+.L504:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_GetAccWup')
+	.sect	'.debug_ranges'
+.L75:
+	.word	-1,.L22,0,.L76-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_GetSolarWup')
+	.sect	'.debug_info'
+.L77:
+	.word	255
+	.half	3
+	.word	.L78
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L80,.L79
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_GetSolarWup',0,1,135,3,9
+	.word	.L137
+	.byte	1,1,1
+	.word	.L24,.L140,.L23
+	.byte	4
+	.word	.L24,.L140
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_GetSolarWup')
+	.sect	'.debug_abbrev'
+.L78:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_GetSolarWup')
+	.sect	'.debug_line'
+.L79:
+	.word	.L513-.L512
+.L512:
+	.half	3
+	.word	.L515-.L514
+.L514:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L515:
+	.byte	5,5,7,0,5,2
+	.word	.L24
+	.byte	3,136,3,1,5,59,9
+	.half	.L516-.L24
+	.byte	1,5,41,9
+	.half	.L517-.L516
+	.byte	1,5,12,9
+	.half	.L518-.L517
+	.byte	3,1,1,5,36,9
+	.half	.L519-.L518
+	.byte	1,5,5,9
+	.half	.L520-.L519
+	.byte	1,5,1,9
+	.half	.L8-.L520
+	.byte	3,2,1,7,9
+	.half	.L81-.L8
+	.byte	0,1,1
+.L513:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_GetSolarWup')
+	.sect	'.debug_ranges'
+.L80:
+	.word	-1,.L24,0,.L81-.L24,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_GetPressureWup')
+	.sect	'.debug_info'
+.L82:
+	.word	258
+	.half	3
+	.word	.L83
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L85,.L84
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_GetPressureWup',0,1,152,3,9
+	.word	.L137
+	.byte	1,1,1
+	.word	.L26,.L141,.L25
+	.byte	4
+	.word	.L26,.L141
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_GetPressureWup')
+	.sect	'.debug_abbrev'
+.L83:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_GetPressureWup')
+	.sect	'.debug_line'
+.L84:
+	.word	.L522-.L521
+.L521:
+	.half	3
+	.word	.L524-.L523
+.L523:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L524:
+	.byte	5,5,7,0,5,2
+	.word	.L26
+	.byte	3,153,3,1,5,62,9
+	.half	.L525-.L26
+	.byte	1,5,44,9
+	.half	.L526-.L525
+	.byte	1,5,12,9
+	.half	.L527-.L526
+	.byte	3,1,1,5,36,9
+	.half	.L528-.L527
+	.byte	1,5,5,9
+	.half	.L529-.L528
+	.byte	1,5,1,9
+	.half	.L9-.L529
+	.byte	3,2,1,7,9
+	.half	.L86-.L9
+	.byte	0,1,1
+.L522:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_GetPressureWup')
+	.sect	'.debug_ranges'
+.L85:
+	.word	-1,.L26,0,.L86-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_GetMCanWup')
+	.sect	'.debug_info'
+.L87:
+	.word	254
+	.half	3
+	.word	.L88
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L90,.L89
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_GetMCanWup',0,1,169,3,9
+	.word	.L137
+	.byte	1,1,1
+	.word	.L28,.L142,.L27
+	.byte	4
+	.word	.L28,.L142
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_GetMCanWup')
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_GetMCanWup')
+	.sect	'.debug_line'
+.L89:
+	.word	.L531-.L530
+.L530:
+	.half	3
+	.word	.L533-.L532
+.L532:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L533:
+	.byte	5,5,7,0,5,2
+	.word	.L28
+	.byte	3,170,3,1,5,58,9
+	.half	.L534-.L28
+	.byte	1,5,40,9
+	.half	.L535-.L534
+	.byte	1,5,12,9
+	.half	.L536-.L535
+	.byte	3,1,1,5,36,9
+	.half	.L537-.L536
+	.byte	1,5,5,9
+	.half	.L538-.L537
+	.byte	1,5,1,9
+	.half	.L10-.L538
+	.byte	3,2,1,7,9
+	.half	.L91-.L10
+	.byte	0,1,1
+.L531:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_GetMCanWup')
+	.sect	'.debug_ranges'
+.L90:
+	.word	-1,.L28,0,.L91-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_SetPwrOff')
+	.sect	'.debug_info'
+.L92:
+	.word	269
+	.half	3
+	.word	.L93
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L95,.L94
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_SetPwrOff',0,1,186,3,6,1,1,1
+	.word	.L30,.L143,.L29
+	.byte	4
+	.byte	'bLevel',0,1,186,3,32
+	.word	.L137,.L144
+	.byte	5
+	.word	.L30,.L143
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_SetPwrOff')
+	.sect	'.debug_abbrev'
+.L93:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_SetPwrOff')
+	.sect	'.debug_line'
+.L94:
+	.word	.L540-.L539
+.L539:
+	.half	3
+	.word	.L542-.L541
+.L541:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L542:
+	.byte	5,6,7,0,5,2
+	.word	.L30
+	.byte	3,185,3,1,5,5,9
+	.half	.L157-.L30
+	.byte	3,2,1,5,41,9
+	.half	.L543-.L157
+	.byte	1,5,22,9
+	.half	.L544-.L543
+	.byte	3,1,1,5,34,9
+	.half	.L156-.L544
+	.byte	3,1,1,5,1,9
+	.half	.L158-.L156
+	.byte	3,2,1,7,9
+	.half	.L96-.L158
+	.byte	0,1,1
+.L540:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_SetPwrOff')
+	.sect	'.debug_ranges'
+.L95:
+	.word	-1,.L30,0,.L96-.L30,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_CtrlMcanEn')
+	.sect	'.debug_info'
+.L97:
+	.word	270
+	.half	3
+	.word	.L98
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L100,.L99
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_CtrlMcanEn',0,1,205,3,6,1,1,1
+	.word	.L32,.L145,.L31
+	.byte	4
+	.byte	'bLevel',0,1,205,3,33
+	.word	.L137,.L146
+	.byte	5
+	.word	.L32,.L145
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_CtrlMcanEn')
+	.sect	'.debug_abbrev'
+.L98:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_CtrlMcanEn')
+	.sect	'.debug_line'
+.L99:
+	.word	.L546-.L545
+.L545:
+	.half	3
+	.word	.L548-.L547
+.L547:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L548:
+	.byte	5,6,7,0,5,2
+	.word	.L32
+	.byte	3,204,3,1,5,5,9
+	.half	.L160-.L32
+	.byte	3,2,1,5,41,9
+	.half	.L549-.L160
+	.byte	1,5,22,9
+	.half	.L550-.L549
+	.byte	3,1,1,5,34,9
+	.half	.L159-.L550
+	.byte	3,1,1,5,1,9
+	.half	.L161-.L159
+	.byte	3,2,1,7,9
+	.half	.L101-.L161
+	.byte	0,1,1
+.L546:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_CtrlMcanEn')
+	.sect	'.debug_ranges'
+.L100:
+	.word	-1,.L32,0,.L101-.L32,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_CtrlMcanStandby')
+	.sect	'.debug_info'
+.L102:
+	.word	275
+	.half	3
+	.word	.L103
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L105,.L104
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_CtrlMcanStandby',0,1,223,3,6,1,1,1
+	.word	.L34,.L147,.L33
+	.byte	4
+	.byte	'bLevel',0,1,223,3,38
+	.word	.L137,.L148
+	.byte	5
+	.word	.L34,.L147
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_CtrlMcanStandby')
+	.sect	'.debug_abbrev'
+.L103:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_CtrlMcanStandby')
+	.sect	'.debug_line'
+.L104:
+	.word	.L552-.L551
+.L551:
+	.half	3
+	.word	.L554-.L553
+.L553:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L554:
+	.byte	5,6,7,0,5,2
+	.word	.L34
+	.byte	3,222,3,1,5,5,9
+	.half	.L163-.L34
+	.byte	3,2,1,5,42,9
+	.half	.L555-.L163
+	.byte	1,5,22,9
+	.half	.L556-.L555
+	.byte	3,1,1,5,34,9
+	.half	.L162-.L556
+	.byte	3,1,1,5,1,9
+	.half	.L164-.L162
+	.byte	3,2,1,7,9
+	.half	.L106-.L164
+	.byte	0,1,1
+.L552:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_CtrlMcanStandby')
+	.sect	'.debug_ranges'
+.L105:
+	.word	-1,.L34,0,.L106-.L34,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_SetIsoPosEn')
+	.sect	'.debug_info'
+.L107:
+	.word	271
+	.half	3
+	.word	.L108
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L110,.L109
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_SetIsoPosEn',0,1,242,3,6,1,1,1
+	.word	.L36,.L149,.L35
+	.byte	4
+	.byte	'bLevel',0,1,242,3,34
+	.word	.L137,.L150
+	.byte	5
+	.word	.L36,.L149
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_SetIsoPosEn')
+	.sect	'.debug_abbrev'
+.L108:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_SetIsoPosEn')
+	.sect	'.debug_line'
+.L109:
+	.word	.L558-.L557
+.L557:
+	.half	3
+	.word	.L560-.L559
+.L559:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L560:
+	.byte	5,6,7,0,5,2
+	.word	.L36
+	.byte	3,241,3,1,5,5,9
+	.half	.L166-.L36
+	.byte	3,2,1,5,43,9
+	.half	.L561-.L166
+	.byte	1,5,22,9
+	.half	.L562-.L561
+	.byte	3,1,1,5,34,9
+	.half	.L165-.L562
+	.byte	3,1,1,5,1,9
+	.half	.L167-.L165
+	.byte	3,2,1,7,9
+	.half	.L111-.L167
+	.byte	0,1,1
+.L558:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_SetIsoPosEn')
+	.sect	'.debug_ranges'
+.L110:
+	.word	-1,.L36,0,.L111-.L36,0,0
+	.sdecl	'.debug_info',debug,cluster('TestDio_SetIsoNegEn')
+	.sect	'.debug_info'
+.L112:
+	.word	271
+	.half	3
+	.word	.L113
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L115,.L114
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'TestDio_SetIsoNegEn',0,1,132,4,6,1,1,1
+	.word	.L38,.L151,.L37
+	.byte	4
+	.byte	'bLevel',0,1,132,4,34
+	.word	.L137,.L152
+	.byte	5
+	.word	.L38,.L151
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestDio_SetIsoNegEn')
+	.sect	'.debug_abbrev'
+.L113:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestDio_SetIsoNegEn')
+	.sect	'.debug_line'
+.L114:
+	.word	.L564-.L563
+.L563:
+	.half	3
+	.word	.L566-.L565
+.L565:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L566:
+	.byte	5,6,7,0,5,2
+	.word	.L38
+	.byte	3,131,4,1,5,5,9
+	.half	.L169-.L38
+	.byte	3,2,1,5,43,9
+	.half	.L567-.L169
+	.byte	1,5,22,9
+	.half	.L568-.L567
+	.byte	3,1,1,5,34,9
+	.half	.L168-.L568
+	.byte	3,1,1,5,1,9
+	.half	.L170-.L168
+	.byte	3,2,1,7,9
+	.half	.L116-.L170
+	.byte	0,1,1
+.L564:
+	.sdecl	'.debug_ranges',debug,cluster('TestDio_SetIsoNegEn')
+	.sect	'.debug_ranges'
+.L115:
+	.word	-1,.L38,0,.L116-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('_Read')
+	.sect	'.debug_info'
+.L117:
+	.word	236
+	.half	3
+	.word	.L118
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L120,.L119
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'_Read',0,1,156,4,13,1,1
+	.word	.L40,.L153,.L39
+	.byte	4
+	.word	.L40,.L153
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Read')
+	.sect	'.debug_abbrev'
+.L118:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Read')
+	.sect	'.debug_line'
+.L119:
+	.word	.L570-.L569
+.L569:
+	.half	3
+	.word	.L572-.L571
+.L571:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L572:
+	.byte	5,5,7,0,5,2
+	.word	.L40
+	.byte	3,158,4,1,5,25,9
+	.half	.L573-.L40
+	.byte	3,1,1,5,37,9
+	.half	.L574-.L573
+	.byte	3,127,1,5,5,9
+	.half	.L575-.L574
+	.byte	3,2,1,5,25,9
+	.half	.L576-.L575
+	.byte	3,1,1,5,41,9
+	.half	.L577-.L576
+	.byte	3,127,1,5,5,9
+	.half	.L578-.L577
+	.byte	3,2,1,5,25,9
+	.half	.L579-.L578
+	.byte	3,1,1,5,40,9
+	.half	.L580-.L579
+	.byte	3,127,1,5,5,9
+	.half	.L581-.L580
+	.byte	3,2,1,5,25,9
+	.half	.L582-.L581
+	.byte	3,1,1,5,44,9
+	.half	.L583-.L582
+	.byte	3,127,1,5,5,9
+	.half	.L584-.L583
+	.byte	3,2,1,5,25,9
+	.half	.L585-.L584
+	.byte	3,1,1,5,39,9
+	.half	.L586-.L585
+	.byte	3,127,1,5,5,9
+	.half	.L587-.L586
+	.byte	3,2,1,5,25,9
+	.half	.L588-.L587
+	.byte	3,1,1,5,40,9
+	.half	.L589-.L588
+	.byte	3,127,1,5,5,9
+	.half	.L590-.L589
+	.byte	3,2,1,5,25,9
+	.half	.L591-.L590
+	.byte	3,1,1,5,41,9
+	.half	.L592-.L591
+	.byte	3,127,1,5,5,9
+	.half	.L593-.L592
+	.byte	3,4,1,5,25,9
+	.half	.L594-.L593
+	.byte	3,1,1,5,41,9
+	.half	.L595-.L594
+	.byte	3,127,1,5,5,9
+	.half	.L596-.L595
+	.byte	3,2,1,5,25,9
+	.half	.L597-.L596
+	.byte	3,1,1,5,41,9
+	.half	.L598-.L597
+	.byte	3,127,1,5,5,9
+	.half	.L599-.L598
+	.byte	3,3,1,5,25,9
+	.half	.L600-.L599
+	.byte	3,1,1,5,41,9
+	.half	.L601-.L600
+	.byte	3,127,1,5,5,9
+	.half	.L602-.L601
+	.byte	3,2,1,5,25,9
+	.half	.L603-.L602
+	.byte	3,1,1,5,42,9
+	.half	.L604-.L603
+	.byte	3,127,1,5,5,9
+	.half	.L605-.L604
+	.byte	3,3,1,5,25,9
+	.half	.L606-.L605
+	.byte	3,1,1,5,41,9
+	.half	.L607-.L606
+	.byte	3,127,1,5,5,9
+	.half	.L608-.L607
+	.byte	3,2,1,5,25,9
+	.half	.L609-.L608
+	.byte	3,1,1,5,43,9
+	.half	.L610-.L609
+	.byte	3,127,1,5,5,9
+	.half	.L611-.L610
+	.byte	3,2,1,5,25,9
+	.half	.L612-.L611
+	.byte	3,1,1,5,43,9
+	.half	.L613-.L612
+	.byte	3,127,1,5,5,9
+	.half	.L614-.L613
+	.byte	3,2,1,5,25,9
+	.half	.L615-.L614
+	.byte	3,1,1,5,46,9
+	.half	.L616-.L615
+	.byte	3,127,1,5,5,9
+	.half	.L617-.L616
+	.byte	3,2,1,5,25,9
+	.half	.L618-.L617
+	.byte	3,1,1,5,46,9
+	.half	.L619-.L618
+	.byte	3,127,1,5,5,9
+	.half	.L620-.L619
+	.byte	3,2,1,5,25,9
+	.half	.L621-.L620
+	.byte	3,1,1,5,44,9
+	.half	.L622-.L621
+	.byte	3,127,1,5,5,9
+	.half	.L623-.L622
+	.byte	3,2,1,5,25,9
+	.half	.L624-.L623
+	.byte	3,1,1,5,47,9
+	.half	.L625-.L624
+	.byte	3,127,1,5,5,9
+	.half	.L626-.L625
+	.byte	3,2,1,5,25,9
+	.half	.L627-.L626
+	.byte	3,1,1,5,44,9
+	.half	.L628-.L627
+	.byte	3,127,1,5,5,9
+	.half	.L629-.L628
+	.byte	3,2,1,5,25,9
+	.half	.L630-.L629
+	.byte	3,1,1,5,46,9
+	.half	.L631-.L630
+	.byte	3,127,1,5,5,9
+	.half	.L632-.L631
+	.byte	3,2,1,5,25,9
+	.half	.L633-.L632
+	.byte	3,1,1,5,48,9
+	.half	.L634-.L633
+	.byte	3,127,1,5,5,9
+	.half	.L635-.L634
+	.byte	3,2,1,5,25,9
+	.half	.L636-.L635
+	.byte	3,1,1,5,46,9
+	.half	.L637-.L636
+	.byte	3,127,1,5,5,9
+	.half	.L638-.L637
+	.byte	3,2,1,5,25,9
+	.half	.L639-.L638
+	.byte	3,1,1,5,47,9
+	.half	.L640-.L639
+	.byte	3,127,1,5,5,9
+	.half	.L641-.L640
+	.byte	3,2,1,5,25,9
+	.half	.L642-.L641
+	.byte	3,1,1,5,48,9
+	.half	.L643-.L642
+	.byte	3,127,1,5,5,9
+	.half	.L644-.L643
+	.byte	3,2,1,5,25,9
+	.half	.L645-.L644
+	.byte	3,1,1,5,45,9
+	.half	.L646-.L645
+	.byte	3,127,1,5,5,9
+	.half	.L647-.L646
+	.byte	3,2,1,5,25,9
+	.half	.L648-.L647
+	.byte	3,1,1,5,43,9
+	.half	.L649-.L648
+	.byte	3,127,1,5,5,9
+	.half	.L650-.L649
+	.byte	3,2,1,5,25,9
+	.half	.L651-.L650
+	.byte	3,1,1,5,47,9
+	.half	.L652-.L651
+	.byte	3,127,1,5,5,9
+	.half	.L653-.L652
+	.byte	3,2,1,5,25,9
+	.half	.L654-.L653
+	.byte	3,1,1,5,47,9
+	.half	.L655-.L654
+	.byte	3,127,1,5,5,9
+	.half	.L656-.L655
+	.byte	3,2,1,5,25,9
+	.half	.L657-.L656
+	.byte	3,1,1,5,44,9
+	.half	.L658-.L657
+	.byte	3,127,1,5,5,9
+	.half	.L659-.L658
+	.byte	3,2,1,5,25,9
+	.half	.L660-.L659
+	.byte	3,1,1,5,48,9
+	.half	.L661-.L660
+	.byte	3,127,1,5,5,9
+	.half	.L662-.L661
+	.byte	3,2,1,5,25,9
+	.half	.L663-.L662
+	.byte	3,1,1,5,48,9
+	.half	.L664-.L663
+	.byte	3,127,1,5,5,9
+	.half	.L665-.L664
+	.byte	3,3,1,5,25,9
+	.half	.L666-.L665
+	.byte	3,1,1,5,42,9
+	.half	.L667-.L666
+	.byte	3,127,1,5,5,9
+	.half	.L668-.L667
+	.byte	3,2,1,5,25,9
+	.half	.L669-.L668
+	.byte	3,1,1,5,42,9
+	.half	.L670-.L669
+	.byte	3,127,1,5,1,9
+	.half	.L671-.L670
+	.byte	3,3,1,7,9
+	.half	.L121-.L671
+	.byte	0,1,1
+.L570:
+	.sdecl	'.debug_ranges',debug,cluster('_Read')
+	.sect	'.debug_ranges'
+.L120:
+	.word	-1,.L40,0,.L121-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('_Write')
+	.sect	'.debug_info'
+.L122:
+	.word	237
+	.half	3
+	.word	.L123
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L125,.L124
+	.byte	2
+	.word	.L43
+	.byte	3
+	.byte	'_Write',0,1,243,4,13,1,1
+	.word	.L42,.L154,.L41
+	.byte	4
+	.word	.L42,.L154
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Write')
+	.sect	'.debug_abbrev'
+.L123:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Write')
+	.sect	'.debug_line'
+.L124:
+	.word	.L673-.L672
+.L672:
+	.half	3
+	.word	.L675-.L674
+.L674:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestDio.c',0,0,0,0,0
+.L675:
+	.byte	5,22,7,0,5,2
+	.word	.L42
+	.byte	3,244,4,1,5,9,9
+	.half	.L676-.L42
+	.byte	3,1,1,5,34,9
+	.half	.L677-.L676
+	.byte	1,5,22,9
+	.half	.L678-.L677
+	.byte	3,1,1,5,9,9
+	.half	.L679-.L678
+	.byte	3,1,1,5,34,9
+	.half	.L680-.L679
+	.byte	1,5,22,9
+	.half	.L681-.L680
+	.byte	3,1,1,5,9,9
+	.half	.L682-.L681
+	.byte	3,1,1,5,34,9
+	.half	.L683-.L682
+	.byte	1,5,22,9
+	.half	.L684-.L683
+	.byte	3,1,1,5,9,9
+	.half	.L685-.L684
+	.byte	3,1,1,5,34,9
+	.half	.L686-.L685
+	.byte	1,5,22,9
+	.half	.L687-.L686
+	.byte	3,1,1,5,9,9
+	.half	.L688-.L687
+	.byte	3,1,1,5,34,9
+	.half	.L689-.L688
+	.byte	1,5,22,9
+	.half	.L690-.L689
+	.byte	3,1,1,5,9,9
+	.half	.L691-.L690
+	.byte	3,1,1,5,34,9
+	.half	.L692-.L691
+	.byte	1,5,22,9
+	.half	.L693-.L692
+	.byte	3,1,1,5,9,9
+	.half	.L694-.L693
+	.byte	3,1,1,5,34,9
+	.half	.L695-.L694
+	.byte	1,5,22,9
+	.half	.L696-.L695
+	.byte	3,1,1,5,9,9
+	.half	.L697-.L696
+	.byte	3,1,1,5,34,9
+	.half	.L698-.L697
+	.byte	1,5,22,9
+	.half	.L699-.L698
+	.byte	3,1,1,5,9,9
+	.half	.L700-.L699
+	.byte	3,1,1,5,34,9
+	.half	.L701-.L700
+	.byte	1,5,22,9
+	.half	.L702-.L701
+	.byte	3,1,1,5,9,9
+	.half	.L703-.L702
+	.byte	3,1,1,5,34,9
+	.half	.L704-.L703
+	.byte	1,5,22,9
+	.half	.L705-.L704
+	.byte	3,1,1,5,9,9
+	.half	.L706-.L705
+	.byte	3,1,1,5,34,9
+	.half	.L707-.L706
+	.byte	1,5,22,9
+	.half	.L708-.L707
+	.byte	3,1,1,5,9,9
+	.half	.L709-.L708
+	.byte	3,1,1,5,34,9
+	.half	.L710-.L709
+	.byte	1,5,22,9
+	.half	.L711-.L710
+	.byte	3,1,1,5,9,9
+	.half	.L712-.L711
+	.byte	3,1,1,5,34,9
+	.half	.L713-.L712
+	.byte	1,5,22,9
+	.half	.L714-.L713
+	.byte	3,1,1,5,9,9
+	.half	.L715-.L714
+	.byte	3,1,1,5,34,9
+	.half	.L716-.L715
+	.byte	1,5,22,9
+	.half	.L717-.L716
+	.byte	3,1,1,5,9,9
+	.half	.L718-.L717
+	.byte	3,1,1,5,34,9
+	.half	.L719-.L718
+	.byte	1,5,22,9
+	.half	.L720-.L719
+	.byte	3,1,1,5,9,9
+	.half	.L721-.L720
+	.byte	3,1,1,5,34,9
+	.half	.L722-.L721
+	.byte	1,5,22,9
+	.half	.L723-.L722
+	.byte	3,1,1,5,9,9
+	.half	.L724-.L723
+	.byte	3,1,1,5,34,9
+	.half	.L725-.L724
+	.byte	1,5,1,9
+	.half	.L726-.L725
+	.byte	3,2,1,7,9
+	.half	.L126-.L726
+	.byte	0,1,1
+.L673:
+	.sdecl	'.debug_ranges',debug,cluster('_Write')
+	.sect	'.debug_ranges'
+.L125:
+	.word	-1,.L42,0,.L126-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('l_tTestDio_Inst')
+	.sect	'.debug_info'
+.L127:
+	.word	225
+	.half	3
+	.word	.L128
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestDio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
+	.byte	3
+	.byte	'l_tTestDio_Inst',0,3,141,1,20
+	.word	.L155
+	.byte	1,5,3
+	.word	l_tTestDio_Inst
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('l_tTestDio_Inst')
+	.sect	'.debug_abbrev'
+.L128:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_100ms')
+	.sect	'.debug_loc'
+.L13:
+	.word	-1,.L14,0,.L130-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_CtrlMcanEn')
+	.sect	'.debug_loc'
+.L31:
+	.word	-1,.L32,0,.L145-.L32
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L146:
+	.word	-1,.L32,0,.L159-.L32
+	.half	1
+	.byte	84
+	.word	.L160-.L32,.L161-.L32
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_CtrlMcanStandby')
+	.sect	'.debug_loc'
+.L33:
+	.word	-1,.L34,0,.L147-.L34
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L148:
+	.word	-1,.L34,0,.L162-.L34
+	.half	1
+	.byte	84
+	.word	.L163-.L34,.L164-.L34
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_GetAccWup')
+	.sect	'.debug_loc'
+.L21:
+	.word	-1,.L22,0,.L139-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_GetIg1')
+	.sect	'.debug_loc'
+.L19:
+	.word	-1,.L20,0,.L138-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_GetMCanWup')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L142-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_GetPressureWup')
+	.sect	'.debug_loc'
+.L25:
+	.word	-1,.L26,0,.L141-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_GetSolarWup')
+	.sect	'.debug_loc'
+.L23:
+	.word	-1,.L24,0,.L140-.L24
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_GetValue')
+	.sect	'.debug_loc'
+.L17:
+	.word	-1,.L18,0,.L134-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L136:
+	.word	-1,.L18,0,.L134-.L18
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_Init')
+	.sect	'.debug_loc'
+.L11:
+	.word	-1,.L12,0,.L129-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_SetIsoNegEn')
+	.sect	'.debug_loc'
+.L37:
+	.word	-1,.L38,0,.L151-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L152:
+	.word	-1,.L38,0,.L168-.L38
+	.half	1
+	.byte	84
+	.word	.L169-.L38,.L170-.L38
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_SetIsoPosEn')
+	.sect	'.debug_loc'
+.L35:
+	.word	-1,.L36,0,.L149-.L36
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L150:
+	.word	-1,.L36,0,.L165-.L36
+	.half	1
+	.byte	84
+	.word	.L166-.L36,.L167-.L36
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_SetPwrOff')
+	.sect	'.debug_loc'
+.L29:
+	.word	-1,.L30,0,.L143-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L144:
+	.word	-1,.L30,0,.L156-.L30
+	.half	1
+	.byte	84
+	.word	.L157-.L30,.L158-.L30
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestDio_SetValue')
+	.sect	'.debug_loc'
+.L15:
+	.word	-1,.L16,0,.L131-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L133:
+	.word	-1,.L16,0,.L131-.L16
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_Read')
+	.sect	'.debug_loc'
+.L39:
+	.word	-1,.L40,0,.L153-.L40
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_Write')
+	.sect	'.debug_loc'
+.L41:
+	.word	-1,.L42,0,.L154-.L42
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L727:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('TestDio_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L12,.L129-.L12
+	.sdecl	'.debug_frame',debug,cluster('TestDio_100ms')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L14,.L130-.L14
+	.sdecl	'.debug_frame',debug,cluster('TestDio_SetValue')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L727,.L16,.L131-.L16
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('TestDio_GetValue')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L727,.L18,.L134-.L18
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('TestDio_GetIg1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L20,.L138-.L20
+	.sdecl	'.debug_frame',debug,cluster('TestDio_GetAccWup')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L22,.L139-.L22
+	.sdecl	'.debug_frame',debug,cluster('TestDio_GetSolarWup')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L24,.L140-.L24
+	.sdecl	'.debug_frame',debug,cluster('TestDio_GetPressureWup')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L26,.L141-.L26
+	.sdecl	'.debug_frame',debug,cluster('TestDio_GetMCanWup')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L28,.L142-.L28
+	.sdecl	'.debug_frame',debug,cluster('TestDio_SetPwrOff')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L30,.L143-.L30
+	.sdecl	'.debug_frame',debug,cluster('TestDio_CtrlMcanEn')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L32,.L145-.L32
+	.sdecl	'.debug_frame',debug,cluster('TestDio_CtrlMcanStandby')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L34,.L147-.L34
+	.sdecl	'.debug_frame',debug,cluster('TestDio_SetIsoPosEn')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L36,.L149-.L36
+	.sdecl	'.debug_frame',debug,cluster('TestDio_SetIsoNegEn')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L38,.L151-.L38
+	.sdecl	'.debug_frame',debug,cluster('_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L40,.L153-.L40
+	.sdecl	'.debug_frame',debug,cluster('_Write')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L727,.L42,.L154-.L42
+	; Module end

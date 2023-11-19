@@ -1,0 +1,2860 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc8900a --dep-file=BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.src ../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c"
+	.compiler_name		"ctc"
+	;source	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.adi_wil_osal.adi_wil_osal_CreateResource',code,cluster('adi_wil_osal_CreateResource')
+	.sect	'.text.adi_wil_osal.adi_wil_osal_CreateResource'
+	.align	2
+	
+	.global	adi_wil_osal_CreateResource
+; Function adi_wil_osal_CreateResource
+.L49:
+adi_wil_osal_CreateResource:	.type	func
+	mov	d0,#0
+.L140:
+	mov	d1,#0
+.L141:
+	mov	d2,#1
+.L142:
+	mov	d3,#0
+.L143:
+	j	.L2
+.L3:
+	mul	d15,d3,#8
+.L157:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L158:
+	addsc.a	a15,a15,d15,#0
+.L159:
+	ld.bu	d15,[a15]4
+.L160:
+	jeq	d15,#0,.L4
+.L161:
+	mul	d15,d3,#8
+.L162:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L163:
+	addsc.a	a15,a15,d15,#0
+.L164:
+	ld.a	a15,[a15]
+.L165:
+	jne.a	a15,a4,.L5
+.L166:
+	mov	d0,#1
+.L167:
+	mov	d2,#0
+.L168:
+	j	.L6
+.L5:
+.L4:
+	mul	d15,d3,#8
+.L169:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L170:
+	addsc.a	a15,a15,d15,#0
+.L171:
+	ld.bu	d15,[a15]4
+.L172:
+	jne	d15,#0,.L7
+.L173:
+	mov	d1,d3
+.L174:
+	j	.L8
+.L7:
+	add	d3,#1
+.L2:
+	jlt.u	d3,#2,.L3
+.L8:
+.L6:
+	jne	d0,#0,.L9
+.L175:
+	jeq	d3,#2,.L10
+.L176:
+	mul	d15,d1,#8
+.L177:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L178:
+	addsc.a	a15,a15,d15,#0
+.L179:
+	st.a	[a15],a4
+.L180:
+	mul	d15,d1,#8
+.L181:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L182:
+	addsc.a	a15,a15,d15,#0
+.L183:
+	mov	d15,#1
+.L184:
+	st.b	[a15]4,d15
+.L185:
+	movh.a	a15,#@his(bgResourceAcquired)
+	lea	a15,[a15]@los(bgResourceAcquired)
+.L186:
+	addsc.a	a15,a15,d1,#0
+.L187:
+	mov	d15,#0
+.L188:
+	st.b	[a15],d15
+.L189:
+	mov	d2,#0
+.L10:
+.L9:
+	j	.L11
+.L11:
+	ret
+.L99:
+	
+__adi_wil_osal_CreateResource_function_end:
+	.size	adi_wil_osal_CreateResource,__adi_wil_osal_CreateResource_function_end-adi_wil_osal_CreateResource
+.L68:
+	; End of function
+	
+	.sdecl	'.text.adi_wil_osal.adi_wil_osal_AcquireResource',code,cluster('adi_wil_osal_AcquireResource')
+	.sect	'.text.adi_wil_osal.adi_wil_osal_AcquireResource'
+	.align	2
+	
+	.global	adi_wil_osal_AcquireResource
+; Function adi_wil_osal_AcquireResource
+.L51:
+adi_wil_osal_AcquireResource:	.type	func
+	mov	d0,#0
+.L112:
+	mov	d1,#0
+.L144:
+	j	.L12
+.L13:
+	mul	d15,d1,#8
+.L194:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L195:
+	addsc.a	a15,a15,d15,#0
+.L196:
+	ld.bu	d15,[a15]4
+.L197:
+	jeq	d15,#0,.L14
+.L198:
+	mul	d15,d1,#8
+.L199:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L200:
+	addsc.a	a15,a15,d15,#0
+.L201:
+	ld.a	a15,[a15]
+.L202:
+	jne.a	a15,a4,.L15
+.L203:
+	movh.a	a15,#@his(bgResourceAcquired)
+	lea	a15,[a15]@los(bgResourceAcquired)
+.L204:
+	addsc.a	a15,a15,d1,#0
+.L205:
+	mov	d15,#1
+.L206:
+	st.b	[a15],d15
+.L207:
+	mov	d0,#1
+.L208:
+	j	.L16
+.L15:
+.L14:
+	add	d1,#1
+.L12:
+	jlt.u	d1,#2,.L13
+.L16:
+	jeq	d0,#0,.L17
+.L209:
+	mov	d2,#0
+.L210:
+	j	.L18
+.L17:
+	mov	d2,#1
+.L18:
+	j	.L19
+.L19:
+	ret
+.L108:
+	
+__adi_wil_osal_AcquireResource_function_end:
+	.size	adi_wil_osal_AcquireResource,__adi_wil_osal_AcquireResource_function_end-adi_wil_osal_AcquireResource
+.L73:
+	; End of function
+	
+	.sdecl	'.text.adi_wil_osal.adi_wil_osal_ReleaseResource',code,cluster('adi_wil_osal_ReleaseResource')
+	.sect	'.text.adi_wil_osal.adi_wil_osal_ReleaseResource'
+	.align	2
+	
+	.global	adi_wil_osal_ReleaseResource
+; Function adi_wil_osal_ReleaseResource
+.L53:
+adi_wil_osal_ReleaseResource:	.type	func
+	mov	d0,#0
+.L118:
+	mov	d1,#0
+.L145:
+	j	.L20
+.L21:
+	mul	d15,d1,#8
+.L215:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L216:
+	addsc.a	a15,a15,d15,#0
+.L217:
+	ld.bu	d15,[a15]4
+.L218:
+	jeq	d15,#0,.L22
+.L219:
+	mul	d15,d1,#8
+.L220:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L221:
+	addsc.a	a15,a15,d15,#0
+.L222:
+	ld.a	a15,[a15]
+.L223:
+	jne.a	a15,a4,.L23
+.L224:
+	movh.a	a15,#@his(bgResourceAcquired)
+	lea	a15,[a15]@los(bgResourceAcquired)
+.L225:
+	addsc.a	a15,a15,d1,#0
+.L226:
+	mov	d15,#0
+.L227:
+	st.b	[a15],d15
+.L228:
+	mov	d0,#1
+.L229:
+	j	.L24
+.L23:
+.L22:
+	add	d1,#1
+.L20:
+	jlt.u	d1,#2,.L21
+.L24:
+	jeq	d0,#0,.L25
+.L230:
+	mov	d2,#0
+.L231:
+	j	.L26
+.L25:
+	mov	d2,#1
+.L26:
+	j	.L27
+.L27:
+	ret
+.L114:
+	
+__adi_wil_osal_ReleaseResource_function_end:
+	.size	adi_wil_osal_ReleaseResource,__adi_wil_osal_ReleaseResource_function_end-adi_wil_osal_ReleaseResource
+.L78:
+	; End of function
+	
+	.sdecl	'.text.adi_wil_osal.adi_wil_osal_DestroyResource',code,cluster('adi_wil_osal_DestroyResource')
+	.sect	'.text.adi_wil_osal.adi_wil_osal_DestroyResource'
+	.align	2
+	
+	.global	adi_wil_osal_DestroyResource
+; Function adi_wil_osal_DestroyResource
+.L55:
+adi_wil_osal_DestroyResource:	.type	func
+	mov	d0,#0
+.L124:
+	mov	d1,#0
+.L146:
+	j	.L28
+.L29:
+	mul	d15,d1,#8
+.L236:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L237:
+	addsc.a	a15,a15,d15,#0
+.L238:
+	ld.bu	d15,[a15]4
+.L239:
+	jeq	d15,#0,.L30
+.L240:
+	mul	d15,d1,#8
+.L241:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L242:
+	addsc.a	a15,a15,d15,#0
+.L243:
+	ld.a	a15,[a15]
+.L244:
+	jne.a	a15,a4,.L31
+.L245:
+	mul	d15,d1,#8
+.L246:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L247:
+	addsc.a	a15,a15,d15,#0
+.L248:
+	mov	d15,#0
+.L249:
+	st.b	[a15]4,d15
+.L250:
+	movh.a	a15,#@his(bgResourceAcquired)
+	lea	a15,[a15]@los(bgResourceAcquired)
+.L251:
+	addsc.a	a15,a15,d1,#0
+.L252:
+	mov	d15,#0
+.L253:
+	st.b	[a15],d15
+.L254:
+	mov	d0,#1
+.L255:
+	j	.L32
+.L31:
+.L30:
+	add	d1,#1
+.L28:
+	jlt.u	d1,#2,.L29
+.L32:
+	jeq	d0,#0,.L33
+.L256:
+	mov	d2,#0
+.L257:
+	j	.L34
+.L33:
+	mov	d2,#1
+.L34:
+	j	.L35
+.L35:
+	ret
+.L120:
+	
+__adi_wil_osal_DestroyResource_function_end:
+	.size	adi_wil_osal_DestroyResource,__adi_wil_osal_DestroyResource_function_end-adi_wil_osal_DestroyResource
+.L83:
+	; End of function
+	
+	.sdecl	'.text.adi_wil_osal.WaitForWilAPI',code,cluster('WaitForWilAPI')
+	.sect	'.text.adi_wil_osal.WaitForWilAPI'
+	.align	2
+	
+	.global	WaitForWilAPI
+; Function WaitForWilAPI
+.L57:
+WaitForWilAPI:	.type	func
+	mov	d0,#0
+.L147:
+	j	.L36
+.L37:
+	mul	d15,d0,#8
+.L262:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L263:
+	addsc.a	a15,a15,d15,#0
+.L264:
+	ld.bu	d15,[a15]4
+.L265:
+	jeq	d15,#0,.L38
+.L266:
+	mul	d15,d0,#8
+.L267:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L268:
+	addsc.a	a15,a15,d15,#0
+.L269:
+	ld.a	a15,[a15]
+.L270:
+	jne.a	a15,a4,.L39
+.L271:
+	j	.L40
+.L41:
+.L40:
+	movh.a	a15,#@his(bgResourceAcquired)
+	lea	a15,[a15]@los(bgResourceAcquired)
+.L272:
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d15,[a15]
+.L273:
+	jne	d15,#0,.L41
+.L39:
+.L38:
+	add	d0,#1
+.L36:
+	jlt.u	d0,#2,.L37
+.L129:
+	ret
+.L126:
+	
+__WaitForWilAPI_function_end:
+	.size	WaitForWilAPI,__WaitForWilAPI_function_end-WaitForWilAPI
+.L88:
+	; End of function
+	
+	.sdecl	'.text.adi_wil_osal.IsReleaseWilAPI',code,cluster('IsReleaseWilAPI')
+	.sect	'.text.adi_wil_osal.IsReleaseWilAPI'
+	.align	2
+	
+	.global	IsReleaseWilAPI
+; Function IsReleaseWilAPI
+.L59:
+IsReleaseWilAPI:	.type	func
+	mov	d2,#0
+.L135:
+	mov	d0,#0
+.L148:
+	j	.L42
+.L43:
+	mul	d15,d0,#8
+.L278:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L279:
+	addsc.a	a15,a15,d15,#0
+.L280:
+	ld.bu	d15,[a15]4
+.L281:
+	jeq	d15,#0,.L44
+.L282:
+	mul	d15,d0,#8
+.L283:
+	movh.a	a15,#@his(osal_sem)
+	lea	a15,[a15]@los(osal_sem)
+.L284:
+	addsc.a	a15,a15,d15,#0
+.L285:
+	ld.a	a15,[a15]
+.L286:
+	jne.a	a15,a4,.L45
+.L287:
+	movh.a	a15,#@his(bgResourceAcquired)
+	lea	a15,[a15]@los(bgResourceAcquired)
+.L288:
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d15,[a15]
+.L289:
+	jne	d15,#0,.L46
+.L290:
+	mov	d2,#1
+.L46:
+.L45:
+.L44:
+	add	d0,#1
+.L42:
+	jlt.u	d0,#2,.L43
+.L136:
+	j	.L47
+.L47:
+	ret
+.L131:
+	
+__IsReleaseWilAPI_function_end:
+	.size	IsReleaseWilAPI,__IsReleaseWilAPI_function_end-IsReleaseWilAPI
+.L93:
+	; End of function
+	
+	.sdecl	'.bss.adi_wil_osal.osal_sem',data,cluster('osal_sem')
+	.sect	'.bss.adi_wil_osal.osal_sem'
+	.align	4
+osal_sem:	.type	object
+	.size	osal_sem,16
+	.space	16
+	.sdecl	'.data.adi_wil_osal.bgResourceAcquired',data,cluster('bgResourceAcquired')
+	.sect	'.data.adi_wil_osal.bgResourceAcquired'
+	.global	bgResourceAcquired
+bgResourceAcquired:	.type	object
+	.size	bgResourceAcquired,2
+	.space	2
+	.calls	'adi_wil_osal_CreateResource','',0
+	.calls	'adi_wil_osal_AcquireResource','',0
+	.calls	'adi_wil_osal_ReleaseResource','',0
+	.calls	'adi_wil_osal_DestroyResource','',0
+	.calls	'WaitForWilAPI','',0
+	.calls	'IsReleaseWilAPI','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L61:
+	.word	8745
+	.half	3
+	.word	.L62
+	.byte	4
+.L60:
+	.byte	1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L63
+.L98:
+	.byte	2,1,26,9,1,3
+	.byte	'ADI_WIL_OSAL_ERR_SUCCESS',0,0,3
+	.byte	'ADI_WIL_OSAL_ERR_FAIL',0,1,3
+	.byte	'ADI_WIL_OSAL_ERR_NO_RESOURCE',0,2,0,4
+	.byte	'void',0,5
+	.word	298
+	.byte	6
+	.word	304
+.L100:
+	.byte	5
+	.word	309
+.L102:
+	.byte	7
+	.byte	'_Bool',0,1,2
+.L104:
+	.byte	7
+	.byte	'unsigned char',0,1,8
+.L109:
+	.byte	5
+	.word	309
+.L115:
+	.byte	5
+	.word	309
+.L121:
+	.byte	5
+	.word	309
+.L127:
+	.byte	5
+	.word	309
+.L132:
+	.byte	5
+	.word	309
+	.byte	7
+	.byte	'unsigned int',0,4,7,8
+	.byte	'__size_t',0,2,1,1
+	.word	370
+	.byte	9,1,6
+	.word	403
+	.byte	8
+	.byte	'__codeptr',0,2,1,1
+	.word	405
+	.byte	7
+	.byte	'int',0,4,5,8
+	.byte	'__intptr_t',0,2,1,1
+	.word	428
+	.byte	8
+	.byte	'__uintptr_t',0,2,1,1
+	.word	370
+	.byte	8
+	.byte	'adi_wil_osal_err_t',0,1,30,3
+	.word	210
+	.byte	8
+	.byte	'Ifx_UReg_8Bit',0,3,79,24
+	.word	328
+	.byte	8
+	.byte	'Ifx_UReg_32Bit',0,3,81,24
+	.word	370
+	.byte	8
+	.byte	'Ifx_SReg_32Bit',0,3,84,24
+	.word	428
+	.byte	10
+	.byte	'_Ifx_P_ACCEN0_Bits',0,4,70,16,4,11
+	.byte	'EN0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'EN1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'EN2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'EN3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'EN4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'EN5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'EN6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'EN7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'EN8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'EN9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'EN10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'EN11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'EN12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'EN13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'EN14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'EN15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'EN16',0,1
+	.word	328
+	.byte	1,7,2,35,2,11
+	.byte	'EN17',0,1
+	.word	328
+	.byte	1,6,2,35,2,11
+	.byte	'EN18',0,1
+	.word	328
+	.byte	1,5,2,35,2,11
+	.byte	'EN19',0,1
+	.word	328
+	.byte	1,4,2,35,2,11
+	.byte	'EN20',0,1
+	.word	328
+	.byte	1,3,2,35,2,11
+	.byte	'EN21',0,1
+	.word	328
+	.byte	1,2,2,35,2,11
+	.byte	'EN22',0,1
+	.word	328
+	.byte	1,1,2,35,2,11
+	.byte	'EN23',0,1
+	.word	328
+	.byte	1,0,2,35,2,11
+	.byte	'EN24',0,1
+	.word	328
+	.byte	1,7,2,35,3,11
+	.byte	'EN25',0,1
+	.word	328
+	.byte	1,6,2,35,3,11
+	.byte	'EN26',0,1
+	.word	328
+	.byte	1,5,2,35,3,11
+	.byte	'EN27',0,1
+	.word	328
+	.byte	1,4,2,35,3,11
+	.byte	'EN28',0,1
+	.word	328
+	.byte	1,3,2,35,3,11
+	.byte	'EN29',0,1
+	.word	328
+	.byte	1,2,2,35,3,11
+	.byte	'EN30',0,1
+	.word	328
+	.byte	1,1,2,35,3,11
+	.byte	'EN31',0,1
+	.word	328
+	.byte	1,0,2,35,3,0,8
+	.byte	'Ifx_P_ACCEN0_Bits',0,4,104,3
+	.word	569
+	.byte	10
+	.byte	'_Ifx_P_ACCEN1_Bits',0,4,107,16,4,11
+	.byte	'reserved_0',0,4
+	.word	370
+	.byte	32,0,2,35,0,0,8
+	.byte	'Ifx_P_ACCEN1_Bits',0,4,110,3
+	.word	1122
+	.byte	7
+	.byte	'unsigned short int',0,2,7,10
+	.byte	'_Ifx_P_ESR_Bits',0,4,113,16,4,11
+	.byte	'EN0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'EN1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'EN2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'EN3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'EN4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'EN5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'EN6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'EN7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'EN8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'EN9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'EN10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'EN11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'EN12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'EN13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'EN14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'EN15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_ESR_Bits',0,4,132,1,3
+	.word	1217
+	.byte	10
+	.byte	'_Ifx_P_ID_Bits',0,4,135,1,16,4,11
+	.byte	'MODREV',0,1
+	.word	328
+	.byte	8,0,2,35,0,11
+	.byte	'MODTYPE',0,1
+	.word	328
+	.byte	8,0,2,35,1,11
+	.byte	'MODNUMBER',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_ID_Bits',0,4,140,1,3
+	.word	1532
+	.byte	10
+	.byte	'_Ifx_P_IN_Bits',0,4,143,1,16,4,11
+	.byte	'P0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'P1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'P2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'P3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'P4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'P5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'P6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'P7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'P8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'P9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'P10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'P11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'P12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'P13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'P14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'P15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_IN_Bits',0,4,162,1,3
+	.word	1635
+	.byte	10
+	.byte	'_Ifx_P_IOCR0_Bits',0,4,165,1,16,4,11
+	.byte	'reserved_0',0,1
+	.word	328
+	.byte	3,5,2,35,0,11
+	.byte	'PC0',0,1
+	.word	328
+	.byte	5,0,2,35,0,11
+	.byte	'reserved_8',0,1
+	.word	328
+	.byte	3,5,2,35,1,11
+	.byte	'PC1',0,1
+	.word	328
+	.byte	5,0,2,35,1,11
+	.byte	'reserved_16',0,1
+	.word	328
+	.byte	3,5,2,35,2,11
+	.byte	'PC2',0,1
+	.word	328
+	.byte	5,0,2,35,2,11
+	.byte	'reserved_24',0,1
+	.word	328
+	.byte	3,5,2,35,3,11
+	.byte	'PC3',0,1
+	.word	328
+	.byte	5,0,2,35,3,0,8
+	.byte	'Ifx_P_IOCR0_Bits',0,4,175,1,3
+	.word	1933
+	.byte	10
+	.byte	'_Ifx_P_IOCR12_Bits',0,4,178,1,16,4,11
+	.byte	'reserved_0',0,1
+	.word	328
+	.byte	3,5,2,35,0,11
+	.byte	'PC12',0,1
+	.word	328
+	.byte	5,0,2,35,0,11
+	.byte	'reserved_8',0,1
+	.word	328
+	.byte	3,5,2,35,1,11
+	.byte	'PC13',0,1
+	.word	328
+	.byte	5,0,2,35,1,11
+	.byte	'reserved_16',0,1
+	.word	328
+	.byte	3,5,2,35,2,11
+	.byte	'PC14',0,1
+	.word	328
+	.byte	5,0,2,35,2,11
+	.byte	'reserved_24',0,1
+	.word	328
+	.byte	3,5,2,35,3,11
+	.byte	'PC15',0,1
+	.word	328
+	.byte	5,0,2,35,3,0,8
+	.byte	'Ifx_P_IOCR12_Bits',0,4,188,1,3
+	.word	2134
+	.byte	10
+	.byte	'_Ifx_P_IOCR4_Bits',0,4,191,1,16,4,11
+	.byte	'reserved_0',0,1
+	.word	328
+	.byte	3,5,2,35,0,11
+	.byte	'PC4',0,1
+	.word	328
+	.byte	5,0,2,35,0,11
+	.byte	'reserved_8',0,1
+	.word	328
+	.byte	3,5,2,35,1,11
+	.byte	'PC5',0,1
+	.word	328
+	.byte	5,0,2,35,1,11
+	.byte	'reserved_16',0,1
+	.word	328
+	.byte	3,5,2,35,2,11
+	.byte	'PC6',0,1
+	.word	328
+	.byte	5,0,2,35,2,11
+	.byte	'reserved_24',0,1
+	.word	328
+	.byte	3,5,2,35,3,11
+	.byte	'PC7',0,1
+	.word	328
+	.byte	5,0,2,35,3,0,8
+	.byte	'Ifx_P_IOCR4_Bits',0,4,201,1,3
+	.word	2341
+	.byte	10
+	.byte	'_Ifx_P_IOCR8_Bits',0,4,204,1,16,4,11
+	.byte	'reserved_0',0,1
+	.word	328
+	.byte	3,5,2,35,0,11
+	.byte	'PC8',0,1
+	.word	328
+	.byte	5,0,2,35,0,11
+	.byte	'reserved_8',0,1
+	.word	328
+	.byte	3,5,2,35,1,11
+	.byte	'PC9',0,1
+	.word	328
+	.byte	5,0,2,35,1,11
+	.byte	'reserved_16',0,1
+	.word	328
+	.byte	3,5,2,35,2,11
+	.byte	'PC10',0,1
+	.word	328
+	.byte	5,0,2,35,2,11
+	.byte	'reserved_24',0,1
+	.word	328
+	.byte	3,5,2,35,3,11
+	.byte	'PC11',0,1
+	.word	328
+	.byte	5,0,2,35,3,0,8
+	.byte	'Ifx_P_IOCR8_Bits',0,4,214,1,3
+	.word	2542
+	.byte	10
+	.byte	'_Ifx_P_LPCR_Bits',0,4,217,1,16,4,11
+	.byte	'REN_CTRL',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'RX_EN',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'TERM',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'LRXTERM',0,1
+	.word	328
+	.byte	3,2,2,35,0,11
+	.byte	'LVDSM',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'PS',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'TEN_CTRL',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'TX_EN',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'VDIFFADJ',0,1
+	.word	328
+	.byte	2,4,2,35,1,11
+	.byte	'VOSDYN',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'VOSEXT',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'TX_PD',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'TX_PWDPD',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_LPCR_Bits',0,4,233,1,3
+	.word	2745
+	.byte	10
+	.byte	'_Ifx_P_OMCR_Bits',0,4,236,1,16,4,11
+	.byte	'reserved_0',0,2
+	.word	1195
+	.byte	16,0,2,35,0,11
+	.byte	'PCL0',0,1
+	.word	328
+	.byte	1,7,2,35,2,11
+	.byte	'PCL1',0,1
+	.word	328
+	.byte	1,6,2,35,2,11
+	.byte	'PCL2',0,1
+	.word	328
+	.byte	1,5,2,35,2,11
+	.byte	'PCL3',0,1
+	.word	328
+	.byte	1,4,2,35,2,11
+	.byte	'PCL4',0,1
+	.word	328
+	.byte	1,3,2,35,2,11
+	.byte	'PCL5',0,1
+	.word	328
+	.byte	1,2,2,35,2,11
+	.byte	'PCL6',0,1
+	.word	328
+	.byte	1,1,2,35,2,11
+	.byte	'PCL7',0,1
+	.word	328
+	.byte	1,0,2,35,2,11
+	.byte	'PCL8',0,1
+	.word	328
+	.byte	1,7,2,35,3,11
+	.byte	'PCL9',0,1
+	.word	328
+	.byte	1,6,2,35,3,11
+	.byte	'PCL10',0,1
+	.word	328
+	.byte	1,5,2,35,3,11
+	.byte	'PCL11',0,1
+	.word	328
+	.byte	1,4,2,35,3,11
+	.byte	'PCL12',0,1
+	.word	328
+	.byte	1,3,2,35,3,11
+	.byte	'PCL13',0,1
+	.word	328
+	.byte	1,2,2,35,3,11
+	.byte	'PCL14',0,1
+	.word	328
+	.byte	1,1,2,35,3,11
+	.byte	'PCL15',0,1
+	.word	328
+	.byte	1,0,2,35,3,0,8
+	.byte	'Ifx_P_OMCR_Bits',0,4,255,1,3
+	.word	3050
+	.byte	10
+	.byte	'_Ifx_P_OMCR0_Bits',0,4,130,2,16,4,11
+	.byte	'reserved_0',0,2
+	.word	1195
+	.byte	16,0,2,35,0,11
+	.byte	'PCL0',0,1
+	.word	328
+	.byte	1,7,2,35,2,11
+	.byte	'PCL1',0,1
+	.word	328
+	.byte	1,6,2,35,2,11
+	.byte	'PCL2',0,1
+	.word	328
+	.byte	1,5,2,35,2,11
+	.byte	'PCL3',0,1
+	.word	328
+	.byte	1,4,2,35,2,11
+	.byte	'reserved_20',0,2
+	.word	1195
+	.byte	12,0,2,35,2,0,8
+	.byte	'Ifx_P_OMCR0_Bits',0,4,138,2,3
+	.word	3383
+	.byte	10
+	.byte	'_Ifx_P_OMCR12_Bits',0,4,141,2,16,4,11
+	.byte	'reserved_0',0,4
+	.word	370
+	.byte	28,4,2,35,0,11
+	.byte	'PCL12',0,1
+	.word	328
+	.byte	1,3,2,35,3,11
+	.byte	'PCL13',0,1
+	.word	328
+	.byte	1,2,2,35,3,11
+	.byte	'PCL14',0,1
+	.word	328
+	.byte	1,1,2,35,3,11
+	.byte	'PCL15',0,1
+	.word	328
+	.byte	1,0,2,35,3,0,8
+	.byte	'Ifx_P_OMCR12_Bits',0,4,148,2,3
+	.word	3543
+	.byte	10
+	.byte	'_Ifx_P_OMCR4_Bits',0,4,151,2,16,4,11
+	.byte	'reserved_0',0,4
+	.word	370
+	.byte	20,12,2,35,0,11
+	.byte	'PCL4',0,1
+	.word	328
+	.byte	1,3,2,35,2,11
+	.byte	'PCL5',0,1
+	.word	328
+	.byte	1,2,2,35,2,11
+	.byte	'PCL6',0,1
+	.word	328
+	.byte	1,1,2,35,2,11
+	.byte	'PCL7',0,1
+	.word	328
+	.byte	1,0,2,35,2,11
+	.byte	'reserved_24',0,1
+	.word	328
+	.byte	8,0,2,35,3,0,8
+	.byte	'Ifx_P_OMCR4_Bits',0,4,159,2,3
+	.word	3686
+	.byte	10
+	.byte	'_Ifx_P_OMCR8_Bits',0,4,162,2,16,4,11
+	.byte	'reserved_0',0,4
+	.word	370
+	.byte	24,8,2,35,0,11
+	.byte	'PCL8',0,1
+	.word	328
+	.byte	1,7,2,35,3,11
+	.byte	'PCL9',0,1
+	.word	328
+	.byte	1,6,2,35,3,11
+	.byte	'PCL10',0,1
+	.word	328
+	.byte	1,5,2,35,3,11
+	.byte	'PCL11',0,1
+	.word	328
+	.byte	1,4,2,35,3,11
+	.byte	'reserved_28',0,1
+	.word	328
+	.byte	4,0,2,35,3,0,8
+	.byte	'Ifx_P_OMCR8_Bits',0,4,170,2,3
+	.word	3846
+	.byte	10
+	.byte	'_Ifx_P_OMR_Bits',0,4,173,2,16,4,11
+	.byte	'PS0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'PS1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'PS2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'PS3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'PS4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'PS5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'PS6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'PS7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'PS8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'PS9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'PS10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'PS11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'PS12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'PS13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'PS14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'PS15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'PCL0',0,1
+	.word	328
+	.byte	1,7,2,35,2,11
+	.byte	'PCL1',0,1
+	.word	328
+	.byte	1,6,2,35,2,11
+	.byte	'PCL2',0,1
+	.word	328
+	.byte	1,5,2,35,2,11
+	.byte	'PCL3',0,1
+	.word	328
+	.byte	1,4,2,35,2,11
+	.byte	'PCL4',0,1
+	.word	328
+	.byte	1,3,2,35,2,11
+	.byte	'PCL5',0,1
+	.word	328
+	.byte	1,2,2,35,2,11
+	.byte	'PCL6',0,1
+	.word	328
+	.byte	1,1,2,35,2,11
+	.byte	'PCL7',0,1
+	.word	328
+	.byte	1,0,2,35,2,11
+	.byte	'PCL8',0,1
+	.word	328
+	.byte	1,7,2,35,3,11
+	.byte	'PCL9',0,1
+	.word	328
+	.byte	1,6,2,35,3,11
+	.byte	'PCL10',0,1
+	.word	328
+	.byte	1,5,2,35,3,11
+	.byte	'PCL11',0,1
+	.word	328
+	.byte	1,4,2,35,3,11
+	.byte	'PCL12',0,1
+	.word	328
+	.byte	1,3,2,35,3,11
+	.byte	'PCL13',0,1
+	.word	328
+	.byte	1,2,2,35,3,11
+	.byte	'PCL14',0,1
+	.word	328
+	.byte	1,1,2,35,3,11
+	.byte	'PCL15',0,1
+	.word	328
+	.byte	1,0,2,35,3,0,8
+	.byte	'Ifx_P_OMR_Bits',0,4,207,2,3
+	.word	4008
+	.byte	10
+	.byte	'_Ifx_P_OMSR_Bits',0,4,210,2,16,4,11
+	.byte	'PS0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'PS1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'PS2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'PS3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'PS4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'PS5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'PS6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'PS7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'PS8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'PS9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'PS10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'PS11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'PS12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'PS13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'PS14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'PS15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_OMSR_Bits',0,4,229,2,3
+	.word	4563
+	.byte	10
+	.byte	'_Ifx_P_OMSR0_Bits',0,4,232,2,16,4,11
+	.byte	'PS0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'PS1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'PS2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'PS3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'reserved_4',0,4
+	.word	370
+	.byte	28,0,2,35,0,0,8
+	.byte	'Ifx_P_OMSR0_Bits',0,4,239,2,3
+	.word	4881
+	.byte	10
+	.byte	'_Ifx_P_OMSR12_Bits',0,4,242,2,16,4,11
+	.byte	'reserved_0',0,2
+	.word	1195
+	.byte	12,4,2,35,0,11
+	.byte	'PS12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'PS13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'PS14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'PS15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_OMSR12_Bits',0,4,250,2,3
+	.word	5014
+	.byte	10
+	.byte	'_Ifx_P_OMSR4_Bits',0,4,253,2,16,4,11
+	.byte	'reserved_0',0,1
+	.word	328
+	.byte	4,4,2,35,0,11
+	.byte	'PS4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'PS5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'PS6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'PS7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'reserved_8',0,4
+	.word	370
+	.byte	24,0,2,35,0,0,8
+	.byte	'Ifx_P_OMSR4_Bits',0,4,133,3,3
+	.word	5176
+	.byte	10
+	.byte	'_Ifx_P_OMSR8_Bits',0,4,136,3,16,4,11
+	.byte	'reserved_0',0,1
+	.word	328
+	.byte	8,0,2,35,0,11
+	.byte	'PS8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'PS9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'PS10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'PS11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'reserved_12',0,4
+	.word	370
+	.byte	20,0,2,35,0,0,8
+	.byte	'Ifx_P_OMSR8_Bits',0,4,144,3,3
+	.word	5331
+	.byte	10
+	.byte	'_Ifx_P_OUT_Bits',0,4,147,3,16,4,11
+	.byte	'P0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'P1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'P2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'P3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'P4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'P5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'P6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'P7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'P8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'P9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'P10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'P11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'P12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'P13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'P14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'P15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_OUT_Bits',0,4,166,3,3
+	.word	5489
+	.byte	10
+	.byte	'_Ifx_P_PCSR_Bits',0,4,169,3,16,4,11
+	.byte	'SEL0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'SEL1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'SEL2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'SEL3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'SEL4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'SEL5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'SEL6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'SEL7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'SEL8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'SEL9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'SEL10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'SEL11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'SEL12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'SEL13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'SEL14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'SEL15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	15,1,2,35,2,11
+	.byte	'LCK',0,1
+	.word	328
+	.byte	1,0,2,35,3,0,8
+	.byte	'Ifx_P_PCSR_Bits',0,4,189,3,3
+	.word	5789
+	.byte	10
+	.byte	'_Ifx_P_PDISC_Bits',0,4,192,3,16,4,11
+	.byte	'PDIS0',0,1
+	.word	328
+	.byte	1,7,2,35,0,11
+	.byte	'PDIS1',0,1
+	.word	328
+	.byte	1,6,2,35,0,11
+	.byte	'PDIS2',0,1
+	.word	328
+	.byte	1,5,2,35,0,11
+	.byte	'PDIS3',0,1
+	.word	328
+	.byte	1,4,2,35,0,11
+	.byte	'PDIS4',0,1
+	.word	328
+	.byte	1,3,2,35,0,11
+	.byte	'PDIS5',0,1
+	.word	328
+	.byte	1,2,2,35,0,11
+	.byte	'PDIS6',0,1
+	.word	328
+	.byte	1,1,2,35,0,11
+	.byte	'PDIS7',0,1
+	.word	328
+	.byte	1,0,2,35,0,11
+	.byte	'PDIS8',0,1
+	.word	328
+	.byte	1,7,2,35,1,11
+	.byte	'PDIS9',0,1
+	.word	328
+	.byte	1,6,2,35,1,11
+	.byte	'PDIS10',0,1
+	.word	328
+	.byte	1,5,2,35,1,11
+	.byte	'PDIS11',0,1
+	.word	328
+	.byte	1,4,2,35,1,11
+	.byte	'PDIS12',0,1
+	.word	328
+	.byte	1,3,2,35,1,11
+	.byte	'PDIS13',0,1
+	.word	328
+	.byte	1,2,2,35,1,11
+	.byte	'PDIS14',0,1
+	.word	328
+	.byte	1,1,2,35,1,11
+	.byte	'PDIS15',0,1
+	.word	328
+	.byte	1,0,2,35,1,11
+	.byte	'reserved_16',0,2
+	.word	1195
+	.byte	16,0,2,35,2,0,8
+	.byte	'Ifx_P_PDISC_Bits',0,4,211,3,3
+	.word	6138
+	.byte	10
+	.byte	'_Ifx_P_PDR0_Bits',0,4,214,3,16,4,11
+	.byte	'PD0',0,1
+	.word	328
+	.byte	2,6,2,35,0,11
+	.byte	'PL0',0,1
+	.word	328
+	.byte	2,4,2,35,0,11
+	.byte	'PD1',0,1
+	.word	328
+	.byte	2,2,2,35,0,11
+	.byte	'PL1',0,1
+	.word	328
+	.byte	2,0,2,35,0,11
+	.byte	'PD2',0,1
+	.word	328
+	.byte	2,6,2,35,1,11
+	.byte	'PL2',0,1
+	.word	328
+	.byte	2,4,2,35,1,11
+	.byte	'PD3',0,1
+	.word	328
+	.byte	2,2,2,35,1,11
+	.byte	'PL3',0,1
+	.word	328
+	.byte	2,0,2,35,1,11
+	.byte	'PD4',0,1
+	.word	328
+	.byte	2,6,2,35,2,11
+	.byte	'PL4',0,1
+	.word	328
+	.byte	2,4,2,35,2,11
+	.byte	'PD5',0,1
+	.word	328
+	.byte	2,2,2,35,2,11
+	.byte	'PL5',0,1
+	.word	328
+	.byte	2,0,2,35,2,11
+	.byte	'PD6',0,1
+	.word	328
+	.byte	2,6,2,35,3,11
+	.byte	'PL6',0,1
+	.word	328
+	.byte	2,4,2,35,3,11
+	.byte	'PD7',0,1
+	.word	328
+	.byte	2,2,2,35,3,11
+	.byte	'PL7',0,1
+	.word	328
+	.byte	2,0,2,35,3,0,8
+	.byte	'Ifx_P_PDR0_Bits',0,4,232,3,3
+	.word	6490
+	.byte	10
+	.byte	'_Ifx_P_PDR1_Bits',0,4,235,3,16,4,11
+	.byte	'PD8',0,1
+	.word	328
+	.byte	2,6,2,35,0,11
+	.byte	'PL8',0,1
+	.word	328
+	.byte	2,4,2,35,0,11
+	.byte	'PD9',0,1
+	.word	328
+	.byte	2,2,2,35,0,11
+	.byte	'PL9',0,1
+	.word	328
+	.byte	2,0,2,35,0,11
+	.byte	'PD10',0,1
+	.word	328
+	.byte	2,6,2,35,1,11
+	.byte	'PL10',0,1
+	.word	328
+	.byte	2,4,2,35,1,11
+	.byte	'PD11',0,1
+	.word	328
+	.byte	2,2,2,35,1,11
+	.byte	'PL11',0,1
+	.word	328
+	.byte	2,0,2,35,1,11
+	.byte	'PD12',0,1
+	.word	328
+	.byte	2,6,2,35,2,11
+	.byte	'PL12',0,1
+	.word	328
+	.byte	2,4,2,35,2,11
+	.byte	'PD13',0,1
+	.word	328
+	.byte	2,2,2,35,2,11
+	.byte	'PL13',0,1
+	.word	328
+	.byte	2,0,2,35,2,11
+	.byte	'PD14',0,1
+	.word	328
+	.byte	2,6,2,35,3,11
+	.byte	'PL14',0,1
+	.word	328
+	.byte	2,4,2,35,3,11
+	.byte	'PD15',0,1
+	.word	328
+	.byte	2,2,2,35,3,11
+	.byte	'PL15',0,1
+	.word	328
+	.byte	2,0,2,35,3,0,8
+	.byte	'Ifx_P_PDR1_Bits',0,4,253,3,3
+	.word	6779
+	.byte	12,4,133,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	569
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_ACCEN0',0,4,138,4,3
+	.word	7080
+	.byte	12,4,141,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	1122
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_ACCEN1',0,4,146,4,3
+	.word	7142
+	.byte	12,4,149,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	1217
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_ESR',0,4,154,4,3
+	.word	7204
+	.byte	12,4,157,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	1532
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_ID',0,4,162,4,3
+	.word	7263
+	.byte	12,4,165,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	1635
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_IN',0,4,170,4,3
+	.word	7321
+	.byte	12,4,173,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	1933
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_IOCR0',0,4,178,4,3
+	.word	7379
+	.byte	12,4,181,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	2134
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_IOCR12',0,4,186,4,3
+	.word	7440
+	.byte	12,4,189,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	2341
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_IOCR4',0,4,194,4,3
+	.word	7502
+	.byte	12,4,197,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	2542
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_IOCR8',0,4,202,4,3
+	.word	7563
+	.byte	12,4,205,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	2745
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_LPCR',0,4,210,4,3
+	.word	7624
+	.byte	12,4,213,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	3050
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMCR',0,4,218,4,3
+	.word	7684
+	.byte	12,4,221,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	3383
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMCR0',0,4,226,4,3
+	.word	7744
+	.byte	12,4,229,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	3543
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMCR12',0,4,234,4,3
+	.word	7805
+	.byte	12,4,237,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	3686
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMCR4',0,4,242,4,3
+	.word	7867
+	.byte	12,4,245,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	3846
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMCR8',0,4,250,4,3
+	.word	7928
+	.byte	12,4,253,4,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	4008
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMR',0,4,130,5,3
+	.word	7989
+	.byte	12,4,133,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	4563
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMSR',0,4,138,5,3
+	.word	8048
+	.byte	12,4,141,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	4881
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMSR0',0,4,146,5,3
+	.word	8108
+	.byte	12,4,149,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	5014
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMSR12',0,4,154,5,3
+	.word	8169
+	.byte	12,4,157,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	5176
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMSR4',0,4,162,5,3
+	.word	8231
+	.byte	12,4,165,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	5331
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OMSR8',0,4,170,5,3
+	.word	8292
+	.byte	12,4,173,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	5489
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_OUT',0,4,178,5,3
+	.word	8353
+	.byte	12,4,181,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	5789
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_PCSR',0,4,186,5,3
+	.word	8412
+	.byte	12,4,189,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	6138
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_PDISC',0,4,194,5,3
+	.word	8472
+	.byte	12,4,197,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	6490
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_PDR0',0,4,202,5,3
+	.word	8533
+	.byte	12,4,205,5,9,4,13
+	.byte	'U',0
+	.word	370
+	.byte	4,2,35,0,13
+	.byte	'I',0
+	.word	428
+	.byte	4,2,35,0,13
+	.byte	'B',0
+	.word	6779
+	.byte	4,2,35,0,0,8
+	.byte	'Ifx_P_PDR1',0,4,210,5,3
+	.word	8593
+	.byte	14,2,21,9,8,13
+	.byte	'pPack',0
+	.word	309
+	.byte	4,2,35,0,13
+	.byte	'bResourceAcquiredEn',0
+	.word	319
+	.byte	1,2,35,4,0,8
+	.byte	'adi_wil_sem_t',0,2,24,3
+	.word	8653
+.L138:
+	.byte	15,16
+	.word	8653
+	.byte	16,1,0,15,2
+	.word	319
+	.byte	16,1,0
+.L139:
+	.byte	17
+	.word	8734
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L62:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,4,1,58,15,59,15,57,15,11,15,0,0,3,40,0,3,8,28,13,0,0,4
+	.byte	59,0,3,8,0,0,5,38,0,73,19,0,0,6,15,0,73,19,0,0,7,36,0,3,8,11,15,62,15,0,0,8,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,9,21,0,54,15,0,0,10,19,1,3,8,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,11,15,73,19,13,15,12,15
+	.byte	56,9,0,0,12,23,1,58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14,19,1,58,15,59,15,57,15
+	.byte	11,15,0,0,15,1,1,11,15,73,19,0,0,16,33,0,47,15,0,0,17,53,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L63:
+	.word	.L150-.L149
+.L149:
+	.half	3
+	.word	.L152-.L151
+.L151:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg',0
+	.byte	0
+	.byte	'adi_wil_osal.h',0,1,0,0
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0,0,0,0
+	.byte	'Ifx_TypesReg.h',0,2,0,0
+	.byte	'IfxPort_regdef.h',0,2,0,0,0
+.L152:
+.L150:
+	.sdecl	'.debug_info',debug,cluster('adi_wil_osal_CreateResource')
+	.sect	'.debug_info'
+.L64:
+	.word	370
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L67,.L66
+	.byte	2
+	.word	.L60
+	.byte	3
+	.byte	'adi_wil_osal_CreateResource',0,1,31,20
+	.word	.L98
+	.byte	1,1,1
+	.word	.L49,.L99,.L48
+	.byte	4
+	.byte	'pPack',0,1,31,67
+	.word	.L100,.L101
+	.byte	5
+	.word	.L49,.L99
+	.byte	6
+	.byte	'bSemExist',0,1,33,10
+	.word	.L102,.L103
+	.byte	6
+	.byte	'i',0,1,34,13
+	.word	.L104,.L105
+	.byte	6
+	.byte	'iFreeSlot',0,1,34,16
+	.word	.L104,.L106
+	.byte	6
+	.byte	'err',0,1,35,24
+	.word	.L98,.L107
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('adi_wil_osal_CreateResource')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('adi_wil_osal_CreateResource')
+	.sect	'.debug_line'
+.L66:
+	.word	.L154-.L153
+.L153:
+	.half	3
+	.word	.L156-.L155
+.L155:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0,0,0,0,0
+.L156:
+	.byte	5,20,7,0,5,2
+	.word	.L49
+	.byte	3,32,1,5,26,9
+	.half	.L140-.L49
+	.byte	3,1,1,5,28,9
+	.half	.L141-.L140
+	.byte	3,1,1,5,11,9
+	.half	.L142-.L141
+	.byte	3,3,1,5,31,9
+	.half	.L143-.L142
+	.byte	1,5,21,9
+	.half	.L3-.L143
+	.byte	3,2,1,5,13,9
+	.half	.L157-.L3
+	.byte	1,5,21,9
+	.half	.L158-.L157
+	.byte	1,5,24,9
+	.half	.L159-.L158
+	.byte	1,5,12,9
+	.half	.L160-.L159
+	.byte	1,5,67,7,9
+	.half	.L161-.L160
+	.byte	1,5,59,9
+	.half	.L162-.L161
+	.byte	1,5,67,9
+	.half	.L163-.L162
+	.byte	1,5,70,9
+	.half	.L164-.L163
+	.byte	1,5,77,9
+	.half	.L165-.L164
+	.byte	1,5,23,7,9
+	.half	.L166-.L165
+	.byte	3,3,1,5,17,9
+	.half	.L167-.L166
+	.byte	3,1,1,5,13,9
+	.half	.L168-.L167
+	.byte	3,1,1,5,25,9
+	.half	.L4-.L168
+	.byte	3,2,1,5,17,9
+	.half	.L169-.L4
+	.byte	1,5,25,9
+	.half	.L170-.L169
+	.byte	1,5,28,9
+	.half	.L171-.L170
+	.byte	1,5,14,9
+	.half	.L172-.L171
+	.byte	1,5,23,7,9
+	.half	.L173-.L172
+	.byte	3,3,1,5,13,9
+	.half	.L174-.L173
+	.byte	3,1,1,5,34,9
+	.half	.L7-.L174
+	.byte	3,115,1,5,31,9
+	.half	.L2-.L7
+	.byte	1,5,8,7,9
+	.half	.L6-.L2
+	.byte	3,17,1,5,35,7,9
+	.half	.L175-.L6
+	.byte	1,5,17,7,9
+	.half	.L176-.L175
+	.byte	3,5,1,5,9,9
+	.half	.L177-.L176
+	.byte	1,5,17,9
+	.half	.L178-.L177
+	.byte	1,5,35,9
+	.half	.L179-.L178
+	.byte	1,5,17,9
+	.half	.L180-.L179
+	.byte	3,1,1,5,9,9
+	.half	.L181-.L180
+	.byte	1,5,17,9
+	.half	.L182-.L181
+	.byte	1,5,51,9
+	.half	.L183-.L182
+	.byte	1,5,49,9
+	.half	.L184-.L183
+	.byte	1,5,9,9
+	.half	.L185-.L184
+	.byte	3,1,1,5,27,9
+	.half	.L186-.L185
+	.byte	1,5,41,9
+	.half	.L187-.L186
+	.byte	1,5,39,9
+	.half	.L188-.L187
+	.byte	1,5,13,9
+	.half	.L189-.L188
+	.byte	3,2,1,5,5,9
+	.half	.L9-.L189
+	.byte	3,2,1,5,1,9
+	.half	.L11-.L9
+	.byte	3,1,1,7,9
+	.half	.L68-.L11
+	.byte	0,1,1
+.L154:
+	.sdecl	'.debug_ranges',debug,cluster('adi_wil_osal_CreateResource')
+	.sect	'.debug_ranges'
+.L67:
+	.word	-1,.L49,0,.L68-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('adi_wil_osal_AcquireResource')
+	.sect	'.debug_info'
+.L69:
+	.word	342
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L72,.L71
+	.byte	2
+	.word	.L60
+	.byte	3
+	.byte	'adi_wil_osal_AcquireResource',0,1,70,20
+	.word	.L98
+	.byte	1,1,1
+	.word	.L51,.L108,.L50
+	.byte	4
+	.byte	'pPack',0,1,70,68
+	.word	.L109,.L110
+	.byte	5
+	.word	.L51,.L108
+	.byte	6
+	.byte	'bFoundId',0,1,72,10
+	.word	.L102,.L111
+	.byte	5
+	.word	.L112,.L16
+	.byte	6
+	.byte	'i',0,1,75,17
+	.word	.L104,.L113
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('adi_wil_osal_AcquireResource')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('adi_wil_osal_AcquireResource')
+	.sect	'.debug_line'
+.L71:
+	.word	.L191-.L190
+.L190:
+	.half	3
+	.word	.L193-.L192
+.L192:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0,0,0,0,0
+.L193:
+	.byte	5,19,7,0,5,2
+	.word	.L51
+	.byte	3,199,0,1,9
+	.half	.L112-.L51
+	.byte	3,3,1,5,39,9
+	.half	.L144-.L112
+	.byte	1,5,21,9
+	.half	.L13-.L144
+	.byte	3,2,1,5,13,9
+	.half	.L194-.L13
+	.byte	1,5,21,9
+	.half	.L195-.L194
+	.byte	1,5,24,9
+	.half	.L196-.L195
+	.byte	1,5,12,9
+	.half	.L197-.L196
+	.byte	1,5,66,7,9
+	.half	.L198-.L197
+	.byte	1,5,58,9
+	.half	.L199-.L198
+	.byte	1,5,66,9
+	.half	.L200-.L199
+	.byte	1,5,69,9
+	.half	.L201-.L200
+	.byte	1,5,76,9
+	.half	.L202-.L201
+	.byte	1,5,12,7,9
+	.half	.L203-.L202
+	.byte	3,2,1,5,30,9
+	.half	.L204-.L203
+	.byte	1,5,36,9
+	.half	.L205-.L204
+	.byte	1,5,34,9
+	.half	.L206-.L205
+	.byte	1,5,21,9
+	.half	.L207-.L206
+	.byte	3,1,1,5,12,9
+	.half	.L208-.L207
+	.byte	3,1,1,5,42,9
+	.half	.L14-.L208
+	.byte	3,122,1,5,39,9
+	.half	.L12-.L14
+	.byte	1,5,12,7,9
+	.half	.L16-.L12
+	.byte	3,10,1,5,31,7,9
+	.half	.L209-.L16
+	.byte	1,5,58,9
+	.half	.L210-.L209
+	.byte	1,5,31,9
+	.half	.L17-.L210
+	.byte	1,5,5,9
+	.half	.L18-.L17
+	.byte	1,5,1,9
+	.half	.L19-.L18
+	.byte	3,1,1,7,9
+	.half	.L73-.L19
+	.byte	0,1,1
+.L191:
+	.sdecl	'.debug_ranges',debug,cluster('adi_wil_osal_AcquireResource')
+	.sect	'.debug_ranges'
+.L72:
+	.word	-1,.L51,0,.L73-.L51,0,0
+	.sdecl	'.debug_info',debug,cluster('adi_wil_osal_ReleaseResource')
+	.sect	'.debug_info'
+.L74:
+	.word	342
+	.half	3
+	.word	.L75
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L77,.L76
+	.byte	2
+	.word	.L60
+	.byte	3
+	.byte	'adi_wil_osal_ReleaseResource',0,1,89,20
+	.word	.L98
+	.byte	1,1,1
+	.word	.L53,.L114,.L52
+	.byte	4
+	.byte	'pPack',0,1,89,68
+	.word	.L115,.L116
+	.byte	5
+	.word	.L53,.L114
+	.byte	6
+	.byte	'bFoundId',0,1,91,10
+	.word	.L102,.L117
+	.byte	5
+	.word	.L118,.L24
+	.byte	6
+	.byte	'i',0,1,94,17
+	.word	.L104,.L119
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('adi_wil_osal_ReleaseResource')
+	.sect	'.debug_abbrev'
+.L75:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('adi_wil_osal_ReleaseResource')
+	.sect	'.debug_line'
+.L76:
+	.word	.L212-.L211
+.L211:
+	.half	3
+	.word	.L214-.L213
+.L213:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0,0,0,0,0
+.L214:
+	.byte	5,19,7,0,5,2
+	.word	.L53
+	.byte	3,218,0,1,9
+	.half	.L118-.L53
+	.byte	3,3,1,5,39,9
+	.half	.L145-.L118
+	.byte	1,5,21,9
+	.half	.L21-.L145
+	.byte	3,2,1,5,13,9
+	.half	.L215-.L21
+	.byte	1,5,21,9
+	.half	.L216-.L215
+	.byte	1,5,24,9
+	.half	.L217-.L216
+	.byte	1,5,12,9
+	.half	.L218-.L217
+	.byte	1,5,66,7,9
+	.half	.L219-.L218
+	.byte	1,5,58,9
+	.half	.L220-.L219
+	.byte	1,5,66,9
+	.half	.L221-.L220
+	.byte	1,5,69,9
+	.half	.L222-.L221
+	.byte	1,5,76,9
+	.half	.L223-.L222
+	.byte	1,5,12,7,9
+	.half	.L224-.L223
+	.byte	3,2,1,5,30,9
+	.half	.L225-.L224
+	.byte	1,5,36,9
+	.half	.L226-.L225
+	.byte	1,5,34,9
+	.half	.L227-.L226
+	.byte	1,5,21,9
+	.half	.L228-.L227
+	.byte	3,1,1,5,12,9
+	.half	.L229-.L228
+	.byte	3,1,1,5,42,9
+	.half	.L22-.L229
+	.byte	3,122,1,5,39,9
+	.half	.L20-.L22
+	.byte	1,5,12,7,9
+	.half	.L24-.L20
+	.byte	3,9,1,5,31,7,9
+	.half	.L230-.L24
+	.byte	1,5,58,9
+	.half	.L231-.L230
+	.byte	1,5,31,9
+	.half	.L25-.L231
+	.byte	1,5,5,9
+	.half	.L26-.L25
+	.byte	1,5,1,9
+	.half	.L27-.L26
+	.byte	3,1,1,7,9
+	.half	.L78-.L27
+	.byte	0,1,1
+.L212:
+	.sdecl	'.debug_ranges',debug,cluster('adi_wil_osal_ReleaseResource')
+	.sect	'.debug_ranges'
+.L77:
+	.word	-1,.L53,0,.L78-.L53,0,0
+	.sdecl	'.debug_info',debug,cluster('adi_wil_osal_DestroyResource')
+	.sect	'.debug_info'
+.L79:
+	.word	342
+	.half	3
+	.word	.L80
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L82,.L81
+	.byte	2
+	.word	.L60
+	.byte	3
+	.byte	'adi_wil_osal_DestroyResource',0,1,107,20
+	.word	.L98
+	.byte	1,1,1
+	.word	.L55,.L120,.L54
+	.byte	4
+	.byte	'pPack',0,1,107,68
+	.word	.L121,.L122
+	.byte	5
+	.word	.L55,.L120
+	.byte	6
+	.byte	'bFoundId',0,1,109,10
+	.word	.L102,.L123
+	.byte	5
+	.word	.L124,.L32
+	.byte	6
+	.byte	'i',0,1,112,17
+	.word	.L104,.L125
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('adi_wil_osal_DestroyResource')
+	.sect	'.debug_abbrev'
+.L80:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('adi_wil_osal_DestroyResource')
+	.sect	'.debug_line'
+.L81:
+	.word	.L233-.L232
+.L232:
+	.half	3
+	.word	.L235-.L234
+.L234:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0,0,0,0,0
+.L235:
+	.byte	5,19,7,0,5,2
+	.word	.L55
+	.byte	3,236,0,1,9
+	.half	.L124-.L55
+	.byte	3,3,1,5,39,9
+	.half	.L146-.L124
+	.byte	1,5,21,9
+	.half	.L29-.L146
+	.byte	3,2,1,5,13,9
+	.half	.L236-.L29
+	.byte	1,5,21,9
+	.half	.L237-.L236
+	.byte	1,5,24,9
+	.half	.L238-.L237
+	.byte	1,5,12,9
+	.half	.L239-.L238
+	.byte	1,5,66,7,9
+	.half	.L240-.L239
+	.byte	1,5,58,9
+	.half	.L241-.L240
+	.byte	1,5,66,9
+	.half	.L242-.L241
+	.byte	1,5,69,9
+	.half	.L243-.L242
+	.byte	1,5,76,9
+	.half	.L244-.L243
+	.byte	1,5,20,7,9
+	.half	.L245-.L244
+	.byte	3,2,1,5,12,9
+	.half	.L246-.L245
+	.byte	1,5,20,9
+	.half	.L247-.L246
+	.byte	1,5,46,9
+	.half	.L248-.L247
+	.byte	1,5,44,9
+	.half	.L249-.L248
+	.byte	1,5,12,9
+	.half	.L250-.L249
+	.byte	3,1,1,5,30,9
+	.half	.L251-.L250
+	.byte	1,5,36,9
+	.half	.L252-.L251
+	.byte	1,5,34,9
+	.half	.L253-.L252
+	.byte	1,5,21,9
+	.half	.L254-.L253
+	.byte	3,1,1,5,12,9
+	.half	.L255-.L254
+	.byte	3,1,1,5,42,9
+	.half	.L30-.L255
+	.byte	3,121,1,5,39,9
+	.half	.L28-.L30
+	.byte	1,5,12,7,9
+	.half	.L32-.L28
+	.byte	3,10,1,5,31,7,9
+	.half	.L256-.L32
+	.byte	1,5,58,9
+	.half	.L257-.L256
+	.byte	1,5,31,9
+	.half	.L33-.L257
+	.byte	1,5,5,9
+	.half	.L34-.L33
+	.byte	1,5,1,9
+	.half	.L35-.L34
+	.byte	3,1,1,7,9
+	.half	.L83-.L35
+	.byte	0,1,1
+.L233:
+	.sdecl	'.debug_ranges',debug,cluster('adi_wil_osal_DestroyResource')
+	.sect	'.debug_ranges'
+.L82:
+	.word	-1,.L55,0,.L83-.L55,0,0
+	.sdecl	'.debug_info',debug,cluster('WaitForWilAPI')
+	.sect	'.debug_info'
+.L84:
+	.word	305
+	.half	3
+	.word	.L85
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L87,.L86
+	.byte	2
+	.word	.L60
+	.byte	3
+	.byte	'WaitForWilAPI',0,1,138,1,6,1,1,1
+	.word	.L57,.L126,.L56
+	.byte	4
+	.byte	'pPack',0,1,138,1,39
+	.word	.L127,.L128
+	.byte	5
+	.word	.L57,.L126
+	.byte	5
+	.word	.L57,.L129
+	.byte	6
+	.byte	'i',0,1,145,1,17
+	.word	.L104,.L130
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('WaitForWilAPI')
+	.sect	'.debug_abbrev'
+.L85:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('WaitForWilAPI')
+	.sect	'.debug_line'
+.L86:
+	.word	.L259-.L258
+.L258:
+	.half	3
+	.word	.L261-.L260
+.L260:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0,0,0,0,0
+.L261:
+	.byte	5,19,7,0,5,2
+	.word	.L57
+	.byte	3,144,1,1,5,40,9
+	.half	.L147-.L57
+	.byte	1,5,21,9
+	.half	.L37-.L147
+	.byte	3,2,1,5,13,9
+	.half	.L262-.L37
+	.byte	1,5,21,9
+	.half	.L263-.L262
+	.byte	1,5,24,9
+	.half	.L264-.L263
+	.byte	1,5,12,9
+	.half	.L265-.L264
+	.byte	1,5,58,7,9
+	.half	.L266-.L265
+	.byte	1,5,50,9
+	.half	.L267-.L266
+	.byte	1,5,58,9
+	.half	.L268-.L267
+	.byte	1,5,61,9
+	.half	.L269-.L268
+	.byte	1,5,68,9
+	.half	.L270-.L269
+	.byte	1,5,40,7,9
+	.half	.L271-.L270
+	.byte	3,2,1,5,19,9
+	.half	.L40-.L271
+	.byte	1,5,37,9
+	.half	.L272-.L40
+	.byte	1,5,40,9
+	.half	.L273-.L272
+	.byte	1,5,43,7,9
+	.half	.L38-.L273
+	.byte	3,124,1,5,40,9
+	.half	.L36-.L38
+	.byte	1,5,1,7,9
+	.half	.L129-.L36
+	.byte	3,10,1,7,9
+	.half	.L88-.L129
+	.byte	0,1,1
+.L259:
+	.sdecl	'.debug_ranges',debug,cluster('WaitForWilAPI')
+	.sect	'.debug_ranges'
+.L87:
+	.word	-1,.L57,0,.L88-.L57,0,0
+	.sdecl	'.debug_info',debug,cluster('IsReleaseWilAPI')
+	.sect	'.debug_info'
+.L89:
+	.word	334
+	.half	3
+	.word	.L90
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L92,.L91
+	.byte	2
+	.word	.L60
+	.byte	3
+	.byte	'IsReleaseWilAPI',0,1,157,1,6
+	.word	.L102
+	.byte	1,1,1
+	.word	.L59,.L131,.L58
+	.byte	4
+	.byte	'pPack',0,1,157,1,41
+	.word	.L132,.L133
+	.byte	5
+	.word	.L59,.L131
+	.byte	6
+	.byte	'bRetValue',0,1,163,1,11
+	.word	.L102,.L134
+	.byte	5
+	.word	.L135,.L136
+	.byte	6
+	.byte	'i',0,1,165,1,17
+	.word	.L104,.L137
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IsReleaseWilAPI')
+	.sect	'.debug_abbrev'
+.L90:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IsReleaseWilAPI')
+	.sect	'.debug_line'
+.L91:
+	.word	.L275-.L274
+.L274:
+	.half	3
+	.word	.L277-.L276
+.L276:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0,0,0,0,0
+.L277:
+	.byte	5,21,7,0,5,2
+	.word	.L59
+	.byte	3,162,1,1,5,19,9
+	.half	.L135-.L59
+	.byte	3,2,1,5,40,9
+	.half	.L148-.L135
+	.byte	1,5,21,9
+	.half	.L43-.L148
+	.byte	3,2,1,5,13,9
+	.half	.L278-.L43
+	.byte	1,5,21,9
+	.half	.L279-.L278
+	.byte	1,5,24,9
+	.half	.L280-.L279
+	.byte	1,5,12,9
+	.half	.L281-.L280
+	.byte	1,5,58,7,9
+	.half	.L282-.L281
+	.byte	1,5,50,9
+	.half	.L283-.L282
+	.byte	1,5,58,9
+	.half	.L284-.L283
+	.byte	1,5,61,9
+	.half	.L285-.L284
+	.byte	1,5,68,9
+	.half	.L286-.L285
+	.byte	1,5,15,7,9
+	.half	.L287-.L286
+	.byte	3,2,1,5,33,9
+	.half	.L288-.L287
+	.byte	1,5,15,9
+	.half	.L289-.L288
+	.byte	1,7,9
+	.half	.L290-.L289
+	.byte	3,1,1,5,43,9
+	.half	.L44-.L290
+	.byte	3,123,1,5,40,9
+	.half	.L42-.L44
+	.byte	1,5,2,7,9
+	.half	.L136-.L42
+	.byte	3,8,1,5,1,9
+	.half	.L47-.L136
+	.byte	3,1,1,7,9
+	.half	.L93-.L47
+	.byte	0,1,1
+.L275:
+	.sdecl	'.debug_ranges',debug,cluster('IsReleaseWilAPI')
+	.sect	'.debug_ranges'
+.L92:
+	.word	-1,.L59,0,.L93-.L59,0,0
+	.sdecl	'.debug_info',debug,cluster('osal_sem')
+	.sect	'.debug_info'
+.L94:
+	.word	231
+	.half	3
+	.word	.L95
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L60
+	.byte	3
+	.byte	'osal_sem',0,2,26,22
+	.word	.L138
+	.byte	5,3
+	.word	osal_sem
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('osal_sem')
+	.sect	'.debug_abbrev'
+.L95:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('bgResourceAcquired')
+	.sect	'.debug_info'
+.L96:
+	.word	242
+	.half	3
+	.word	.L97
+	.byte	4,1
+	.byte	'../BasicSw/Cdd/Adi/Source/HAL/adi_wil_osal.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L60
+	.byte	3
+	.byte	'bgResourceAcquired',0,2,28,15
+	.word	.L139
+	.byte	1,5,3
+	.word	bgResourceAcquired
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('bgResourceAcquired')
+	.sect	'.debug_abbrev'
+.L97:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('IsReleaseWilAPI')
+	.sect	'.debug_loc'
+.L58:
+	.word	-1,.L59,0,.L131-.L59
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L134:
+	.word	-1,.L59,.L135-.L59,.L131-.L59
+	.half	1
+	.byte	82
+	.word	0,0
+.L137:
+	.word	-1,.L59,.L148-.L59,.L131-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L133:
+	.word	-1,.L59,0,.L131-.L59
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('WaitForWilAPI')
+	.sect	'.debug_loc'
+.L56:
+	.word	-1,.L57,0,.L126-.L57
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L130:
+	.word	-1,.L57,.L147-.L57,.L126-.L57
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L128:
+	.word	-1,.L57,0,.L126-.L57
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('adi_wil_osal_AcquireResource')
+	.sect	'.debug_loc'
+.L50:
+	.word	-1,.L51,0,.L108-.L51
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L111:
+	.word	-1,.L51,.L112-.L51,.L108-.L51
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L113:
+	.word	-1,.L51,.L144-.L51,.L108-.L51
+	.half	1
+	.byte	81
+	.word	0,0
+.L110:
+	.word	-1,.L51,0,.L108-.L51
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('adi_wil_osal_CreateResource')
+	.sect	'.debug_loc'
+.L48:
+	.word	-1,.L49,0,.L99-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L103:
+	.word	-1,.L49,.L140-.L49,.L99-.L49
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L107:
+	.word	-1,.L49,.L142-.L49,.L99-.L49
+	.half	1
+	.byte	82
+	.word	0,0
+.L105:
+	.word	-1,.L49,.L143-.L49,.L99-.L49
+	.half	1
+	.byte	83
+	.word	0,0
+.L106:
+	.word	-1,.L49,.L141-.L49,.L99-.L49
+	.half	1
+	.byte	81
+	.word	0,0
+.L101:
+	.word	-1,.L49,0,.L99-.L49
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('adi_wil_osal_DestroyResource')
+	.sect	'.debug_loc'
+.L54:
+	.word	-1,.L55,0,.L120-.L55
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L123:
+	.word	-1,.L55,.L124-.L55,.L120-.L55
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L125:
+	.word	-1,.L55,.L146-.L55,.L120-.L55
+	.half	1
+	.byte	81
+	.word	0,0
+.L122:
+	.word	-1,.L55,0,.L120-.L55
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('adi_wil_osal_ReleaseResource')
+	.sect	'.debug_loc'
+.L52:
+	.word	-1,.L53,0,.L114-.L53
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L117:
+	.word	-1,.L53,.L118-.L53,.L114-.L53
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L119:
+	.word	-1,.L53,.L145-.L53,.L114-.L53
+	.half	1
+	.byte	81
+	.word	0,0
+.L116:
+	.word	-1,.L53,0,.L114-.L53
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L291:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('adi_wil_osal_CreateResource')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L291,.L49,.L99-.L49
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('adi_wil_osal_AcquireResource')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L291,.L51,.L108-.L51
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('adi_wil_osal_ReleaseResource')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L291,.L53,.L114-.L53
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('adi_wil_osal_DestroyResource')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L291,.L55,.L120-.L55
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('WaitForWilAPI')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L291,.L57,.L126-.L57
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('IsReleaseWilAPI')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L291,.L59,.L131-.L59
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	; Module end

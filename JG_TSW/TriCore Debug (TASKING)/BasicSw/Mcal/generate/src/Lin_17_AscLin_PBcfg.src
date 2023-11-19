@@ -1,0 +1,348 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc8168a --dep-file=BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.src ../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c"
+	.compiler_name		"ctc"
+	;source	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c'
+
+	
+$TC162
+	
+	.sdecl	'.rodata.Lin_17_AscLin_PBcfg.Lin_17_AscLin_Hw_To_ChannelIdMap',data,rom,cluster('Lin_17_AscLin_Hw_To_ChannelIdMap')
+	.sect	'.rodata.Lin_17_AscLin_PBcfg.Lin_17_AscLin_Hw_To_ChannelIdMap'
+Lin_17_AscLin_Hw_To_ChannelIdMap:	.type	object
+	.size	Lin_17_AscLin_Hw_To_ChannelIdMap,24
+	.byte	255,255,255,255,255,255,255,255
+	.byte	255,255
+	.space	1
+	.byte	255,255,255,255,255,255,255,255
+	.byte	255,255,255,255
+	.byte	255
+	.sdecl	'.rodata.Lin_17_AscLin_PBcfg.Lin_17_AscLin_Channel_To_Core_SpecificArray',data,rom,cluster('Lin_17_AscLin_Channel_To_Core_SpecificArray')
+	.sect	'.rodata.Lin_17_AscLin_PBcfg.Lin_17_AscLin_Channel_To_Core_SpecificArray'
+Lin_17_AscLin_Channel_To_Core_SpecificArray:	.type	object
+	.size	Lin_17_AscLin_Channel_To_Core_SpecificArray,1
+	.space	1
+	.sdecl	'.rodata.Lin_17_AscLin_PBcfg.Lin_kChannelConfigurationCore0',data,rom,cluster('Lin_kChannelConfigurationCore0')
+	.sect	'.rodata.Lin_17_AscLin_PBcfg.Lin_kChannelConfigurationCore0'
+	.align	4
+Lin_kChannelConfigurationCore0:	.type	object
+	.size	Lin_kChannelConfigurationCore0,24
+	.half	192,1000,124,468
+	.byte	1,63
+	.space	2
+	.word	255
+	.byte	10,1,3
+	.space	1
+	.byte	1
+	.space	3
+	.sdecl	'.rodata.Lin_17_AscLin_PBcfg.Lin_CoreConfigCore0',data,rom,cluster('Lin_CoreConfigCore0')
+	.sect	'.rodata.Lin_17_AscLin_PBcfg.Lin_CoreConfigCore0'
+	.align	4
+Lin_CoreConfigCore0:	.type	object
+	.size	Lin_CoreConfigCore0,8
+	.byte	1
+	.space	3
+	.word	Lin_kChannelConfigurationCore0
+	.sdecl	'.rodata.Lin_17_AscLin_PBcfg.Lin_17_AscLin_Config',data,rom,cluster('Lin_17_AscLin_Config')
+	.sect	'.rodata.Lin_17_AscLin_PBcfg.Lin_17_AscLin_Config'
+	.global	Lin_17_AscLin_Config
+	.align	4
+Lin_17_AscLin_Config:	.type	object
+	.size	Lin_17_AscLin_Config,24
+	.word	Lin_CoreConfigCore0
+	.space	12
+	.word	Lin_17_AscLin_Channel_To_Core_SpecificArray,Lin_17_AscLin_Hw_To_ChannelIdMap
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	1340
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	216
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	218
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'uint8',0,2,105,29
+	.word	241
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,109,29
+	.word	272
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,113,29
+	.word	309
+	.byte	4
+	.byte	'PduLengthType',0,3,57,22
+	.word	272
+	.byte	4
+	.byte	'Lin_FramePidType',0,4,55,15
+	.word	241
+	.byte	6,4,61,9,1,7
+	.byte	'LIN_ENHANCED_CS',0,0,7
+	.byte	'LIN_CLASSIC_CS',0,1,0,4
+	.byte	'Lin_FrameCsModelType',0,4,65,2
+	.word	392
+	.byte	6,4,81,9,1,7
+	.byte	'LIN_MASTER_RESPONSE',0,0,7
+	.byte	'LIN_SLAVE_RESPONSE',0,1,7
+	.byte	'LIN_SLAVE_TO_SLAVE',0,2,0,4
+	.byte	'Lin_FrameResponseType',0,4,86,2
+	.word	462
+	.byte	4
+	.byte	'Lin_FrameDlType',0,4,93,15
+	.word	241
+	.byte	4
+	.byte	'EcuM_WakeupSourceType',0,5,53,16
+	.word	309
+	.byte	8,6,165,1,9,12,9
+	.byte	'HwBrgNumerator',0
+	.word	272
+	.byte	2,2,35,0,9
+	.byte	'HwBrgDenominator',0
+	.word	272
+	.byte	2,2,35,2,9
+	.byte	'HwBitconPrescalar',0
+	.word	272
+	.byte	2,2,35,4,9
+	.byte	'HwWakeupBitconPrescalar',0
+	.word	272
+	.byte	2,2,35,6,9
+	.byte	'InterByteResponseSpace',0
+	.word	241
+	.byte	1,2,35,8,9
+	.byte	'HwWakeupIocrDepth',0
+	.word	241
+	.byte	1,2,35,9,0,4
+	.byte	'Lin_17_AscLin_ChannelTimingConfigType',0,6,181,1,3
+	.word	616
+	.byte	8,6,190,1,9,24,9
+	.byte	'TimingConfig',0
+	.word	616
+	.byte	12,2,35,0,9
+	.byte	'WakeupSourceId',0
+	.word	309
+	.byte	4,2,35,12,9
+	.byte	'HwModule',0
+	.word	241
+	.byte	1,2,35,16,9
+	.byte	'Wakeup',0
+	.word	241
+	.byte	1,2,35,17,9
+	.byte	'RxAlternatePinSelect',0
+	.word	241
+	.byte	1,2,35,18,9
+	.byte	'LogicalId',0
+	.word	241
+	.byte	1,2,35,19,9
+	.byte	'Node',0
+	.word	241
+	.byte	1,2,35,20,0,4
+	.byte	'Lin_17_AscLin_ChannelType',0,6,206,1,3
+	.word	839
+	.byte	10
+	.word	839
+	.byte	3
+	.word	1024
+	.byte	8,6,213,1,9,8,9
+	.byte	'MaxCoreChannels',0
+	.word	241
+	.byte	1,2,35,0,9
+	.byte	'ChannelConfigPtr',0
+	.word	1029
+	.byte	4,2,35,4,0,4
+	.byte	'Lin_17_AscLin_CoreConfigType',0,6,219,1,3
+	.word	1034
+	.byte	10
+	.word	1034
+	.byte	3
+	.word	1130
+	.byte	11,16
+	.word	1135
+	.byte	12,3,0,10
+	.word	241
+	.byte	3
+	.word	1149
+	.byte	8,6,226,1,9,24,9
+	.byte	'CoreConfigPtr',0
+	.word	1140
+	.byte	16,2,35,0,9
+	.byte	'ChannelToCorePtr',0
+	.word	1154
+	.byte	4,2,35,16,9
+	.byte	'Lin_17_AscLin_ChannelIdLookupPtr',0
+	.word	1154
+	.byte	4,2,35,20,0,4
+	.byte	'Lin_17_AscLin_ConfigType',0,6,234,1,3
+	.word	1159
+.L16:
+	.byte	10
+	.word	1159
+	.byte	11,24
+	.word	241
+	.byte	12,23,0
+.L17:
+	.byte	10
+	.word	1296
+	.byte	11,1
+	.word	241
+	.byte	12,0,0
+.L18:
+	.byte	10
+	.word	1310
+	.byte	11,24
+	.word	839
+	.byte	12,0,0
+.L19:
+	.byte	10
+	.word	1324
+.L20:
+	.byte	10
+	.word	1034
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,19
+	.byte	1,58,15,59,15,57,15,11,15,0,0,9,13,0,3,8,73,19,11,15,56,9,0,0,10,38,0,73,19,0,0,11,1,1,11,15,73,19,0,0
+	.byte	12,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L22-.L21
+.L21:
+	.half	3
+	.word	.L24-.L23
+.L23:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc',0
+	.byte	0
+	.byte	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'ComStack_Cfg.h',0,2,0,0
+	.byte	'Lin_GeneralTypes.h',0,1,0,0
+	.byte	'EcuM_Types.h',0,3,0,0
+	.byte	'Lin_17_AscLin.h',0,4,0,0,0
+.L24:
+.L22:
+	.sdecl	'.debug_info',debug,cluster('Lin_17_AscLin_Config')
+	.sect	'.debug_info'
+.L6:
+	.word	251
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Lin_17_AscLin_Config',0,1,209,1,33
+	.word	.L16
+	.byte	1,5,3
+	.word	Lin_17_AscLin_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Lin_17_AscLin_Config')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Lin_17_AscLin_Hw_To_ChannelIdMap')
+	.sect	'.debug_info'
+.L8:
+	.word	261
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Lin_17_AscLin_Hw_To_ChannelIdMap',0,1,82,20
+	.word	.L17
+	.byte	5,3
+	.word	Lin_17_AscLin_Hw_To_ChannelIdMap
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Lin_17_AscLin_Hw_To_ChannelIdMap')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Lin_17_AscLin_Channel_To_Core_SpecificArray')
+	.sect	'.debug_info'
+.L10:
+	.word	272
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Lin_17_AscLin_Channel_To_Core_SpecificArray',0,1,117,20
+	.word	.L18
+	.byte	5,3
+	.word	Lin_17_AscLin_Channel_To_Core_SpecificArray
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Lin_17_AscLin_Channel_To_Core_SpecificArray')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Lin_kChannelConfigurationCore0')
+	.sect	'.debug_info'
+.L12:
+	.word	260
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Lin_kChannelConfigurationCore0',0,1,146,1,41
+	.word	.L19
+	.byte	5,3
+	.word	Lin_kChannelConfigurationCore0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Lin_kChannelConfigurationCore0')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Lin_CoreConfigCore0')
+	.sect	'.debug_info'
+.L14:
+	.word	249
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Lin_17_AscLin_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Lin_CoreConfigCore0',0,1,168,1,43
+	.word	.L20
+	.byte	5,3
+	.word	Lin_CoreConfigCore0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Lin_CoreConfigCore0')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	; Module end

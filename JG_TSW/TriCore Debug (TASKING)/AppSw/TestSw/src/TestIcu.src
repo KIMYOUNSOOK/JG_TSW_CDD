@@ -1,0 +1,852 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc12840a --dep-file=AppSw/TestSw/src/TestIcu.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o AppSw/TestSw/src/TestIcu.src ../AppSw/TestSw/src/TestIcu.c"
+	.compiler_name		"ctc"
+	;source	'../AppSw/TestSw/src/TestIcu.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.TestIcu.TestIcu_Init',code,cluster('TestIcu_Init')
+	.sect	'.text.TestIcu.TestIcu_Init'
+	.align	2
+	
+	.global	TestIcu_Init
+; Function TestIcu_Init
+.L5:
+TestIcu_Init:	.type	func
+	movh.a	a4,#@his(l_tTestIcu_Inst)
+	lea	a4,[a4]@los(l_tTestIcu_Inst)
+.L67:
+	mov	d4,#0
+.L68:
+	mov	d5,#12
+	call	memset
+.L69:
+	mov	d4,#0
+	call	Icu_17_TimerIp_StartSignalMeasurement
+.L70:
+	mov	d4,#1
+	call	Icu_17_TimerIp_StartSignalMeasurement
+.L71:
+	ret
+.L38:
+	
+__TestIcu_Init_function_end:
+	.size	TestIcu_Init,__TestIcu_Init_function_end-TestIcu_Init
+.L20:
+	; End of function
+	
+	.sdecl	'.text.TestIcu.TestIcu_100ms',code,cluster('TestIcu_100ms')
+	.sect	'.text.TestIcu.TestIcu_100ms'
+	.align	2
+	
+	.global	TestIcu_100ms
+; Function TestIcu_100ms
+.L7:
+TestIcu_100ms:	.type	func
+	call	_DutyCycle
+.L76:
+	ret
+.L39:
+	
+__TestIcu_100ms_function_end:
+	.size	TestIcu_100ms,__TestIcu_100ms_function_end-TestIcu_100ms
+.L25:
+	; End of function
+	
+	.sdecl	'.text.TestIcu.TestIcu_GetValue',code,cluster('TestIcu_GetValue')
+	.sect	'.text.TestIcu.TestIcu_GetValue'
+	.align	2
+	
+	.global	TestIcu_GetValue
+; Function TestIcu_GetValue
+.L9:
+TestIcu_GetValue:	.type	func
+	jnz.a	a4,.L2
+.L81:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L82:
+	ld.hu	d15,[a15]4
+.L83:
+	and	d15,#255
+.L84:
+	st.b	[a4],d15
+.L85:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L86:
+	ld.hu	d15,[a15]4
+.L87:
+	mov.u	d0,#65280
+.L88:
+	and	d15,d0
+.L89:
+	sha	d15,#-8
+.L90:
+	st.b	[a4]1,d15
+.L91:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L92:
+	ld.hu	d15,[a15]10
+.L93:
+	and	d15,#255
+.L94:
+	st.b	[a4]2,d15
+.L95:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L96:
+	ld.hu	d15,[a15]10
+.L97:
+	mov.u	d0,#65280
+.L98:
+	and	d15,d0
+.L99:
+	sha	d15,#-8
+.L100:
+	st.b	[a4]3,d15
+.L3:
+	ret
+.L40:
+	
+__TestIcu_GetValue_function_end:
+	.size	TestIcu_GetValue,__TestIcu_GetValue_function_end-TestIcu_GetValue
+.L30:
+	; End of function
+	
+	.sdecl	'.text.TestIcu._DutyCycle',code,cluster('_DutyCycle')
+	.sect	'.text.TestIcu._DutyCycle'
+	.align	2
+	
+; Function _DutyCycle
+.L11:
+_DutyCycle:	.type	func
+	sub.a	a10,#16
+.L51:
+	mov	d4,#0
+.L105:
+	lea	a4,[a10]8
+	call	Icu_17_TimerIp_GetDutyCycleValues
+.L106:
+	ld.w	d15,[a10]8
+.L52:
+	ld.w	d0,[a10]12
+.L54:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L107:
+	st.w	[a15]6,d0
+.L108:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L109:
+	mov	d1,#1000
+.L110:
+	mul	d15,d1
+.L53:
+	div.u	e0,d15,d0
+.L55:
+	st.h	[a15]10,d0
+.L111:
+	mov	d4,#1
+.L112:
+	lea	a4,[a10]0
+	call	Icu_17_TimerIp_GetDutyCycleValues
+.L113:
+	ld.w	d0,[a10]
+.L56:
+	ld.w	d15,[a10]4
+.L58:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L114:
+	st.w	[a15],d15
+.L115:
+	movh.a	a15,#@his(l_tTestIcu_Inst)
+	lea	a15,[a15]@los(l_tTestIcu_Inst)
+.L116:
+	mov	d1,#1000
+.L117:
+	mul	d0,d1
+.L57:
+	div.u	e0,d0,d15
+.L118:
+	st.h	[a15]4,d0
+.L119:
+	ret
+.L43:
+	
+___DutyCycle_function_end:
+	.size	_DutyCycle,___DutyCycle_function_end-_DutyCycle
+.L35:
+	; End of function
+	
+	.sdecl	'.bss.TestIcu.l_tTestIcu_Inst',data,cluster('l_tTestIcu_Inst')
+	.sect	'.bss.TestIcu.l_tTestIcu_Inst'
+	.global	l_tTestIcu_Inst
+	.align	4
+l_tTestIcu_Inst:	.type	object
+	.size	l_tTestIcu_Inst,12
+	.space	12
+	.calls	'TestIcu_Init','memset'
+	.calls	'TestIcu_Init','Icu_17_TimerIp_StartSignalMeasurement'
+	.calls	'TestIcu_100ms','_DutyCycle'
+	.calls	'_DutyCycle','Icu_17_TimerIp_GetDutyCycleValues'
+	.calls	'TestIcu_Init','',0
+	.calls	'TestIcu_100ms','',0
+	.calls	'TestIcu_GetValue','',0
+	.extern	memset
+	.extern	Icu_17_TimerIp_StartSignalMeasurement
+	.extern	Icu_17_TimerIp_GetDutyCycleValues
+	.calls	'_DutyCycle','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L13:
+	.word	1779
+	.half	3
+	.word	.L14
+	.byte	4
+.L12:
+	.byte	1
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L15
+	.byte	2
+	.byte	'void',0,3
+	.word	195
+	.byte	4
+	.byte	'int',0,4,5,4
+	.byte	'unsigned int',0,4,7,5
+	.byte	'memset',0,1,56,17
+	.word	201
+	.byte	1,1,1,1,6,1,56,33
+	.word	201
+	.byte	6,1,56,36
+	.word	206
+	.byte	6,1,56,41
+	.word	213
+	.byte	0,4
+	.byte	'unsigned char',0,1,8,7
+	.word	273
+	.byte	8
+	.byte	'Icu_17_TimerIp_StartSignalMeasurement',0,2,181,10,13,1,1,1,1,9
+	.byte	'Channel',0,2,183,10,36
+	.word	290
+	.byte	0,7
+	.word	273
+.L47:
+	.byte	4
+	.byte	'unsigned long int',0,4,7
+.L44:
+	.byte	10,2,236,2,9,8,11
+	.byte	'ActiveTime',0
+	.word	365
+	.byte	4,2,35,0,11
+	.byte	'PeriodTime',0
+	.word	365
+	.byte	4,2,35,4,0,3
+	.word	386
+	.byte	7
+	.word	433
+	.byte	8
+	.byte	'Icu_17_TimerIp_GetDutyCycleValues',0,2,167,11,13,1,1,1,1,9
+	.byte	'Channel',0,2,169,11,36
+	.word	360
+	.byte	9
+	.byte	'DutyCycleValues',0,2,170,11,39
+	.word	438
+	.byte	0
+.L41:
+	.byte	3
+	.word	273
+	.byte	12
+	.byte	'__size_t',0,3,1,1
+	.word	213
+	.byte	13,1,3
+	.word	551
+	.byte	12
+	.byte	'__codeptr',0,3,1,1
+	.word	553
+	.byte	12
+	.byte	'size_t',0,1,29,25
+	.word	213
+	.byte	12
+	.byte	'uint8',0,4,105,29
+	.word	273
+	.byte	4
+	.byte	'unsigned short int',0,2,7,12
+	.byte	'uint16',0,4,109,29
+	.word	605
+	.byte	12
+	.byte	'uint32',0,4,113,29
+	.word	365
+	.byte	12
+	.byte	'unsigned_int',0,5,75,22
+	.word	213
+	.byte	12
+	.byte	'Icu_17_TimerIp_ChannelType',0,2,198,2,15
+	.word	273
+	.byte	12
+	.byte	'Icu_17_TimerIp_ValueType',0,2,230,2,16
+	.word	365
+	.byte	12
+	.byte	'Icu_17_TimerIp_DutyCycleType',0,2,242,2,3
+	.word	386
+	.byte	14,1,1,3
+	.word	786
+	.byte	12
+	.byte	'Icu_17_TimerIp_NotifiPtrType',0,2,178,3,16
+	.word	789
+	.byte	10,2,243,3,3,32,15
+	.byte	'MeasurementMode',0,1
+	.word	273
+	.byte	3,5,2,35,0,15
+	.byte	'DefaultStartEdge',0,1
+	.word	273
+	.byte	2,3,2,35,0,15
+	.byte	'MeasurementProperty',0,1
+	.word	273
+	.byte	2,1,2,35,0,15
+	.byte	'WakeupCapability',0,1
+	.word	273
+	.byte	1,0,2,35,0,15
+	.byte	'AssignedHwUnitNumber',0,4
+	.word	213
+	.byte	16,8,2,35,0,15
+	.byte	'AssignedHwUnit',0,1
+	.word	273
+	.byte	2,6,2,35,3,15
+	.byte	'PinSelection',0,1
+	.word	273
+	.byte	4,2,2,35,3,15
+	.byte	'TimeOutEnabled',0,1
+	.word	273
+	.byte	1,1,2,35,3,15
+	.byte	'IsTimeOutExclusive',0,1
+	.word	273
+	.byte	1,0,2,35,3,11
+	.byte	'TimChFilterTimeForRisingEdge',0
+	.word	365
+	.byte	4,2,35,4,11
+	.byte	'TimChFilterTimeForFallingEdge',0
+	.word	365
+	.byte	4,2,35,8,11
+	.byte	'OverflowISRThreshold',0
+	.word	365
+	.byte	4,2,35,12,11
+	.byte	'InterruptMode',0
+	.word	605
+	.byte	2,2,35,16,11
+	.byte	'TimChannelClockSelect',0
+	.word	273
+	.byte	1,2,35,18,11
+	.byte	'CTRLData',0
+	.word	365
+	.byte	4,2,35,20,11
+	.byte	'TimECTRLData',0
+	.word	365
+	.byte	4,2,35,24,11
+	.byte	'TimTDUVData',0
+	.word	365
+	.byte	4,2,35,28,0,10,2,227,3,9,48,11
+	.byte	'NotificationPointer',0
+	.word	794
+	.byte	4,2,35,0,11
+	.byte	'TimeOutNotificationPointer',0
+	.word	794
+	.byte	4,2,35,4,11
+	.byte	'CntOvflNotificationPointer',0
+	.word	794
+	.byte	4,2,35,8,11
+	.byte	'IcuProperties',0
+	.word	832
+	.byte	32,2,35,12,11
+	.byte	'ModeMappingIndex',0
+	.word	273
+	.byte	1,2,35,44,0,12
+	.byte	'Icu_17_TimerIp_ChannelConfigType',0,2,167,4,3
+	.word	1313
+	.byte	3
+	.word	786
+	.byte	7
+	.word	1313
+	.byte	3
+	.word	1517
+	.byte	10,2,171,4,9,8,11
+	.byte	'ChannelConfigPtr',0
+	.word	1522
+	.byte	4,2,35,0,11
+	.byte	'MaxChannelCore',0
+	.word	273
+	.byte	1,2,35,4,11
+	.byte	'MaxDataChannelCore',0
+	.word	273
+	.byte	1,2,35,5,0,12
+	.byte	'Icu_17_TimerIp_CoreConfigType',0,2,179,4,3
+	.word	1527
+.L50:
+	.byte	10,3,60,9,12,11
+	.byte	'm_nPressurePeriod',0
+	.word	365
+	.byte	4,2,35,0,11
+	.byte	'm_nPressureDuty',0
+	.word	605
+	.byte	2,2,35,4,11
+	.byte	'm_nCrashPeriod',0
+	.word	365
+	.byte	4,2,35,6,11
+	.byte	'm_nCrashDuty',0
+	.word	605
+	.byte	2,2,35,10,0,12
+	.byte	'TESTICU_INSTANCE_T',0,3,67,3
+	.word	1651
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L14:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,59,0,3,8,0,0,3,15,0,73,19,0,0,4,36,0,3,8,11,15,62,15,0
+	.byte	0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,58,15,59,15,57,15,73,19,0,0,7,38
+	.byte	0,73,19,0,0,8,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,9,5,0,3,8,58,15,59,15,57,15,73,19
+	.byte	0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0,0,12,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,13,21,0,54,15,0,0,14,21,0,54,15,39,12,0,0,15,13,0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L15:
+	.word	.L60-.L59
+.L59:
+	.half	3
+	.word	.L62-.L61
+.L61:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.9.4\\plugins\\com.infineon.aurix.tools_1.9.4\\build_system\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc',0
+	.byte	0
+	.byte	'string.h',0,1,0,0
+	.byte	'Icu_17_TimerIp.h',0,2,0,0
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0,0,0,0
+	.byte	'Platform_Types.h',0,3,0,0
+	.byte	'Mcal_Compiler.h',0,4,0,0,0
+.L62:
+.L60:
+	.sdecl	'.debug_info',debug,cluster('TestIcu_Init')
+	.sect	'.debug_info'
+.L16:
+	.word	243
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L19,.L18
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'TestIcu_Init',0,1,115,6,1,1,1
+	.word	.L5,.L38,.L4
+	.byte	4
+	.word	.L5,.L38
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestIcu_Init')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestIcu_Init')
+	.sect	'.debug_line'
+.L18:
+	.word	.L64-.L63
+.L63:
+	.half	3
+	.word	.L66-.L65
+.L65:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0,0,0,0,0
+.L66:
+	.byte	5,13,7,0,5,2
+	.word	.L5
+	.byte	3,244,0,1,5,30,9
+	.half	.L67-.L5
+	.byte	1,5,36,9
+	.half	.L68-.L67
+	.byte	1,5,43,9
+	.half	.L69-.L68
+	.byte	3,2,1,9
+	.half	.L70-.L69
+	.byte	3,1,1,5,1,9
+	.half	.L71-.L70
+	.byte	3,2,1,7,9
+	.half	.L20-.L71
+	.byte	0,1,1
+.L64:
+	.sdecl	'.debug_ranges',debug,cluster('TestIcu_Init')
+	.sect	'.debug_ranges'
+.L19:
+	.word	-1,.L5,0,.L20-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('TestIcu_100ms')
+	.sect	'.debug_info'
+.L21:
+	.word	245
+	.half	3
+	.word	.L22
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L24,.L23
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'TestIcu_100ms',0,1,135,1,6,1,1,1
+	.word	.L7,.L39,.L6
+	.byte	4
+	.word	.L7,.L39
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestIcu_100ms')
+	.sect	'.debug_abbrev'
+.L22:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestIcu_100ms')
+	.sect	'.debug_line'
+.L23:
+	.word	.L73-.L72
+.L72:
+	.half	3
+	.word	.L75-.L74
+.L74:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0,0,0,0,0
+.L75:
+	.byte	5,15,7,0,5,2
+	.word	.L7
+	.byte	3,136,1,1,5,1,9
+	.half	.L76-.L7
+	.byte	3,2,1,7,9
+	.half	.L25-.L76
+	.byte	0,1,1
+.L73:
+	.sdecl	'.debug_ranges',debug,cluster('TestIcu_100ms')
+	.sect	'.debug_ranges'
+.L24:
+	.word	-1,.L7,0,.L25-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('TestIcu_GetValue')
+	.sect	'.debug_info'
+.L26:
+	.word	267
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L29,.L28
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'TestIcu_GetValue',0,1,151,1,6,1,1,1
+	.word	.L9,.L40,.L8
+	.byte	4
+	.byte	'pData',0,1,151,1,30
+	.word	.L41,.L42
+	.byte	5
+	.word	.L9,.L40
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestIcu_GetValue')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestIcu_GetValue')
+	.sect	'.debug_line'
+.L28:
+	.word	.L78-.L77
+.L77:
+	.half	3
+	.word	.L80-.L79
+.L79:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0,0,0,0,0
+.L80:
+	.byte	5,5,7,0,5,2
+	.word	.L9
+	.byte	3,152,1,1,5,9,7,9
+	.half	.L81-.L9
+	.byte	3,1,1,5,17,9
+	.half	.L2-.L81
+	.byte	3,3,1,5,32,9
+	.half	.L82-.L2
+	.byte	1,5,49,9
+	.half	.L83-.L82
+	.byte	1,5,14,9
+	.half	.L84-.L83
+	.byte	1,5,17,9
+	.half	.L85-.L84
+	.byte	3,1,1,5,32,9
+	.half	.L86-.L85
+	.byte	1,5,51,9
+	.half	.L87-.L86
+	.byte	1,5,49,9
+	.half	.L88-.L87
+	.byte	1,5,61,9
+	.half	.L89-.L88
+	.byte	1,5,14,9
+	.half	.L90-.L89
+	.byte	1,5,17,9
+	.half	.L91-.L90
+	.byte	3,3,1,5,32,9
+	.half	.L92-.L91
+	.byte	1,5,46,9
+	.half	.L93-.L92
+	.byte	1,5,14,9
+	.half	.L94-.L93
+	.byte	1,5,17,9
+	.half	.L95-.L94
+	.byte	3,1,1,5,32,9
+	.half	.L96-.L95
+	.byte	1,5,48,9
+	.half	.L97-.L96
+	.byte	1,5,46,9
+	.half	.L98-.L97
+	.byte	1,5,61,9
+	.half	.L99-.L98
+	.byte	1,5,14,9
+	.half	.L100-.L99
+	.byte	1,5,1,9
+	.half	.L3-.L100
+	.byte	3,2,1,7,9
+	.half	.L30-.L3
+	.byte	0,1,1
+.L78:
+	.sdecl	'.debug_ranges',debug,cluster('TestIcu_GetValue')
+	.sect	'.debug_ranges'
+.L29:
+	.word	-1,.L9,0,.L30-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('_DutyCycle')
+	.sect	'.debug_info'
+.L31:
+	.word	353
+	.half	3
+	.word	.L32
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L34,.L33
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'_DutyCycle',0,1,185,1,13,1,1
+	.word	.L11,.L43,.L10
+	.byte	4
+	.word	.L11,.L43
+	.byte	5
+	.byte	'tPressureDutyCycle',0,1,187,1,34
+	.word	.L44,.L45
+	.byte	5
+	.byte	'tCrashDutyCycle',0,1,187,1,54
+	.word	.L44,.L46
+	.byte	5
+	.byte	'nActiveTime',0,1,189,1,12
+	.word	.L47,.L48
+	.byte	5
+	.byte	'nPeriodTime',0,1,190,1,12
+	.word	.L47,.L49
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_DutyCycle')
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_DutyCycle')
+	.sect	'.debug_line'
+.L33:
+	.word	.L102-.L101
+.L101:
+	.half	3
+	.word	.L104-.L103
+.L103:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0,0,0,0,0
+.L104:
+	.byte	5,13,7,0,5,2
+	.word	.L11
+	.byte	3,184,1,1,5,39,9
+	.half	.L51-.L11
+	.byte	3,7,1,5,77,9
+	.half	.L105-.L51
+	.byte	1,5,43,9
+	.half	.L106-.L105
+	.byte	3,1,1,9
+	.half	.L52-.L106
+	.byte	3,1,1,5,5,9
+	.half	.L54-.L52
+	.byte	3,1,1,5,36,9
+	.half	.L107-.L54
+	.byte	1,5,5,9
+	.half	.L108-.L107
+	.byte	3,1,1,5,59,9
+	.half	.L109-.L108
+	.byte	1,5,57,9
+	.half	.L110-.L109
+	.byte	1,5,65,9
+	.half	.L53-.L110
+	.byte	1,5,34,9
+	.half	.L55-.L53
+	.byte	1,5,39,9
+	.half	.L111-.L55
+	.byte	3,2,1,5,80,9
+	.half	.L112-.L111
+	.byte	1,5,46,9
+	.half	.L113-.L112
+	.byte	3,1,1,9
+	.half	.L56-.L113
+	.byte	3,1,1,5,5,9
+	.half	.L58-.L56
+	.byte	3,1,1,5,39,9
+	.half	.L114-.L58
+	.byte	1,5,5,9
+	.half	.L115-.L114
+	.byte	3,1,1,5,62,9
+	.half	.L116-.L115
+	.byte	1,5,60,9
+	.half	.L117-.L116
+	.byte	1,5,68,9
+	.half	.L57-.L117
+	.byte	1,5,37,9
+	.half	.L118-.L57
+	.byte	1,5,1,9
+	.half	.L119-.L118
+	.byte	3,2,1,7,9
+	.half	.L35-.L119
+	.byte	0,1,1
+.L102:
+	.sdecl	'.debug_ranges',debug,cluster('_DutyCycle')
+	.sect	'.debug_ranges'
+.L34:
+	.word	-1,.L11,0,.L35-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('l_tTestIcu_Inst')
+	.sect	'.debug_info'
+.L36:
+	.word	224
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'../AppSw/TestSw/src/TestIcu.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'l_tTestIcu_Inst',0,3,94,20
+	.word	.L50
+	.byte	1,5,3
+	.word	l_tTestIcu_Inst
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('l_tTestIcu_Inst')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('TestIcu_100ms')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L39-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestIcu_GetValue')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L40-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L42:
+	.word	-1,.L9,0,.L40-.L9
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TestIcu_Init')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L38-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_DutyCycle')
+	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L51-.L11
+	.half	2
+	.byte	138,0
+	.word	.L51-.L11,.L43-.L11
+	.half	2
+	.byte	138,16
+	.word	.L43-.L11,.L43-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L48:
+	.word	-1,.L11,.L52-.L11,.L53-.L11
+	.half	1
+	.byte	95
+	.word	.L56-.L11,.L57-.L11
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L49:
+	.word	-1,.L11,.L54-.L11,.L55-.L11
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L58-.L11,.L43-.L11
+	.half	1
+	.byte	95
+	.word	0,0
+.L46:
+	.word	-1,.L11,0,.L43-.L11
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L45:
+	.word	-1,.L11,0,.L43-.L11
+	.half	2
+	.byte	145,112
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L120:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('TestIcu_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L120,.L5,.L38-.L5
+	.sdecl	'.debug_frame',debug,cluster('TestIcu_100ms')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L120,.L7,.L39-.L7
+	.sdecl	'.debug_frame',debug,cluster('TestIcu_GetValue')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L120,.L9,.L40-.L9
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('_DutyCycle')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L120,.L11,.L43-.L11
+	.byte	4
+	.word	(.L51-.L11)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L43-.L51)/2
+	.byte	19,0,8,26,0,0
+	; Module end

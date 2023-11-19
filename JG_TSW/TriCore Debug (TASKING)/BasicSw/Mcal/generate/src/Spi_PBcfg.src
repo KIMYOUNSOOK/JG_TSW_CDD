@@ -1,0 +1,1166 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc3244a --dep-file=BasicSw/Mcal/generate/src/Spi_PBcfg.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BasicSw/Mcal/generate/src/Spi_PBcfg.src ../BasicSw/Mcal/generate/src/Spi_PBcfg.c"
+	.compiler_name		"ctc"
+	;source	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c'
+
+	
+$TC162
+	
+	.sdecl	'.rodata.Spi_PBcfg.SequenceLookupIndex',data,rom,cluster('SequenceLookupIndex')
+	.sect	'.rodata.Spi_PBcfg.SequenceLookupIndex'
+SequenceLookupIndex:	.type	object
+	.size	SequenceLookupIndex,3
+	.space	1
+	.byte	2,1
+	.sdecl	'.rodata.Spi_PBcfg.JobLookupIndex',data,rom,cluster('JobLookupIndex')
+	.sect	'.rodata.Spi_PBcfg.JobLookupIndex'
+	.align	2
+JobLookupIndex:	.type	object
+	.size	JobLookupIndex,6
+	.space	2
+	.half	2,1
+	.sdecl	'.rodata.Spi_PBcfg.ChannelLookupIndex',data,rom,cluster('ChannelLookupIndex')
+	.sect	'.rodata.Spi_PBcfg.ChannelLookupIndex'
+ChannelLookupIndex:	.type	object
+	.size	ChannelLookupIndex,3
+	.space	1
+	.byte	2,1
+	.sdecl	'.rodata.Spi_PBcfg.SpiSequence_0_CMIC2_JobLinkPtr_Physical',data,rom,cluster('SpiSequence_0_CMIC2_JobLinkPtr_Physical')
+	.sect	'.rodata.Spi_PBcfg.SpiSequence_0_CMIC2_JobLinkPtr_Physical'
+	.align	2
+SpiSequence_0_CMIC2_JobLinkPtr_Physical:	.type	object
+	.size	SpiSequence_0_CMIC2_JobLinkPtr_Physical,4
+	.space	2
+	.half	65535
+	.sdecl	'.rodata.Spi_PBcfg.SpiSequence_1_CMIC1_JobLinkPtr_Physical',data,rom,cluster('SpiSequence_1_CMIC1_JobLinkPtr_Physical')
+	.sect	'.rodata.Spi_PBcfg.SpiSequence_1_CMIC1_JobLinkPtr_Physical'
+	.align	2
+SpiSequence_1_CMIC1_JobLinkPtr_Physical:	.type	object
+	.size	SpiSequence_1_CMIC1_JobLinkPtr_Physical,4
+	.half	2,65535
+	.sdecl	'.rodata.Spi_PBcfg.SpiSequence_2_PMIC_JobLinkPtr_Physical',data,rom,cluster('SpiSequence_2_PMIC_JobLinkPtr_Physical')
+	.sect	'.rodata.Spi_PBcfg.SpiSequence_2_PMIC_JobLinkPtr_Physical'
+	.align	2
+SpiSequence_2_PMIC_JobLinkPtr_Physical:	.type	object
+	.size	SpiSequence_2_PMIC_JobLinkPtr_Physical,4
+	.half	1,65535
+	.sdecl	'.rodata.Spi_PBcfg.SpiJob_0_CMIC2_ChannelLinkPtr_Physical',data,rom,cluster('SpiJob_0_CMIC2_ChannelLinkPtr_Physical')
+	.sect	'.rodata.Spi_PBcfg.SpiJob_0_CMIC2_ChannelLinkPtr_Physical'
+SpiJob_0_CMIC2_ChannelLinkPtr_Physical:	.type	object
+	.size	SpiJob_0_CMIC2_ChannelLinkPtr_Physical,2
+	.space	1
+	.byte	255
+	.sdecl	'.rodata.Spi_PBcfg.SpiJob_1_CMIC1_ChannelLinkPtr_Physical',data,rom,cluster('SpiJob_1_CMIC1_ChannelLinkPtr_Physical')
+	.sect	'.rodata.Spi_PBcfg.SpiJob_1_CMIC1_ChannelLinkPtr_Physical'
+SpiJob_1_CMIC1_ChannelLinkPtr_Physical:	.type	object
+	.size	SpiJob_1_CMIC1_ChannelLinkPtr_Physical,2
+	.byte	2,255
+	.sdecl	'.rodata.Spi_PBcfg.SpiJob_2_PMIC_ChannelLinkPtr_Physical',data,rom,cluster('SpiJob_2_PMIC_ChannelLinkPtr_Physical')
+	.sect	'.rodata.Spi_PBcfg.SpiJob_2_PMIC_ChannelLinkPtr_Physical'
+SpiJob_2_PMIC_ChannelLinkPtr_Physical:	.type	object
+	.size	SpiJob_2_PMIC_ChannelLinkPtr_Physical,2
+	.byte	1,255
+	.sdecl	'.rodata.Spi_PBcfg.SpiSequence_0_CMIC2_SeqSharePtr',data,rom,cluster('SpiSequence_0_CMIC2_SeqSharePtr')
+	.sect	'.rodata.Spi_PBcfg.SpiSequence_0_CMIC2_SeqSharePtr'
+SpiSequence_0_CMIC2_SeqSharePtr:	.type	object
+	.size	SpiSequence_0_CMIC2_SeqSharePtr,1
+	.byte	255
+	.sdecl	'.rodata.Spi_PBcfg.SpiSequence_1_CMIC1_SeqSharePtr',data,rom,cluster('SpiSequence_1_CMIC1_SeqSharePtr')
+	.sect	'.rodata.Spi_PBcfg.SpiSequence_1_CMIC1_SeqSharePtr'
+SpiSequence_1_CMIC1_SeqSharePtr:	.type	object
+	.size	SpiSequence_1_CMIC1_SeqSharePtr,1
+	.byte	255
+	.sdecl	'.rodata.Spi_PBcfg.SpiSequence_2_PMIC_SeqSharePtr',data,rom,cluster('SpiSequence_2_PMIC_SeqSharePtr')
+	.sect	'.rodata.Spi_PBcfg.SpiSequence_2_PMIC_SeqSharePtr'
+SpiSequence_2_PMIC_SeqSharePtr:	.type	object
+	.size	SpiSequence_2_PMIC_SeqSharePtr,1
+	.byte	255
+	.sdecl	'.rodata.Spi_PBcfg.Spi_kSequenceConfig_Core0',data,rom,cluster('Spi_kSequenceConfig_Core0')
+	.sect	'.rodata.Spi_PBcfg.Spi_kSequenceConfig_Core0'
+	.align	4
+Spi_kSequenceConfig_Core0:	.type	object
+	.size	Spi_kSequenceConfig_Core0,60
+	.space	4
+	.word	CMIC2_SeqEndNotification,SpiSequence_0_CMIC2_JobLinkPtr_Physical,SpiSequence_0_CMIC2_SeqSharePtr
+	.half	1
+	.space	1
+	.byte	1,2
+	.space	7
+	.word	SpiSequence_2_PMIC_JobLinkPtr_Physical,SpiSequence_2_PMIC_SeqSharePtr
+	.half	1
+	.byte	2
+	.space	1
+	.byte	1
+	.space	3
+	.word	CMIC1_SeqEndNotification,SpiSequence_1_CMIC1_JobLinkPtr_Physical,SpiSequence_1_CMIC1_SeqSharePtr
+	.half	1
+	.byte	4,1
+	.sdecl	'.rodata.Spi_PBcfg.Spi_kJobConfig_Core0',data,rom,cluster('Spi_kJobConfig_Core0')
+	.sect	'.rodata.Spi_PBcfg.Spi_kJobConfig_Core0'
+	.align	4
+Spi_kJobConfig_Core0:	.type	object
+	.size	Spi_kJobConfig_Core0,84
+	.space	8
+	.word	3212289,599186,SpiJob_0_CMIC2_ChannelLinkPtr_Physical
+	.half	356
+	.space	2
+	.byte	192,2
+	.space	2
+	.half	2
+	.space	6
+	.word	3212289,599186,SpiJob_2_PMIC_ChannelLinkPtr_Physical
+	.half	231
+	.space	2
+	.byte	66,2
+	.space	2
+	.half	1
+	.space	6
+	.word	3212289,599186,SpiJob_1_CMIC1_ChannelLinkPtr_Physical
+	.half	354
+	.space	2
+	.byte	52,2
+	.space	2
+	.sdecl	'.rodata.Spi_PBcfg.Spi_kChannelConfig_Core0',data,rom,cluster('Spi_kChannelConfig_Core0')
+	.sect	'.rodata.Spi_PBcfg.Spi_kChannelConfig_Core0'
+	.align	4
+Spi_kChannelConfig_Core0:	.type	object
+	.size	Spi_kChannelConfig_Core0,36
+	.space	4
+	.half	8190
+	.space	1
+	.byte	136
+	.space	8
+	.half	8190
+	.space	1
+	.byte	144,2
+	.space	7
+	.half	8190
+	.space	1
+	.byte	136,1
+	.space	3
+	.sdecl	'.rodata.Spi_PBcfg.Spi_kQspiHwConfigQSPI0',data,rom,cluster('Spi_kQspiHwConfigQSPI0')
+	.sect	'.rodata.Spi_PBcfg.Spi_kQspiHwConfigQSPI0'
+	.align	4
+Spi_kQspiHwConfigQSPI0:	.type	object
+	.size	Spi_kQspiHwConfigQSPI0,20
+	.space	4
+	.half	3
+	.byte	3,2,1,8
+	.byte	2,1
+	.space	8
+	.sdecl	'.rodata.Spi_PBcfg.Spi_kQspiHwConfigQSPI2',data,rom,cluster('Spi_kQspiHwConfigQSPI2')
+	.sect	'.rodata.Spi_PBcfg.Spi_kQspiHwConfigQSPI2'
+	.align	4
+Spi_kQspiHwConfigQSPI2:	.type	object
+	.size	Spi_kQspiHwConfigQSPI2,20
+	.space	6
+	.byte	255,255
+	.space	1
+	.byte	8,1,1
+	.space	8
+	.sdecl	'.rodata.Spi_PBcfg.Spi_kQspiHwConfigQSPI4',data,rom,cluster('Spi_kQspiHwConfigQSPI4')
+	.sect	'.rodata.Spi_PBcfg.Spi_kQspiHwConfigQSPI4'
+	.align	4
+Spi_kQspiHwConfigQSPI4:	.type	object
+	.size	Spi_kQspiHwConfigQSPI4,20
+	.space	4
+	.half	3
+	.byte	6,5,1,8
+	.byte	1,1
+	.space	8
+	.sdecl	'.rodata.Spi_PBcfg.Spi_ChannelOffsets_Core0',data,rom,cluster('Spi_ChannelOffsets_Core0')
+	.sect	'.rodata.Spi_PBcfg.Spi_ChannelOffsets_Core0'
+	.align	2
+Spi_ChannelOffsets_Core0:	.type	object
+	.size	Spi_ChannelOffsets_Core0,16
+	.space	12
+	.half	65535,65535
+	.sdecl	'.rodata.Spi_PBcfg.Spi_Config_Core0',data,rom,cluster('Spi_Config_Core0')
+	.sect	'.rodata.Spi_PBcfg.Spi_Config_Core0'
+	.global	Spi_Config_Core0
+	.align	4
+Spi_Config_Core0:	.type	object
+	.size	Spi_Config_Core0,48
+	.word	Spi_kSequenceConfig_Core0,Spi_kJobConfig_Core0,Spi_kChannelConfig_Core0,Spi_ChannelOffsets_Core0
+	.word	Spi_kQspiHwConfigQSPI0
+	.space	4
+	.word	Spi_kQspiHwConfigQSPI2
+	.space	4
+	.word	Spi_kQspiHwConfigQSPI4,8258
+	.byte	3
+	.space	1
+	.half	3
+	.byte	3
+	.space	3
+	.sdecl	'.rodata.Spi_PBcfg.Spi_Config',data,rom,cluster('Spi_Config')
+	.sect	'.rodata.Spi_PBcfg.Spi_Config'
+	.global	Spi_Config
+	.align	4
+Spi_Config:	.type	object
+	.size	Spi_Config,40
+	.word	Spi_Config_Core0
+	.space	12
+	.word	SequenceLookupIndex,JobLookupIndex,ChannelLookupIndex
+	.byte	3
+	.space	1
+	.half	3
+	.byte	3
+	.space	1
+	.word	65535
+	.space	2
+	.calls	'__INDIRECT__','CMIC2_SeqEndNotification'
+	.extern	CMIC2_SeqEndNotification
+	.extern	CMIC1_SeqEndNotification
+	.extern	__INDIRECT__
+	.calls	'__INDIRECT__','CMIC1_SeqEndNotification'
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	3296
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L5
+	.byte	2
+	.byte	'CMIC2_SeqEndNotification',0,1,75,13,1,1,1,1,2
+	.byte	'CMIC1_SeqEndNotification',0,1,77,13,1,1,1,1,3
+	.byte	'__INDIRECT__',0,1,1,1,1,1,1,4,1,5
+	.word	292
+	.byte	6
+	.byte	'__codeptr',0,1,1,1
+	.word	294
+	.byte	7
+	.byte	'unsigned char',0,1,8,6
+	.byte	'uint8',0,2,105,29
+	.word	317
+	.byte	7
+	.byte	'unsigned short int',0,2,7,6
+	.byte	'uint16',0,2,109,29
+	.word	348
+	.byte	7
+	.byte	'unsigned long int',0,4,7,6
+	.byte	'uint32',0,2,113,29
+	.word	385
+	.byte	7
+	.byte	'unsigned int',0,4,7,6
+	.byte	'unsigned_int',0,3,75,22
+	.word	421
+	.byte	8,1,1,9
+	.word	317
+	.byte	9
+	.word	385
+	.byte	0,5
+	.word	458
+	.byte	6
+	.byte	'Dma_MoveEngineErrorNotificationPtrType',0,4,178,1,16
+	.word	472
+	.byte	6
+	.byte	'Dma_ChannelNotificationPtrType',0,4,186,1,16
+	.word	472
+	.byte	5
+	.word	385
+	.byte	10,4,202,1,9,16,11
+	.byte	'DmaSourceAddress',0
+	.word	565
+	.byte	4,2,35,0,11
+	.byte	'DmaDestinationAddress',0
+	.word	565
+	.byte	4,2,35,4,11
+	.byte	'DmaAddressInterruptControl',0
+	.word	385
+	.byte	4,2,35,8,11
+	.byte	'DmaChannelConfig',0
+	.word	385
+	.byte	4,2,35,12,0,6
+	.byte	'Dma_TransactionCtrlSetType',0,4,219,1,3
+	.word	570
+	.byte	12
+	.word	570
+	.byte	5
+	.word	732
+	.byte	10,4,227,1,9,20,11
+	.byte	'DmaChTCSPtr',0
+	.word	737
+	.byte	4,2,35,0,11
+	.byte	'DmaChNotifPtr',0
+	.word	525
+	.byte	4,2,35,4,11
+	.byte	'DmaTsrConfig',0
+	.word	385
+	.byte	4,2,35,8,11
+	.byte	'DmaChNumber',0
+	.word	317
+	.byte	1,2,35,12,11
+	.byte	'DmaChHwPartitionConfig',0
+	.word	317
+	.byte	1,2,35,13,11
+	.byte	'DmaMEErrorNotifPtr',0
+	.word	477
+	.byte	4,2,35,16,0,6
+	.byte	'Dma_ChConfigType',0,4,235,1,3
+	.word	742
+	.byte	5
+	.word	458
+	.byte	5
+	.word	458
+	.byte	13,16
+	.word	385
+	.byte	14,3,0,13,4
+	.word	317
+	.byte	14,3,0,10,4,241,1,9,20,11
+	.byte	'DmaHwResourceBusMasterAccess',0
+	.word	932
+	.byte	16,2,35,0,11
+	.byte	'DmaHwResourceMode',0
+	.word	941
+	.byte	4,2,35,16,0,6
+	.byte	'Dma_ResourcePartitionConfigType',0,4,248,1,3
+	.word	950
+	.byte	12
+	.word	742
+	.byte	5
+	.word	1063
+	.byte	10,4,128,2,9,8,11
+	.byte	'DmaChConfigPtr',0
+	.word	1068
+	.byte	4,2,35,0,11
+	.byte	'DmaNumberofChConfiguredPerCore',0
+	.word	317
+	.byte	1,2,35,4,0,6
+	.byte	'Dma_CoreSpecificChConfigType',0,4,135,2,3
+	.word	1073
+	.byte	10,4,140,2,9,2,11
+	.byte	'Dma_ChannelConfIndexMap',0
+	.word	317
+	.byte	1,2,35,0,11
+	.byte	'Dma_ChannelCoreMap',0
+	.word	317
+	.byte	1,2,35,1,0,6
+	.byte	'Dma_ChannelMapType',0,4,149,2,3
+	.word	1182
+	.byte	6
+	.byte	'Spi_DataBufferType',0,5,222,1,15
+	.word	317
+	.byte	6
+	.byte	'Spi_NumberOfDataType',0,5,229,1,16
+	.word	348
+	.byte	6
+	.byte	'Spi_ChannelType',0,5,235,1,15
+	.word	317
+	.byte	6
+	.byte	'Spi_JobType',0,5,241,1,16
+	.word	348
+	.byte	6
+	.byte	'Spi_SequenceType',0,5,247,1,15
+	.word	317
+	.byte	6
+	.byte	'Spi_HWUnitType',0,5,253,1,15
+	.word	317
+	.byte	6
+	.byte	'Spi_QSPIHwMapConfigType',0,5,129,2,16
+	.word	385
+	.byte	15,1,1,5
+	.word	1465
+	.byte	6
+	.byte	'Spi_JobEndNotification',0,5,150,2,15
+	.word	1468
+	.byte	6
+	.byte	'Spi_SeqEndNotification',0,5,157,2,15
+	.word	1468
+	.byte	12
+	.word	348
+	.byte	5
+	.word	1537
+	.byte	12
+	.word	317
+	.byte	5
+	.word	1547
+	.byte	10,5,164,2,9,20,11
+	.byte	'SequenceId',0
+	.word	317
+	.byte	1,2,35,0,11
+	.byte	'SeqNotification',0
+	.word	1505
+	.byte	4,2,35,4,11
+	.byte	'JobLinkPtrPhysical',0
+	.word	1542
+	.byte	4,2,35,8,11
+	.byte	'SeqSharePtr',0
+	.word	1552
+	.byte	4,2,35,12,11
+	.byte	'NoOfJobInSeq',0
+	.word	348
+	.byte	2,2,35,16,11
+	.byte	'HwModuleUsed',0
+	.word	317
+	.byte	1,2,35,18,11
+	.byte	'u8Comm',0
+	.word	317
+	.byte	1,2,35,19,0,6
+	.byte	'Spi_SequenceConfigType',0,5,198,2,3
+	.word	1557
+	.byte	5
+	.word	1465
+	.byte	12
+	.word	317
+	.byte	5
+	.word	1755
+	.byte	10,5,205,2,9,28,11
+	.byte	'JobId',0
+	.word	348
+	.byte	2,2,35,0,11
+	.byte	'JobNotification',0
+	.word	1473
+	.byte	4,2,35,4,11
+	.byte	'BaudRateAndClockParam',0
+	.word	385
+	.byte	4,2,35,8,11
+	.byte	'IdleLeadTrailDelay',0
+	.word	385
+	.byte	4,2,35,12,11
+	.byte	'ChnlLinkPtrPhysical',0
+	.word	1760
+	.byte	4,2,35,16,11
+	.byte	'CSPortPin',0
+	.word	348
+	.byte	2,2,35,20,11
+	.byte	'JobPriority',0
+	.word	317
+	.byte	1,2,35,22,11
+	.byte	'CsPolarity',0
+	.word	317
+	.byte	1,2,35,23,11
+	.byte	'HwUnit',0
+	.word	317
+	.byte	1,2,35,24,11
+	.byte	'ParitySupport',0
+	.word	317
+	.byte	1,2,35,25,11
+	.byte	'FramebasedCs',0
+	.word	317
+	.byte	1,2,35,26,0,6
+	.byte	'Spi_JobConfigType',0,5,246,2,3
+	.word	1765
+	.byte	5
+	.word	1465
+	.byte	10,5,254,2,9,20,11
+	.byte	'ActiveChipSelectLevel',0
+	.word	385
+	.byte	4,2,35,0,11
+	.byte	'JobQueueLength',0
+	.word	348
+	.byte	2,2,35,4,11
+	.byte	'DMARxChannel',0
+	.word	317
+	.byte	1,2,35,6,11
+	.byte	'DMATxChannel',0
+	.word	317
+	.byte	1,2,35,7,11
+	.byte	'DMATCSCount',0
+	.word	317
+	.byte	1,2,35,8,11
+	.byte	'ClockSetting',0
+	.word	317
+	.byte	1,2,35,9,11
+	.byte	'MasterReceivePortPin',0
+	.word	317
+	.byte	1,2,35,10,11
+	.byte	'MaxSequence',0
+	.word	317
+	.byte	1,2,35,11,11
+	.byte	'ExternalDemuxEnabled',0
+	.word	317
+	.byte	1,2,35,12,11
+	.byte	'StrobeDelay',0
+	.word	385
+	.byte	4,2,35,14,0,6
+	.byte	'Spi_QspiHwConfigType',0,5,164,3,3
+	.word	2053
+	.byte	10,5,172,3,9,12,11
+	.byte	'Defaultdata',0
+	.word	385
+	.byte	4,2,35,0,11
+	.byte	'NoOfDataElements',0
+	.word	348
+	.byte	2,2,35,4,11
+	.byte	'ChannelType',0
+	.word	317
+	.byte	1,2,35,6,11
+	.byte	'DataConfig',0
+	.word	317
+	.byte	1,2,35,7,11
+	.byte	'ChannelId',0
+	.word	317
+	.byte	1,2,35,8,0,6
+	.byte	'Spi_ChannelConfigType',0,5,192,3,3
+	.word	2334
+	.byte	10,5,216,3,9,4,11
+	.byte	'ChannelOffset',0
+	.word	348
+	.byte	2,2,35,0,11
+	.byte	'DataTransferLength',0
+	.word	348
+	.byte	2,2,35,2,0,6
+	.byte	'Spi_CoreChannelOffsetType',0,5,220,3,3
+	.word	2479
+	.byte	12
+	.word	1557
+	.byte	5
+	.word	2572
+	.byte	12
+	.word	1765
+	.byte	5
+	.word	2582
+	.byte	12
+	.word	2334
+	.byte	5
+	.word	2592
+	.byte	12
+	.word	2479
+	.byte	5
+	.word	2602
+	.byte	12
+	.word	2053
+	.byte	5
+	.word	2612
+	.byte	13,20
+	.word	2617
+	.byte	14,4,0,12
+	.word	385
+	.byte	10,5,223,3,9,48,11
+	.byte	'SequenceConfigPtr',0
+	.word	2577
+	.byte	4,2,35,0,11
+	.byte	'JobConfigPtr',0
+	.word	2587
+	.byte	4,2,35,4,11
+	.byte	'ChannelConfigPtr',0
+	.word	2597
+	.byte	4,2,35,8,11
+	.byte	'ChannelOffsetInfo',0
+	.word	2607
+	.byte	4,2,35,12,11
+	.byte	'QSPIHwConfigPtr',0
+	.word	2622
+	.byte	20,2,35,16,11
+	.byte	'QSPIHwMap',0
+	.word	2631
+	.byte	4,2,35,36,11
+	.byte	'NoOfSequences',0
+	.word	317
+	.byte	1,2,35,40,11
+	.byte	'NoOfJobs',0
+	.word	348
+	.byte	2,2,35,42,11
+	.byte	'NoOfChannels',0
+	.word	317
+	.byte	1,2,35,44,0,6
+	.byte	'Spi_CoreConfigType',0,5,254,3,3
+	.word	2636
+	.byte	12
+	.word	2636
+	.byte	5
+	.word	2880
+	.byte	13,16
+	.word	2885
+	.byte	14,3,0,12
+	.word	348
+	.byte	5
+	.word	2899
+	.byte	10,5,130,4,9,40,11
+	.byte	'CoreConfigPtr',0
+	.word	2890
+	.byte	16,2,35,0,11
+	.byte	'SequenceLookup',0
+	.word	1552
+	.byte	4,2,35,16,11
+	.byte	'JobLookup',0
+	.word	2904
+	.byte	4,2,35,20,11
+	.byte	'ChannelLookup',0
+	.word	1552
+	.byte	4,2,35,24,11
+	.byte	'NoOfSequences',0
+	.word	317
+	.byte	1,2,35,28,11
+	.byte	'NoOfJobs',0
+	.word	348
+	.byte	2,2,35,30,11
+	.byte	'NoOfChannels',0
+	.word	317
+	.byte	1,2,35,32,11
+	.byte	'SyncTimeout',0
+	.word	385
+	.byte	4,2,35,34,0,6
+	.byte	'Spi_ConfigType',0,5,154,4,3
+	.word	2909
+.L48:
+	.byte	12
+	.word	2909
+	.byte	13,3
+	.word	317
+	.byte	14,2,0
+.L49:
+	.byte	12
+	.word	3118
+	.byte	13,6
+	.word	348
+	.byte	14,2,0
+.L50:
+	.byte	12
+	.word	3132
+.L51:
+	.byte	12
+	.word	3118
+	.byte	13,4
+	.word	348
+	.byte	14,1,0
+.L52:
+	.byte	12
+	.word	3151
+.L53:
+	.byte	12
+	.word	3151
+.L54:
+	.byte	12
+	.word	3151
+	.byte	13,2
+	.word	317
+	.byte	14,1,0
+.L55:
+	.byte	12
+	.word	3175
+.L56:
+	.byte	12
+	.word	3175
+.L57:
+	.byte	12
+	.word	3175
+	.byte	13,1
+	.word	317
+	.byte	14,0,0
+.L58:
+	.byte	12
+	.word	3199
+.L59:
+	.byte	12
+	.word	3199
+.L60:
+	.byte	12
+	.word	3199
+	.byte	13,60
+	.word	1557
+	.byte	14,2,0
+.L61:
+	.byte	12
+	.word	3223
+	.byte	13,84
+	.word	1765
+	.byte	14,2,0
+.L62:
+	.byte	12
+	.word	3237
+	.byte	13,36
+	.word	2334
+	.byte	14,2,0
+.L63:
+	.byte	12
+	.word	3251
+.L64:
+	.byte	12
+	.word	2053
+.L65:
+	.byte	12
+	.word	2053
+.L66:
+	.byte	12
+	.word	2053
+	.byte	13,16
+	.word	2479
+	.byte	14,3,0
+.L67:
+	.byte	12
+	.word	3280
+.L68:
+	.byte	12
+	.word	2636
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0
+	.byte	3,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,4,21,0,54,15,0,0,5,15,0,73,19,0,0,6,22,0,3,8,58,15
+	.byte	59,15,57,15,73,19,0,0,7,36,0,3,8,11,15,62,15,0,0,8,21,1,54,15,39,12,0,0,9,5,0,73,19,0,0,10,19,1,58,15
+	.byte	59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0,0,12,38,0,73,19,0,0,13,1,1,11,15,73,19,0,0,14,33
+	.byte	0,47,15,0,0,15,21,0,54,15,39,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L70-.L69
+.L69:
+	.half	3
+	.word	.L72-.L71
+.L71:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc',0
+	.byte	0
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Mcal_Compiler.h',0,2,0,0
+	.byte	'Dma.h',0,3,0,0
+	.byte	'Spi.h',0,4,0,0,0
+.L72:
+.L70:
+	.sdecl	'.debug_info',debug,cluster('Spi_Config')
+	.sect	'.debug_info'
+.L6:
+	.word	231
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_Config',0,1,179,6,22
+	.word	.L48
+	.byte	1,5,3
+	.word	Spi_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_Config')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('SequenceLookupIndex')
+	.sect	'.debug_info'
+.L8:
+	.word	238
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SequenceLookupIndex',0,1,105,22
+	.word	.L49
+	.byte	5,3
+	.word	SequenceLookupIndex
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SequenceLookupIndex')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('JobLookupIndex')
+	.sect	'.debug_info'
+.L10:
+	.word	233
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'JobLookupIndex',0,1,116,21
+	.word	.L50
+	.byte	5,3
+	.word	JobLookupIndex
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('JobLookupIndex')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('ChannelLookupIndex')
+	.sect	'.debug_info'
+.L12:
+	.word	237
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'ChannelLookupIndex',0,1,127,20
+	.word	.L51
+	.byte	5,3
+	.word	ChannelLookupIndex
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ChannelLookupIndex')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_0_CMIC2_JobLinkPtr_Physical')
+	.sect	'.debug_info'
+.L14:
+	.word	259
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_0_CMIC2_JobLinkPtr_Physical',0,1,139,1,26
+	.word	.L52
+	.byte	5,3
+	.word	SpiSequence_0_CMIC2_JobLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_0_CMIC2_JobLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_1_CMIC1_JobLinkPtr_Physical')
+	.sect	'.debug_info'
+.L16:
+	.word	259
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_1_CMIC1_JobLinkPtr_Physical',0,1,146,1,26
+	.word	.L53
+	.byte	5,3
+	.word	SpiSequence_1_CMIC1_JobLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_1_CMIC1_JobLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_2_PMIC_JobLinkPtr_Physical')
+	.sect	'.debug_info'
+.L18:
+	.word	258
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_2_PMIC_JobLinkPtr_Physical',0,1,153,1,26
+	.word	.L54
+	.byte	5,3
+	.word	SpiSequence_2_PMIC_JobLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_2_PMIC_JobLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiJob_0_CMIC2_ChannelLinkPtr_Physical')
+	.sect	'.debug_info'
+.L20:
+	.word	258
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiJob_0_CMIC2_ChannelLinkPtr_Physical',0,1,161,1,30
+	.word	.L55
+	.byte	5,3
+	.word	SpiJob_0_CMIC2_ChannelLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiJob_0_CMIC2_ChannelLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiJob_1_CMIC1_ChannelLinkPtr_Physical')
+	.sect	'.debug_info'
+.L22:
+	.word	258
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiJob_1_CMIC1_ChannelLinkPtr_Physical',0,1,168,1,30
+	.word	.L56
+	.byte	5,3
+	.word	SpiJob_1_CMIC1_ChannelLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiJob_1_CMIC1_ChannelLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiJob_2_PMIC_ChannelLinkPtr_Physical')
+	.sect	'.debug_info'
+.L24:
+	.word	257
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiJob_2_PMIC_ChannelLinkPtr_Physical',0,1,175,1,30
+	.word	.L57
+	.byte	5,3
+	.word	SpiJob_2_PMIC_ChannelLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiJob_2_PMIC_ChannelLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_0_CMIC2_SeqSharePtr')
+	.sect	'.debug_info'
+.L26:
+	.word	251
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_0_CMIC2_SeqSharePtr',0,1,182,1,31
+	.word	.L58
+	.byte	5,3
+	.word	SpiSequence_0_CMIC2_SeqSharePtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_0_CMIC2_SeqSharePtr')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_1_CMIC1_SeqSharePtr')
+	.sect	'.debug_info'
+.L28:
+	.word	251
+	.half	3
+	.word	.L29
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_1_CMIC1_SeqSharePtr',0,1,187,1,31
+	.word	.L59
+	.byte	5,3
+	.word	SpiSequence_1_CMIC1_SeqSharePtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_1_CMIC1_SeqSharePtr')
+	.sect	'.debug_abbrev'
+.L29:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_2_PMIC_SeqSharePtr')
+	.sect	'.debug_info'
+.L30:
+	.word	250
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_2_PMIC_SeqSharePtr',0,1,192,1,31
+	.word	.L60
+	.byte	5,3
+	.word	SpiSequence_2_PMIC_SeqSharePtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_2_PMIC_SeqSharePtr')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kSequenceConfig_Core0')
+	.sect	'.debug_info'
+.L32:
+	.word	245
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kSequenceConfig_Core0',0,1,237,1,37
+	.word	.L61
+	.byte	5,3
+	.word	Spi_kSequenceConfig_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kSequenceConfig_Core0')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kJobConfig_Core0')
+	.sect	'.debug_info'
+.L34:
+	.word	240
+	.half	3
+	.word	.L35
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kJobConfig_Core0',0,1,209,2,32
+	.word	.L62
+	.byte	5,3
+	.word	Spi_kJobConfig_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kJobConfig_Core0')
+	.sect	'.debug_abbrev'
+.L35:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kChannelConfig_Core0')
+	.sect	'.debug_info'
+.L36:
+	.word	244
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kChannelConfig_Core0',0,1,207,3,36
+	.word	.L63
+	.byte	5,3
+	.word	Spi_kChannelConfig_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kChannelConfig_Core0')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kQspiHwConfigQSPI0')
+	.sect	'.debug_info'
+.L38:
+	.word	242
+	.half	3
+	.word	.L39
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kQspiHwConfigQSPI0',0,1,151,4,35
+	.word	.L64
+	.byte	5,3
+	.word	Spi_kQspiHwConfigQSPI0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kQspiHwConfigQSPI0')
+	.sect	'.debug_abbrev'
+.L39:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kQspiHwConfigQSPI2')
+	.sect	'.debug_info'
+.L40:
+	.word	242
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kQspiHwConfigQSPI2',0,1,203,4,35
+	.word	.L65
+	.byte	5,3
+	.word	Spi_kQspiHwConfigQSPI2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kQspiHwConfigQSPI2')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kQspiHwConfigQSPI4')
+	.sect	'.debug_info'
+.L42:
+	.word	242
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kQspiHwConfigQSPI4',0,1,254,4,35
+	.word	.L66
+	.byte	5,3
+	.word	Spi_kQspiHwConfigQSPI4
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kQspiHwConfigQSPI4')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_ChannelOffsets_Core0')
+	.sect	'.debug_info'
+.L44:
+	.word	244
+	.half	3
+	.word	.L45
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_ChannelOffsets_Core0',0,1,179,5,40
+	.word	.L67
+	.byte	5,3
+	.word	Spi_ChannelOffsets_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_ChannelOffsets_Core0')
+	.sect	'.debug_abbrev'
+.L45:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_Config_Core0')
+	.sect	'.debug_info'
+.L46:
+	.word	237
+	.half	3
+	.word	.L47
+	.byte	4,1
+	.byte	'../BasicSw/Mcal/generate/src/Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_Config_Core0',0,1,229,5,26
+	.word	.L68
+	.byte	1,5,3
+	.word	Spi_Config_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_Config_Core0')
+	.sect	'.debug_abbrev'
+.L47:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	; Module end

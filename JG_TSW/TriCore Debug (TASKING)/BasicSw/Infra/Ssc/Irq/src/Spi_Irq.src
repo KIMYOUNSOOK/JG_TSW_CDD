@@ -1,0 +1,780 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc10460a --dep-file=BasicSw/Infra/Ssc/Irq/src/Spi_Irq.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BasicSw/Infra/Ssc/Irq/src/Spi_Irq.src ../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c"
+	.compiler_name		"ctc"
+	;source	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.inttab0.intvec.004',code
+	.sect	'.text.inttab0.intvec.004'
+	movh.a	a14,#@his(QSPI0ERR_ISR)
+	lea	a14,[a14]@los(QSPI0ERR_ISR)
+	ji	a14
+	.sdecl	'.text.Spi_Irq.QSPI0ERR_ISR',code,cluster('QSPI0ERR_ISR')
+	.sect	'.text.Spi_Irq.QSPI0ERR_ISR'
+	.align	2
+	
+	.global	QSPI0ERR_ISR
+; Function QSPI0ERR_ISR
+.L3:
+QSPI0ERR_ISR:	.type	func
+	svlcx
+.L46:
+	enable
+.L47:
+	mov	d4,#0
+	call	Spi_IsrQspiError
+.L48:
+	rslcx
+	rfe
+.L34:
+	
+__QSPI0ERR_ISR_function_end:
+	.size	QSPI0ERR_ISR,__QSPI0ERR_ISR_function_end-QSPI0ERR_ISR
+.L18:
+	; End of function
+	
+	.sdecl	'.text.inttab0.intvec.007',code
+	.sect	'.text.inttab0.intvec.007'
+	movh.a	a14,#@his(QSPI4ERR_ISR)
+	lea	a14,[a14]@los(QSPI4ERR_ISR)
+	ji	a14
+	.sdecl	'.text.Spi_Irq.QSPI4ERR_ISR',code,cluster('QSPI4ERR_ISR')
+	.sect	'.text.Spi_Irq.QSPI4ERR_ISR'
+	.align	2
+	
+	.global	QSPI4ERR_ISR
+; Function QSPI4ERR_ISR
+.L5:
+QSPI4ERR_ISR:	.type	func
+	svlcx
+.L53:
+	enable
+.L54:
+	mov	d4,#4
+	call	Spi_IsrQspiError
+.L55:
+	rslcx
+	rfe
+.L35:
+	
+__QSPI4ERR_ISR_function_end:
+	.size	QSPI4ERR_ISR,__QSPI4ERR_ISR_function_end-QSPI4ERR_ISR
+.L23:
+	; End of function
+	
+	.sdecl	'.text.inttab0.intvec.037',code
+	.sect	'.text.inttab0.intvec.037'
+	movh.a	a14,#@his(QSPI0PT_ISR)
+	lea	a14,[a14]@los(QSPI0PT_ISR)
+	ji	a14
+	.sdecl	'.text.Spi_Irq.QSPI0PT_ISR',code,cluster('QSPI0PT_ISR')
+	.sect	'.text.Spi_Irq.QSPI0PT_ISR'
+	.align	2
+	
+	.global	QSPI0PT_ISR
+; Function QSPI0PT_ISR
+.L7:
+QSPI0PT_ISR:	.type	func
+	svlcx
+.L60:
+	enable
+.L61:
+	mov	d4,#0
+	call	Spi_IsrQspiPT2
+.L62:
+	rslcx
+	rfe
+.L36:
+	
+__QSPI0PT_ISR_function_end:
+	.size	QSPI0PT_ISR,__QSPI0PT_ISR_function_end-QSPI0PT_ISR
+.L28:
+	; End of function
+	
+	.sdecl	'.text.inttab0.intvec.039',code
+	.sect	'.text.inttab0.intvec.039'
+	movh.a	a14,#@his(QSPI4PT_ISR)
+	lea	a14,[a14]@los(QSPI4PT_ISR)
+	ji	a14
+	.sdecl	'.text.Spi_Irq.QSPI4PT_ISR',code,cluster('QSPI4PT_ISR')
+	.sect	'.text.Spi_Irq.QSPI4PT_ISR'
+	.align	2
+	
+	.global	QSPI4PT_ISR
+; Function QSPI4PT_ISR
+.L9:
+QSPI4PT_ISR:	.type	func
+	svlcx
+.L67:
+	enable
+.L68:
+	mov	d4,#4
+	call	Spi_IsrQspiPT2
+.L69:
+	rslcx
+	rfe
+.L37:
+	
+__QSPI4PT_ISR_function_end:
+	.size	QSPI4PT_ISR,__QSPI4PT_ISR_function_end-QSPI4PT_ISR
+.L33:
+	; End of function
+	
+	.calls	'QSPI0ERR_ISR','Spi_IsrQspiError'
+	.calls	'QSPI4ERR_ISR','Spi_IsrQspiError'
+	.calls	'QSPI0PT_ISR','Spi_IsrQspiPT2'
+	.calls	'QSPI4PT_ISR','Spi_IsrQspiPT2'
+	.calls	'QSPI0ERR_ISR','',0
+	.calls	'QSPI4ERR_ISR','',0
+	.calls	'QSPI0PT_ISR','',0
+	.extern	Spi_IsrQspiError
+	.extern	Spi_IsrQspiPT2
+	.calls	'QSPI4PT_ISR','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L11:
+	.word	2897
+	.half	3
+	.word	.L12
+	.byte	4
+.L10:
+	.byte	1
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L13
+	.byte	2
+	.byte	'__enable',0,1,1,1,1,3
+	.byte	'unsigned char',0,1,8,4
+	.word	218
+	.byte	5
+	.byte	'Spi_IsrQspiError',0,1,195,8,13,1,1,1,1,6
+	.byte	'Module',0,1,195,8,42
+	.word	235
+	.byte	0,4
+	.word	218
+	.byte	5
+	.byte	'Spi_IsrQspiPT2',0,1,128,9,13,1,1,1,1,6
+	.byte	'Module',0,1,128,9,40
+	.word	283
+	.byte	0,7,1,8
+	.word	329
+	.byte	9
+	.byte	'__codeptr',0,2,1,1
+	.word	331
+	.byte	9
+	.byte	'uint8',0,3,105,29
+	.word	218
+	.byte	3
+	.byte	'unsigned short int',0,2,7,9
+	.byte	'uint16',0,3,109,29
+	.word	368
+	.byte	3
+	.byte	'unsigned long int',0,4,7,9
+	.byte	'uint32',0,3,113,29
+	.word	405
+	.byte	3
+	.byte	'unsigned int',0,4,7,9
+	.byte	'unsigned_int',0,4,75,22
+	.word	441
+	.byte	10,1,1,11
+	.word	218
+	.byte	11
+	.word	405
+	.byte	0,8
+	.word	478
+	.byte	9
+	.byte	'Dma_MoveEngineErrorNotificationPtrType',0,5,178,1,16
+	.word	492
+	.byte	9
+	.byte	'Dma_ChannelNotificationPtrType',0,5,186,1,16
+	.word	492
+	.byte	8
+	.word	405
+	.byte	12,5,202,1,9,16,13
+	.byte	'DmaSourceAddress',0
+	.word	585
+	.byte	4,2,35,0,13
+	.byte	'DmaDestinationAddress',0
+	.word	585
+	.byte	4,2,35,4,13
+	.byte	'DmaAddressInterruptControl',0
+	.word	405
+	.byte	4,2,35,8,13
+	.byte	'DmaChannelConfig',0
+	.word	405
+	.byte	4,2,35,12,0,9
+	.byte	'Dma_TransactionCtrlSetType',0,5,219,1,3
+	.word	590
+	.byte	4
+	.word	590
+	.byte	8
+	.word	752
+	.byte	12,5,227,1,9,20,13
+	.byte	'DmaChTCSPtr',0
+	.word	757
+	.byte	4,2,35,0,13
+	.byte	'DmaChNotifPtr',0
+	.word	545
+	.byte	4,2,35,4,13
+	.byte	'DmaTsrConfig',0
+	.word	405
+	.byte	4,2,35,8,13
+	.byte	'DmaChNumber',0
+	.word	218
+	.byte	1,2,35,12,13
+	.byte	'DmaChHwPartitionConfig',0
+	.word	218
+	.byte	1,2,35,13,13
+	.byte	'DmaMEErrorNotifPtr',0
+	.word	497
+	.byte	4,2,35,16,0,9
+	.byte	'Dma_ChConfigType',0,5,235,1,3
+	.word	762
+	.byte	8
+	.word	478
+	.byte	8
+	.word	478
+	.byte	14,16
+	.word	405
+	.byte	15,3,0,14,4
+	.word	218
+	.byte	15,3,0,12,5,241,1,9,20,13
+	.byte	'DmaHwResourceBusMasterAccess',0
+	.word	952
+	.byte	16,2,35,0,13
+	.byte	'DmaHwResourceMode',0
+	.word	961
+	.byte	4,2,35,16,0,9
+	.byte	'Dma_ResourcePartitionConfigType',0,5,248,1,3
+	.word	970
+	.byte	4
+	.word	762
+	.byte	8
+	.word	1083
+	.byte	12,5,128,2,9,8,13
+	.byte	'DmaChConfigPtr',0
+	.word	1088
+	.byte	4,2,35,0,13
+	.byte	'DmaNumberofChConfiguredPerCore',0
+	.word	218
+	.byte	1,2,35,4,0,9
+	.byte	'Dma_CoreSpecificChConfigType',0,5,135,2,3
+	.word	1093
+	.byte	12,5,140,2,9,2,13
+	.byte	'Dma_ChannelConfIndexMap',0
+	.word	218
+	.byte	1,2,35,0,13
+	.byte	'Dma_ChannelCoreMap',0
+	.word	218
+	.byte	1,2,35,1,0,9
+	.byte	'Dma_ChannelMapType',0,5,149,2,3
+	.word	1202
+	.byte	9
+	.byte	'Spi_DataBufferType',0,1,222,1,15
+	.word	218
+	.byte	9
+	.byte	'Spi_NumberOfDataType',0,1,229,1,16
+	.word	368
+	.byte	9
+	.byte	'Spi_ChannelType',0,1,235,1,15
+	.word	218
+	.byte	9
+	.byte	'Spi_JobType',0,1,241,1,16
+	.word	368
+	.byte	9
+	.byte	'Spi_SequenceType',0,1,247,1,15
+	.word	218
+	.byte	9
+	.byte	'Spi_HWUnitType',0,1,253,1,15
+	.word	218
+	.byte	9
+	.byte	'Spi_QSPIHwMapConfigType',0,1,129,2,16
+	.word	405
+	.byte	16,1,1,8
+	.word	1485
+	.byte	9
+	.byte	'Spi_JobEndNotification',0,1,150,2,15
+	.word	1488
+	.byte	9
+	.byte	'Spi_SeqEndNotification',0,1,157,2,15
+	.word	1488
+	.byte	4
+	.word	368
+	.byte	8
+	.word	1557
+	.byte	4
+	.word	218
+	.byte	8
+	.word	1567
+	.byte	12,1,164,2,9,20,13
+	.byte	'SequenceId',0
+	.word	218
+	.byte	1,2,35,0,13
+	.byte	'SeqNotification',0
+	.word	1525
+	.byte	4,2,35,4,13
+	.byte	'JobLinkPtrPhysical',0
+	.word	1562
+	.byte	4,2,35,8,13
+	.byte	'SeqSharePtr',0
+	.word	1572
+	.byte	4,2,35,12,13
+	.byte	'NoOfJobInSeq',0
+	.word	368
+	.byte	2,2,35,16,13
+	.byte	'HwModuleUsed',0
+	.word	218
+	.byte	1,2,35,18,13
+	.byte	'u8Comm',0
+	.word	218
+	.byte	1,2,35,19,0,9
+	.byte	'Spi_SequenceConfigType',0,1,198,2,3
+	.word	1577
+	.byte	8
+	.word	1485
+	.byte	4
+	.word	218
+	.byte	8
+	.word	1775
+	.byte	12,1,205,2,9,28,13
+	.byte	'JobId',0
+	.word	368
+	.byte	2,2,35,0,13
+	.byte	'JobNotification',0
+	.word	1493
+	.byte	4,2,35,4,13
+	.byte	'BaudRateAndClockParam',0
+	.word	405
+	.byte	4,2,35,8,13
+	.byte	'IdleLeadTrailDelay',0
+	.word	405
+	.byte	4,2,35,12,13
+	.byte	'ChnlLinkPtrPhysical',0
+	.word	1780
+	.byte	4,2,35,16,13
+	.byte	'CSPortPin',0
+	.word	368
+	.byte	2,2,35,20,13
+	.byte	'JobPriority',0
+	.word	218
+	.byte	1,2,35,22,13
+	.byte	'CsPolarity',0
+	.word	218
+	.byte	1,2,35,23,13
+	.byte	'HwUnit',0
+	.word	218
+	.byte	1,2,35,24,13
+	.byte	'ParitySupport',0
+	.word	218
+	.byte	1,2,35,25,13
+	.byte	'FramebasedCs',0
+	.word	218
+	.byte	1,2,35,26,0,9
+	.byte	'Spi_JobConfigType',0,1,246,2,3
+	.word	1785
+	.byte	8
+	.word	1485
+	.byte	12,1,254,2,9,20,13
+	.byte	'ActiveChipSelectLevel',0
+	.word	405
+	.byte	4,2,35,0,13
+	.byte	'JobQueueLength',0
+	.word	368
+	.byte	2,2,35,4,13
+	.byte	'DMARxChannel',0
+	.word	218
+	.byte	1,2,35,6,13
+	.byte	'DMATxChannel',0
+	.word	218
+	.byte	1,2,35,7,13
+	.byte	'DMATCSCount',0
+	.word	218
+	.byte	1,2,35,8,13
+	.byte	'ClockSetting',0
+	.word	218
+	.byte	1,2,35,9,13
+	.byte	'MasterReceivePortPin',0
+	.word	218
+	.byte	1,2,35,10,13
+	.byte	'MaxSequence',0
+	.word	218
+	.byte	1,2,35,11,13
+	.byte	'ExternalDemuxEnabled',0
+	.word	218
+	.byte	1,2,35,12,13
+	.byte	'StrobeDelay',0
+	.word	405
+	.byte	4,2,35,14,0,9
+	.byte	'Spi_QspiHwConfigType',0,1,164,3,3
+	.word	2073
+	.byte	12,1,172,3,9,12,13
+	.byte	'Defaultdata',0
+	.word	405
+	.byte	4,2,35,0,13
+	.byte	'NoOfDataElements',0
+	.word	368
+	.byte	2,2,35,4,13
+	.byte	'ChannelType',0
+	.word	218
+	.byte	1,2,35,6,13
+	.byte	'DataConfig',0
+	.word	218
+	.byte	1,2,35,7,13
+	.byte	'ChannelId',0
+	.word	218
+	.byte	1,2,35,8,0,9
+	.byte	'Spi_ChannelConfigType',0,1,192,3,3
+	.word	2354
+	.byte	12,1,216,3,9,4,13
+	.byte	'ChannelOffset',0
+	.word	368
+	.byte	2,2,35,0,13
+	.byte	'DataTransferLength',0
+	.word	368
+	.byte	2,2,35,2,0,9
+	.byte	'Spi_CoreChannelOffsetType',0,1,220,3,3
+	.word	2499
+	.byte	4
+	.word	1577
+	.byte	8
+	.word	2592
+	.byte	4
+	.word	1785
+	.byte	8
+	.word	2602
+	.byte	4
+	.word	2354
+	.byte	8
+	.word	2612
+	.byte	4
+	.word	2499
+	.byte	8
+	.word	2622
+	.byte	4
+	.word	2073
+	.byte	8
+	.word	2632
+	.byte	14,20
+	.word	2637
+	.byte	15,4,0,4
+	.word	405
+	.byte	12,1,223,3,9,48,13
+	.byte	'SequenceConfigPtr',0
+	.word	2597
+	.byte	4,2,35,0,13
+	.byte	'JobConfigPtr',0
+	.word	2607
+	.byte	4,2,35,4,13
+	.byte	'ChannelConfigPtr',0
+	.word	2617
+	.byte	4,2,35,8,13
+	.byte	'ChannelOffsetInfo',0
+	.word	2627
+	.byte	4,2,35,12,13
+	.byte	'QSPIHwConfigPtr',0
+	.word	2642
+	.byte	20,2,35,16,13
+	.byte	'QSPIHwMap',0
+	.word	2651
+	.byte	4,2,35,36,13
+	.byte	'NoOfSequences',0
+	.word	218
+	.byte	1,2,35,40,13
+	.byte	'NoOfJobs',0
+	.word	368
+	.byte	2,2,35,42,13
+	.byte	'NoOfChannels',0
+	.word	218
+	.byte	1,2,35,44,0,9
+	.byte	'Spi_CoreConfigType',0,1,254,3,3
+	.word	2656
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L12:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,54,15,39,12,63,12,60,12,0,0,3,36,0,3,8,11,15
+	.byte	62,15,0,0,4,38,0,73,19,0,0,5,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59
+	.byte	15,57,15,73,19,0,0,7,21,0,54,15,0,0,8,15,0,73,19,0,0,9,22,0,3,8,58,15,59,15,57,15,73,19,0,0,10,21,1,54
+	.byte	15,39,12,0,0,11,5,0,73,19,0,0,12,19,1,58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14
+	.byte	1,1,11,15,73,19,0,0,15,33,0,47,15,0,0,16,21,0,54,15,39,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L13:
+	.word	.L39-.L38
+.L38:
+	.half	3
+	.word	.L41-.L40
+.L40:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc',0
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc',0
+	.byte	0
+	.byte	'Spi.h',0,1,0,0
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Mcal_Compiler.h',0,3,0,0
+	.byte	'Dma.h',0,4,0,0,0
+.L41:
+.L39:
+	.sdecl	'.debug_info',debug,cluster('QSPI0ERR_ISR')
+	.sect	'.debug_info'
+.L14:
+	.word	252
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L17,.L16
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'QSPI0ERR_ISR',0,1,118,1,1,1,1
+	.word	.L3,.L34,.L2
+	.byte	4
+	.word	.L3,.L34
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('QSPI0ERR_ISR')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('QSPI0ERR_ISR')
+	.sect	'.debug_line'
+.L16:
+	.word	.L43-.L42
+.L42:
+	.half	3
+	.word	.L45-.L44
+.L44:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0,0,0,0,0
+.L45:
+	.byte	5,1,7,0,5,2
+	.word	.L3
+	.byte	3,245,0,1,5,3,9
+	.half	.L46-.L3
+	.byte	3,5,1,5,20,9
+	.half	.L47-.L46
+	.byte	3,7,1,5,1,9
+	.half	.L48-.L47
+	.byte	3,1,1,9
+	.half	.L18-.L48
+	.byte	0,1,1
+.L43:
+	.sdecl	'.debug_ranges',debug,cluster('QSPI0ERR_ISR')
+	.sect	'.debug_ranges'
+.L17:
+	.word	-1,.L3,0,.L18-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('QSPI4ERR_ISR')
+	.sect	'.debug_info'
+.L19:
+	.word	253
+	.half	3
+	.word	.L20
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L22,.L21
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'QSPI4ERR_ISR',0,1,213,1,1,1,1,1
+	.word	.L5,.L35,.L4
+	.byte	4
+	.word	.L5,.L35
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('QSPI4ERR_ISR')
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('QSPI4ERR_ISR')
+	.sect	'.debug_line'
+.L21:
+	.word	.L50-.L49
+.L49:
+	.half	3
+	.word	.L52-.L51
+.L51:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0,0,0,0,0
+.L52:
+	.byte	5,1,7,0,5,2
+	.word	.L5
+	.byte	3,212,1,1,5,3,9
+	.half	.L53-.L5
+	.byte	3,5,1,5,20,9
+	.half	.L54-.L53
+	.byte	3,7,1,5,1,9
+	.half	.L55-.L54
+	.byte	3,2,1,9
+	.half	.L23-.L55
+	.byte	0,1,1
+.L50:
+	.sdecl	'.debug_ranges',debug,cluster('QSPI4ERR_ISR')
+	.sect	'.debug_ranges'
+.L22:
+	.word	-1,.L5,0,.L23-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('QSPI0PT_ISR')
+	.sect	'.debug_info'
+.L24:
+	.word	252
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L27,.L26
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'QSPI0PT_ISR',0,1,150,2,1,1,1,1
+	.word	.L7,.L36,.L6
+	.byte	4
+	.word	.L7,.L36
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('QSPI0PT_ISR')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('QSPI0PT_ISR')
+	.sect	'.debug_line'
+.L26:
+	.word	.L57-.L56
+.L56:
+	.half	3
+	.word	.L59-.L58
+.L58:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0,0,0,0,0
+.L59:
+	.byte	5,1,7,0,5,2
+	.word	.L7
+	.byte	3,149,2,1,5,3,9
+	.half	.L60-.L7
+	.byte	3,5,1,5,18,9
+	.half	.L61-.L60
+	.byte	3,7,1,5,1,9
+	.half	.L62-.L61
+	.byte	3,1,1,9
+	.half	.L28-.L62
+	.byte	0,1,1
+.L57:
+	.sdecl	'.debug_ranges',debug,cluster('QSPI0PT_ISR')
+	.sect	'.debug_ranges'
+.L27:
+	.word	-1,.L7,0,.L28-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('QSPI4PT_ISR')
+	.sect	'.debug_info'
+.L29:
+	.word	252
+	.half	3
+	.word	.L30
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L32,.L31
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'QSPI4PT_ISR',0,1,238,2,1,1,1,1
+	.word	.L9,.L37,.L8
+	.byte	4
+	.word	.L9,.L37
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('QSPI4PT_ISR')
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('QSPI4PT_ISR')
+	.sect	'.debug_line'
+.L31:
+	.word	.L64-.L63
+.L63:
+	.half	3
+	.word	.L66-.L65
+.L65:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Ssc/Irq/src/Spi_Irq.c',0,0,0,0,0
+.L66:
+	.byte	5,1,7,0,5,2
+	.word	.L9
+	.byte	3,237,2,1,5,3,9
+	.half	.L67-.L9
+	.byte	3,5,1,5,18,9
+	.half	.L68-.L67
+	.byte	3,7,1,5,1,9
+	.half	.L69-.L68
+	.byte	3,1,1,9
+	.half	.L33-.L69
+	.byte	0,1,1
+.L64:
+	.sdecl	'.debug_ranges',debug,cluster('QSPI4PT_ISR')
+	.sect	'.debug_ranges'
+.L32:
+	.word	-1,.L9,0,.L33-.L9,0,0
+	.sdecl	'.debug_loc',debug,cluster('QSPI0ERR_ISR')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L34-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('QSPI0PT_ISR')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L36-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('QSPI4ERR_ISR')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L35-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('QSPI4PT_ISR')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L37-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L70:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('QSPI0ERR_ISR')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L70,.L3,.L34-.L3
+	.sdecl	'.debug_frame',debug,cluster('QSPI4ERR_ISR')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L70,.L5,.L35-.L5
+	.sdecl	'.debug_frame',debug,cluster('QSPI0PT_ISR')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L70,.L7,.L36-.L7
+	.sdecl	'.debug_frame',debug,cluster('QSPI4PT_ISR')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L70,.L9,.L37-.L9
+	; Module end

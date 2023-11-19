@@ -1,0 +1,1039 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc900a --dep-file=BasicSw/Infra/Autosar_Srv/Os.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\Infra\\\\Cfg_Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\AppSw\\\\TestSw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\HAL -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Include\\\\application -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\configuration_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\container_files\\\\bms_scripts -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\Source\\\\otap_files -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\API -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Adi\\\\WBMS_Interface_Lib-Rel2.2.0\\\\Include -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Cmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Cdd\\\\Pmic\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Autosar_Srv\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Integration -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Sfr\\\\TC38xA\\\\_Reg -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Adc\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Can_17_McmCan\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dio\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Dma\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\FlsLoader\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Fls_17_Dmu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Gpt\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Icu_17_TimerIp\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Irq\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Lin_17_AscLin\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\McalLib\\\\inc\\\\AS422 -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Mcu\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Port\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssc\\\\Spi\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Ssw\\\\inc -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate -IC:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Mcal\\\\generate\\\\inc -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BasicSw/Infra/Autosar_Srv/Os.src ../BasicSw/Infra/Autosar_Srv/Os.c"
+	.compiler_name		"ctc"
+	;source	'../BasicSw/Infra/Autosar_Srv/Os.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg16',code,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg16'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteSafetyEndInitProtReg16
+; Function TRUSTED_Mcal_WriteSafetyEndInitProtReg16
+.L4:
+TRUSTED_Mcal_WriteSafetyEndInitProtReg16:	.type	func
+	ret
+.L72:
+	
+__TRUSTED_Mcal_WriteSafetyEndInitProtReg16_function_end:
+	.size	TRUSTED_Mcal_WriteSafetyEndInitProtReg16,__TRUSTED_Mcal_WriteSafetyEndInitProtReg16_function_end-TRUSTED_Mcal_WriteSafetyEndInitProtReg16
+.L29:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WritePeripEndInitProtReg',code,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.text.Os.TRUSTED_Mcal_WritePeripEndInitProtReg'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WritePeripEndInitProtReg
+; Function TRUSTED_Mcal_WritePeripEndInitProtReg
+.L6:
+TRUSTED_Mcal_WritePeripEndInitProtReg:	.type	func
+	ret
+.L77:
+	
+__TRUSTED_Mcal_WritePeripEndInitProtReg_function_end:
+	.size	TRUSTED_Mcal_WritePeripEndInitProtReg,__TRUSTED_Mcal_WritePeripEndInitProtReg_function_end-TRUSTED_Mcal_WritePeripEndInitProtReg
+.L34:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg',code,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteSafetyEndInitProtReg
+; Function TRUSTED_Mcal_WriteSafetyEndInitProtReg
+.L8:
+TRUSTED_Mcal_WriteSafetyEndInitProtReg:	.type	func
+	ret
+.L82:
+	
+__TRUSTED_Mcal_WriteSafetyEndInitProtReg_function_end:
+	.size	TRUSTED_Mcal_WriteSafetyEndInitProtReg,__TRUSTED_Mcal_WriteSafetyEndInitProtReg_function_end-TRUSTED_Mcal_WriteSafetyEndInitProtReg
+.L39:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtRegMask',code,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtRegMask'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteSafetyEndInitProtRegMask
+; Function TRUSTED_Mcal_WriteSafetyEndInitProtRegMask
+.L10:
+TRUSTED_Mcal_WriteSafetyEndInitProtRegMask:	.type	func
+	ret
+.L87:
+	
+__TRUSTED_Mcal_WriteSafetyEndInitProtRegMask_function_end:
+	.size	TRUSTED_Mcal_WriteSafetyEndInitProtRegMask,__TRUSTED_Mcal_WriteSafetyEndInitProtRegMask_function_end-TRUSTED_Mcal_WriteSafetyEndInitProtRegMask
+.L44:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteCpuEndInitProtReg',code,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteCpuEndInitProtReg'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteCpuEndInitProtReg
+; Function TRUSTED_Mcal_WriteCpuEndInitProtReg
+.L12:
+TRUSTED_Mcal_WriteCpuEndInitProtReg:	.type	func
+	ret
+.L94:
+	
+__TRUSTED_Mcal_WriteCpuEndInitProtReg_function_end:
+	.size	TRUSTED_Mcal_WriteCpuEndInitProtReg,__TRUSTED_Mcal_WriteCpuEndInitProtReg_function_end-TRUSTED_Mcal_WriteCpuEndInitProtReg
+.L49:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_SetBitAtomic',code,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.text.Os.TRUSTED_Mcal_SetBitAtomic'
+	.align	2
+	
+	.global	TRUSTED_Mcal_SetBitAtomic
+; Function TRUSTED_Mcal_SetBitAtomic
+.L14:
+TRUSTED_Mcal_SetBitAtomic:	.type	func
+	ret
+.L99:
+	
+__TRUSTED_Mcal_SetBitAtomic_function_end:
+	.size	TRUSTED_Mcal_SetBitAtomic,__TRUSTED_Mcal_SetBitAtomic_function_end-TRUSTED_Mcal_SetBitAtomic
+.L54:
+	; End of function
+	
+	.sdecl	'.text.Os.osWritePeripheral32',code,cluster('osWritePeripheral32')
+	.sect	'.text.Os.osWritePeripheral32'
+	.align	2
+	
+	.global	osWritePeripheral32
+; Function osWritePeripheral32
+.L16:
+osWritePeripheral32:	.type	func
+	ret
+.L106:
+	
+__osWritePeripheral32_function_end:
+	.size	osWritePeripheral32,__osWritePeripheral32_function_end-osWritePeripheral32
+.L59:
+	; End of function
+	
+	.sdecl	'.text.Os.osReadPeripheral32',code,cluster('osReadPeripheral32')
+	.sect	'.text.Os.osReadPeripheral32'
+	.align	2
+	
+	.global	osReadPeripheral32
+; Function osReadPeripheral32
+.L18:
+osReadPeripheral32:	.type	func
+	sub.a	a10,#8
+.L120:
+	mov	d15,#0
+.L157:
+	st.w	[a10],d15
+.L158:
+	ld.w	d2,[a10]
+.L159:
+	j	.L2
+.L2:
+	ret
+.L110:
+	
+__osReadPeripheral32_function_end:
+	.size	osReadPeripheral32,__osReadPeripheral32_function_end-osReadPeripheral32
+.L64:
+	; End of function
+	
+	.sdecl	'.text.Os.osModifyPeripheral32',code,cluster('osModifyPeripheral32')
+	.sect	'.text.Os.osModifyPeripheral32'
+	.align	2
+	
+	.global	osModifyPeripheral32
+; Function osModifyPeripheral32
+.L20:
+osModifyPeripheral32:	.type	func
+	ret
+.L115:
+	
+__osModifyPeripheral32_function_end:
+	.size	osModifyPeripheral32,__osModifyPeripheral32_function_end-osModifyPeripheral32
+.L69:
+	; End of function
+	
+	.sdecl	'.data.Os.U32g_OsFuncCall_Count',data,cluster('U32g_OsFuncCall_Count')
+	.sect	'.data.Os.U32g_OsFuncCall_Count'
+	.global	U32g_OsFuncCall_Count
+	.align	2
+U32g_OsFuncCall_Count:	.type	object
+	.size	U32g_OsFuncCall_Count,4
+	.word	1
+	.calls	'TRUSTED_Mcal_WriteSafetyEndInitProtReg16','',0
+	.calls	'TRUSTED_Mcal_WritePeripEndInitProtReg','',0
+	.calls	'TRUSTED_Mcal_WriteSafetyEndInitProtReg','',0
+	.calls	'TRUSTED_Mcal_WriteSafetyEndInitProtRegMask','',0
+	.calls	'TRUSTED_Mcal_WriteCpuEndInitProtReg','',0
+	.calls	'TRUSTED_Mcal_SetBitAtomic','',0
+	.calls	'osWritePeripheral32','',0
+	.calls	'osReadPeripheral32','',8
+	.calls	'osModifyPeripheral32','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L22:
+	.word	396
+	.half	3
+	.word	.L23
+	.byte	4
+.L21:
+	.byte	1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L24
+	.byte	2
+	.byte	'void',0,3
+	.word	199
+.L100:
+	.byte	4
+	.word	205
+.L73:
+	.byte	5
+	.word	210
+	.byte	6
+	.byte	'unsigned short int',0,2,7
+.L75:
+	.byte	5
+	.word	220
+.L78:
+	.byte	5
+	.word	210
+.L92:
+	.byte	6
+	.byte	'unsigned long int',0,4,7
+.L80:
+	.byte	5
+	.word	252
+.L83:
+	.byte	5
+	.word	210
+.L85:
+	.byte	5
+	.word	252
+.L88:
+	.byte	5
+	.word	210
+.L90:
+	.byte	5
+	.word	252
+.L95:
+	.byte	5
+	.word	210
+.L97:
+	.byte	5
+	.word	252
+.L102:
+	.byte	6
+	.byte	'unsigned char',0,1,8
+.L113:
+	.byte	3
+	.word	252
+	.byte	7,1,4
+	.word	330
+	.byte	8
+	.byte	'__codeptr',0,1,1,1
+	.word	332
+	.byte	8
+	.byte	'uint8',0,2,105,29
+	.word	308
+	.byte	8
+	.byte	'uint16',0,2,109,29
+	.word	220
+	.byte	8
+	.byte	'uint32',0,2,113,29
+	.word	252
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,59,0,3,8,0,0,3,53,0,73,19,0,0,4,15,0,73,19,0,0,5,38,0
+	.byte	73,19,0,0,6,36,0,3,8,11,15,62,15,0,0,7,21,0,54,15,0,0,8,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L24:
+	.word	.L122-.L121
+.L121:
+	.half	3
+	.word	.L124-.L123
+.L123:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\WORK\\\\Aurix-Workspace_JG_TSW\\\\JG_TSW\\\\JG_TSW\\\\BasicSw\\\\Infra\\\\Platform',0,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0,0
+.L124:
+.L122:
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_info'
+.L25:
+	.word	320
+	.half	3
+	.word	.L26
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L28,.L27
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteSafetyEndInitProtReg16',0,1,50,6,1,1,1
+	.word	.L4,.L72,.L3
+	.byte	4
+	.byte	'RegAddress',0,1,51,23
+	.word	.L73,.L74
+	.byte	4
+	.byte	'DataValue',0,1,51,48
+	.word	.L75,.L76
+	.byte	5
+	.word	.L4,.L72
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_abbrev'
+.L26:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_line'
+.L27:
+	.word	.L126-.L125
+.L125:
+	.half	3
+	.word	.L128-.L127
+.L127:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L128:
+	.byte	5,1,7,0,5,2
+	.word	.L4
+	.byte	3,59,1,7,9
+	.half	.L29-.L4
+	.byte	0,1,1
+.L126:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_ranges'
+.L28:
+	.word	-1,.L4,0,.L29-.L4,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_info'
+.L30:
+	.word	317
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L33,.L32
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WritePeripEndInitProtReg',0,1,62,6,1,1,1
+	.word	.L6,.L77,.L5
+	.byte	4
+	.byte	'RegAddress',0,1,63,24
+	.word	.L78,.L79
+	.byte	4
+	.byte	'DataValue',0,1,63,49
+	.word	.L80,.L81
+	.byte	5
+	.word	.L6,.L77
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_line'
+.L32:
+	.word	.L130-.L129
+.L129:
+	.half	3
+	.word	.L132-.L131
+.L131:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L132:
+	.byte	5,1,7,0,5,2
+	.word	.L6
+	.byte	3,200,0,1,7,9
+	.half	.L34-.L6
+	.byte	0,1,1
+.L130:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_ranges'
+.L33:
+	.word	-1,.L6,0,.L34-.L6,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_info'
+.L35:
+	.word	318
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteSafetyEndInitProtReg',0,1,74,6,1,1,1
+	.word	.L8,.L82,.L7
+	.byte	4
+	.byte	'RegAddress',0,1,75,24
+	.word	.L83,.L84
+	.byte	4
+	.byte	'DataValue',0,1,75,49
+	.word	.L85,.L86
+	.byte	5
+	.word	.L8,.L82
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_line'
+.L37:
+	.word	.L134-.L133
+.L133:
+	.half	3
+	.word	.L136-.L135
+.L135:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L136:
+	.byte	5,1,7,0,5,2
+	.word	.L8
+	.byte	3,212,0,1,7,9
+	.half	.L39-.L8
+	.byte	0,1,1
+.L134:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L8,0,.L39-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_info'
+.L40:
+	.word	330
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteSafetyEndInitProtRegMask',0,1,87,6,1,1,1
+	.word	.L10,.L87,.L9
+	.byte	4
+	.byte	'RegAdd',0,1,88,23
+	.word	.L88,.L89
+	.byte	4
+	.byte	'Data',0,1,88,44
+	.word	.L90,.L91
+	.byte	4
+	.byte	'Mask',0,1,88,57
+	.word	.L92,.L93
+	.byte	5
+	.word	.L10,.L87
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_line'
+.L42:
+	.word	.L138-.L137
+.L137:
+	.half	3
+	.word	.L140-.L139
+.L139:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L140:
+	.byte	5,1,7,0,5,2
+	.word	.L10
+	.byte	3,226,0,1,7,9
+	.half	.L44-.L10
+	.byte	0,1,1
+.L138:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L10,0,.L44-.L10,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_info'
+.L45:
+	.word	306
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L48,.L47
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteCpuEndInitProtReg',0,1,100,6,1,1,1
+	.word	.L12,.L94,.L11
+	.byte	4
+	.byte	'RegAdd',0,1,101,23
+	.word	.L95,.L96
+	.byte	4
+	.byte	'Data',0,1,101,44
+	.word	.L97,.L98
+	.byte	5
+	.word	.L12,.L94
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_line'
+.L47:
+	.word	.L142-.L141
+.L141:
+	.half	3
+	.word	.L144-.L143
+.L143:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L144:
+	.byte	5,1,7,0,5,2
+	.word	.L12
+	.byte	3,238,0,1,7,9
+	.half	.L49-.L12
+	.byte	0,1,1
+.L142:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_ranges'
+.L48:
+	.word	-1,.L12,0,.L49-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_info'
+.L50:
+	.word	335
+	.half	3
+	.word	.L51
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L53,.L52
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_SetBitAtomic',0,1,112,6,1,1,1
+	.word	.L14,.L99,.L13
+	.byte	4
+	.byte	'DataPtr',0,1,113,17
+	.word	.L100,.L101
+	.byte	4
+	.byte	'BitPos',0,1,113,32
+	.word	.L102,.L103
+	.byte	4
+	.byte	'BitLen',0,1,113,46
+	.word	.L102,.L104
+	.byte	4
+	.byte	'Data',0,1,113,61
+	.word	.L92,.L105
+	.byte	5
+	.word	.L14,.L99
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_abbrev'
+.L51:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_line'
+.L52:
+	.word	.L146-.L145
+.L145:
+	.half	3
+	.word	.L148-.L147
+.L147:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L148:
+	.byte	5,1,7,0,5,2
+	.word	.L14
+	.byte	3,252,0,1,7,9
+	.half	.L54-.L14
+	.byte	0,1,1
+.L146:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_ranges'
+.L53:
+	.word	-1,.L14,0,.L54-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_info'
+.L55:
+	.word	309
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L58,.L57
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'osWritePeripheral32',0,1,126,6,1,1,1
+	.word	.L16,.L106,.L15
+	.byte	4
+	.byte	'Area',0,1,127,9
+	.word	.L92,.L107
+	.byte	4
+	.byte	'Address',0,1,127,30
+	.word	.L100,.L108
+	.byte	4
+	.byte	'value',0,1,127,46
+	.word	.L92,.L109
+	.byte	5
+	.word	.L16,.L106
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_line'
+.L57:
+	.word	.L150-.L149
+.L149:
+	.half	3
+	.word	.L152-.L151
+.L151:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L152:
+	.byte	5,1,7,0,5,2
+	.word	.L16
+	.byte	3,137,1,1,7,9
+	.half	.L59-.L16
+	.byte	0,1,1
+.L150:
+	.sdecl	'.debug_ranges',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_ranges'
+.L58:
+	.word	-1,.L16,0,.L59-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_info'
+.L60:
+	.word	317
+	.half	3
+	.word	.L61
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L63,.L62
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'osReadPeripheral32',0,1,139,1,8
+	.word	.L92
+	.byte	1,1,1
+	.word	.L18,.L110,.L17
+	.byte	4
+	.byte	'Area',0,1,140,1,9
+	.word	.L92,.L111
+	.byte	4
+	.byte	'Address',0,1,140,1,30
+	.word	.L100,.L112
+	.byte	5
+	.word	.L18,.L110
+	.byte	6
+	.byte	'value',0,1,144,1,19
+	.word	.L113,.L114
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_line'
+.L62:
+	.word	.L154-.L153
+.L153:
+	.half	3
+	.word	.L156-.L155
+.L155:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L156:
+	.byte	5,8,7,0,5,2
+	.word	.L18
+	.byte	3,138,1,1,5,27,9
+	.half	.L120-.L18
+	.byte	3,5,1,5,25,9
+	.half	.L157-.L120
+	.byte	1,5,10,9
+	.half	.L158-.L157
+	.byte	3,8,1,5,3,9
+	.half	.L159-.L158
+	.byte	1,5,1,9
+	.half	.L2-.L159
+	.byte	3,2,1,7,9
+	.half	.L64-.L2
+	.byte	0,1,1
+.L154:
+	.sdecl	'.debug_ranges',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_ranges'
+.L63:
+	.word	-1,.L18,0,.L64-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_info'
+.L65:
+	.word	339
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L68,.L67
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'osModifyPeripheral32',0,1,155,1,6,1,1,1
+	.word	.L20,.L115,.L19
+	.byte	4
+	.byte	'Area',0,1,156,1,9
+	.word	.L92,.L116
+	.byte	4
+	.byte	'Address',0,1,156,1,30
+	.word	.L100,.L117
+	.byte	4
+	.byte	'clearmask',0,1,156,1,46
+	.word	.L92,.L118
+	.byte	4
+	.byte	'setmask',0,1,156,1,64
+	.word	.L92,.L119
+	.byte	5
+	.word	.L20,.L115
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_line'
+.L67:
+	.word	.L161-.L160
+.L160:
+	.half	3
+	.word	.L163-.L162
+.L162:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0,0,0,0,0
+.L163:
+	.byte	5,1,7,0,5,2
+	.word	.L20
+	.byte	3,167,1,1,7,9
+	.half	.L69-.L20
+	.byte	0,1,1
+.L161:
+	.sdecl	'.debug_ranges',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_ranges'
+.L68:
+	.word	-1,.L20,0,.L69-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('U32g_OsFuncCall_Count')
+	.sect	'.debug_info'
+.L70:
+	.word	234
+	.half	3
+	.word	.L71
+	.byte	4,1
+	.byte	'../BasicSw/Infra/Autosar_Srv/Os.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\WORK\\Aurix-Workspace_JG_TSW\\JG_TSW\\JG_TSW\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'U32g_OsFuncCall_Count',0,1,47,8
+	.word	.L92
+	.byte	1,5,3
+	.word	U32g_OsFuncCall_Count
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('U32g_OsFuncCall_Count')
+	.sect	'.debug_abbrev'
+.L71:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_loc'
+.L104:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	85
+	.word	0,0
+.L103:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	84
+	.word	0,0
+.L105:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	86
+	.word	0,0
+.L101:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	100
+	.word	0,0
+.L13:
+	.word	-1,.L14,0,.L99-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_loc'
+.L98:
+	.word	-1,.L12,0,.L94-.L12
+	.half	1
+	.byte	84
+	.word	0,0
+.L96:
+	.word	-1,.L12,0,.L94-.L12
+	.half	1
+	.byte	100
+	.word	0,0
+.L11:
+	.word	-1,.L12,0,.L94-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_loc'
+.L81:
+	.word	-1,.L6,0,.L77-.L6
+	.half	1
+	.byte	84
+	.word	0,0
+.L79:
+	.word	-1,.L6,0,.L77-.L6
+	.half	1
+	.byte	100
+	.word	0,0
+.L5:
+	.word	-1,.L6,0,.L77-.L6
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_loc'
+.L86:
+	.word	-1,.L8,0,.L82-.L8
+	.half	1
+	.byte	84
+	.word	0,0
+.L84:
+	.word	-1,.L8,0,.L82-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+.L7:
+	.word	-1,.L8,0,.L82-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_loc'
+.L76:
+	.word	-1,.L4,0,.L72-.L4
+	.half	1
+	.byte	84
+	.word	0,0
+.L74:
+	.word	-1,.L4,0,.L72-.L4
+	.half	1
+	.byte	100
+	.word	0,0
+.L3:
+	.word	-1,.L4,0,.L72-.L4
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_loc'
+.L91:
+	.word	-1,.L10,0,.L87-.L10
+	.half	1
+	.byte	84
+	.word	0,0
+.L93:
+	.word	-1,.L10,0,.L87-.L10
+	.half	1
+	.byte	85
+	.word	0,0
+.L89:
+	.word	-1,.L10,0,.L87-.L10
+	.half	1
+	.byte	100
+	.word	0,0
+.L9:
+	.word	-1,.L10,0,.L87-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_loc'
+.L117:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	100
+	.word	0,0
+.L116:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	84
+	.word	0,0
+.L118:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	85
+	.word	0,0
+.L19:
+	.word	-1,.L20,0,.L115-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L119:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	86
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_loc'
+.L112:
+	.word	-1,.L18,0,.L110-.L18
+	.half	1
+	.byte	100
+	.word	0,0
+.L111:
+	.word	-1,.L18,0,.L110-.L18
+	.half	1
+	.byte	84
+	.word	0,0
+.L17:
+	.word	-1,.L18,0,.L120-.L18
+	.half	2
+	.byte	138,0
+	.word	.L120-.L18,.L110-.L18
+	.half	2
+	.byte	138,8
+	.word	.L110-.L18,.L110-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L114:
+	.word	-1,.L18,0,.L110-.L18
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_loc'
+.L108:
+	.word	-1,.L16,0,.L106-.L16
+	.half	1
+	.byte	100
+	.word	0,0
+.L107:
+	.word	-1,.L16,0,.L106-.L16
+	.half	1
+	.byte	84
+	.word	0,0
+.L15:
+	.word	-1,.L16,0,.L106-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L109:
+	.word	-1,.L16,0,.L106-.L16
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L164:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L4,.L72-.L4
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L6,.L77-.L6
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L8,.L82-.L8
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L10,.L87-.L10
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L12,.L94-.L12
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L14,.L99-.L14
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L16,.L106-.L16
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_frame'
+	.word	48
+	.word	.L164,.L18,.L110-.L18
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23,4
+	.word	(.L120-.L18)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L110-.L120)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L164,.L20,.L115-.L20
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end
